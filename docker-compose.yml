@@ -10,7 +10,6 @@ services:
       - "3307:3306"
     volumes:
       - mariadb_data:/var/lib/mysql
-      - ./server/sql:/docker-entrypoint-initdb.d:ro
     networks:
       - l2_net
 
@@ -27,7 +26,7 @@ services:
 
   l2login:
     build:
-      context: .
+      context: https://github.com/NETOLUIZ/l2korentech.git
       dockerfile: docker/Dockerfile.login
     container_name: l2login
     restart: unless-stopped
@@ -41,7 +40,7 @@ services:
 
   l2game:
     build:
-      context: .
+      context: https://github.com/NETOLUIZ/l2korentech.git
       dockerfile: docker/Dockerfile.game
     container_name: l2game
     restart: unless-stopped
