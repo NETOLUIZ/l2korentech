@@ -25,9 +25,7 @@ services:
       - l2_net
 
   l2login:
-    build:
-      context: https://github.com/NETOLUIZ/l2korentech.git
-      dockerfile: docker/Dockerfile.login
+    image: eclipse-temurin:8-jre
     container_name: l2login
     restart: unless-stopped
     ports:
@@ -37,11 +35,21 @@ services:
       - l2mariadb
     networks:
       - l2_net
+    command:
+      - sh
+      - -c
+      - |
+        apt-get update -qq
+        apt-get install -y -qq git > /dev/null
+        rm -rf /tmp/repo
+        git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
+        mkdir -p /opt/login
+        cp -r /tmp/repo/server/login/. /opt/login/
+        cd /opt/login
+        exec java -Dfile.encoding=UTF-8 -Xmx64m -cp "*:config:." net.sf.l2j.loginserver.L2LoginServer
 
   l2game:
-    build:
-      context: https://github.com/NETOLUIZ/l2korentech.git
-      dockerfile: docker/Dockerfile.game
+    image: eclipse-temurin:8-jre
     container_name: l2game
     restart: unless-stopped
     ports:
@@ -51,6 +59,18 @@ services:
       - l2login
     networks:
       - l2_net
+    command:
+      - sh
+      - -c
+      - |
+        apt-get update -qq
+        apt-get install -y -qq git > /dev/null
+        rm -rf /tmp/repo
+        git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
+        mkdir -p /opt/gameserver
+        cp -r /tmp/repo/server/gameserver/. /opt/gameserver/
+        cd /opt/gameserver
+        exec java -Dfile.encoding=UTF-8 -Xms512m -Xmx1024m -cp "*:config:." net.sf.l2j.gameserver.GameServer
 
 networks:
   l2_net:
