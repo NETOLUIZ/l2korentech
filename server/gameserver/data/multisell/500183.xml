@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- L2Emu Project -->
+<!-- Elite Luxury - Jewels B grade -->
+<list>
+  <!-- Adamantite Ring -->
+  <item id="1">
+    <ingredient id="1460" count="90" enchant="0"/>
+    <ingredient id="1461" count="18" enchant="0"/>
+    <production id="887" count="1" enchant="0"/>
+  </item>
+  <!-- Adamantite Earring -->
+  <item id="2">
+    <ingredient id="1460" count="135" enchant="0"/>
+    <ingredient id="1461" count="27" enchant="0"/>
+    <production id="856" count="1" enchant="0"/>
+  </item>
+  <!-- Adamantite Necklace -->
+  <item id="3">
+    <ingredient id="1460" count="330" enchant="0"/>
+    <ingredient id="1461" count="66" enchant="0"/>
+    <production id="918" count="1" enchant="0"/>
+  </item>
+  <!-- Ring of Black Ore -->
+  <item id="4">
+    <ingredient id="1460" count="115" enchant="0"/>
+    <ingredient id="1461" count="23" enchant="0"/>
+    <production id="895" count="1" enchant="0"/>
+  </item>
+  <!-- Earring of Black Ore -->
+  <item id="5">
+    <ingredient id="1460" count="175" enchant="0"/>
+    <ingredient id="1461" count="35" enchant="0"/>
+    <production id="864" count="1" enchant="0"/>
+  </item>
+  <!-- Necklace of Black Ore -->
+  <item id="6">
+    <ingredient id="1460" count="440" enchant="0"/>
+    <ingredient id="1461" count="88" enchant="0"/>
+    <production id="926" count="1" enchant="0"/>
+  </item>
+</list>

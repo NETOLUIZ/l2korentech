@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Trader by Max -->
+
+<list>
+
+  <!-- [Gemstone_DD] for [adena];100000 -->
+  <item id="1">
+    <ingredient id="57" count="100000" enchant="0"/>
+    <production id="2130" count="25" enchant="0"/>
+  </item>
+
+  <!-- [Gemstone_C ] for [adena];150000 -->
+  <item id="2">
+    <ingredient id="57" count="150000" enchant="0"/>
+    <production id="2131" count="25" enchant="0"/>
+  </item>
+
+  <!-- [Gemstone_B] for [adena];200000 -->
+  <item id="3">
+    <ingredient id="57" count="200000" enchant="0"/>
+    <production id="2132" count="25" enchant="0"/>
+  </item>
+
+</list>

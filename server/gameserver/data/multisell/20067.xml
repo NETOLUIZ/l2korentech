@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+
+<list>
+
+<!-- [Soulshot: S-grade] for [DONATE ADENA] -->
+  <item id="7">
+    <ingredient id="9999" count="2" enchant="0"/>
+    <production id="1467" count="1" enchant="0"/>
+  </item>
+
+<!-- [Blessed Spiritshot: S Grade] for [DONATE ADENA] -->
+  <item id="8">
+    <ingredient id="9999" count="4" enchant="0"/>
+    <production id="3952" count="1" enchant="0"/>
+  </item>
+
+<!-- [Shining Arrow] for [DONATE ADENA] -->
+  <item id="9">
+    <ingredient id="9999" count="3" enchant="0"/>
+    <production id="1345" count="1" enchant="0"/>
+  </item>
+
+</list>

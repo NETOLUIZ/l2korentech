@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list maintainEnchantment="true">
+
+  <!-- Scroll: Enchant Armor (D) -->
+  <item id="1">
+    <ingredient id="5575" count="40000"/>  <!-- Ancient Adena -->
+    <production id="956" count="1"/>  <!-- Scroll: Enchant Armor (D) -->
+  </item>
+
+  <!-- Scroll: Enchant Weapon (D) -->
+  <item id="2">
+    <ingredient id="5575" count="80000"/>  <!-- Ancient Adena -->
+    <production id="955" count="1"/>  <!-- Scroll: Enchant Weapon (D) -->
+  </item>
+
+  <!-- Scroll: Enchant Armor (C) -->
+  <item id="3">
+    <ingredient id="5575" count="70000"/>  <!-- Ancient Adena -->
+    <production id="952" count="1"/>  <!-- Scroll: Enchant Armor (C) -->
+  </item>
+
+  <!-- Scroll: Enchant Weapon (C) -->
+  <item id="4">
+    <ingredient id="5575" count="140000"/>  <!-- Ancient Adena -->
+    <production id="951" count="1"/>  <!-- Scroll: Enchant Weapon (C) -->
+  </item>
+
+  <!-- Scroll: Enchant Armor (B) -->
+  <item id="5">
+    <ingredient id="5575" count="100000"/>  <!-- Ancient Adena -->
+    <production id="948" count="1"/>  <!-- Scroll: Enchant Armor (B) -->
+  </item>
+
+  <!-- Scroll: Enchant Weapon (B) -->
+  <item id="6">
+    <ingredient id="5575" count="200000"/>  <!-- Ancient Adena -->
+    <production id="947" count="1"/>  <!-- Scroll: Enchant Weapon (B) -->
+  </item>
+
+
+</list>

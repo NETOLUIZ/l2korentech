@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- L2Emu Project -->
+<!-- Elite Luxury - Armors B grade -->
+<list>
+  <!-- Zubei's Gauntlets -->
+  <item id="1">
+    <ingredient id="1460" count="305"/>
+    <ingredient id="1461" count="61"/>
+    <production id="612" count="1"/>
+  </item>
+  <!-- Zubei's Boots -->
+  <item id="2">
+    <ingredient id="1460" count="305"/>
+    <ingredient id="1461" count="61"/>
+    <production id="554" count="1"/>
+  </item>
+  <!-- Zubei's Helmet -->
+  <item id="3">
+    <ingredient id="1460" count="390"/>
+    <ingredient id="1461" count="78"/>
+    <production id="503" count="1"/>
+  </item>
+  <!-- Tunic of Zubei -->
+  <item id="4">
+    <ingredient id="1460" count="440"/>
+    <ingredient id="1461" count="88"/>
+    <production id="2397" count="1"/>
+  </item>
+  <!-- Stockings of Zubei -->
+  <item id="5">
+    <ingredient id="1460" count="340"/>
+    <ingredient id="1461" count="68"/>
+    <production id="2402" count="1"/>
+  </item>
+  <!-- Zubei's Leather Shirt -->
+  <item id="6">
+    <ingredient id="1460" count="440"/>
+    <ingredient id="1461" count="88"/>
+    <production id="2384" count="1"/>
+  </item>
+  <!-- Zubei's Leather Gaiters -->
+  <item id="7">
+    <ingredient id="1460" count="340"/>
+    <ingredient id="1461" count="68"/>
+    <production id="2388" count="1"/>
+  </item>
+  <!-- Zubei's Breastplate -->
+  <item id="8">
+    <ingredient id="1460" count="440"/>
+    <ingredient id="1461" count="88"/>
+    <production id="357" count="1"/>
+  </item>
+  <!-- Zubei's Gaiters -->
+  <item id="9">
+    <ingredient id="1460" count="340"/>
+    <ingredient id="1461" count="68"/>
+    <production id="383" count="1"/>
+  </item>
+  <!-- Zubei's Shield -->
+  <item id="10">
+    <ingredient id="1460" count="135"/>
+    <ingredient id="1461" count="27"/>
+    <production id="633" count="1"/>
+  </item>
+  <!-- Avadon Gloves -->
+  <item id="11">
+    <ingredient id="1460" count="305"/>
+    <ingredient id="1461" count="61"/>
+    <production id="2464" count="1"/>
+  </item>
+  <!-- Avadon Boots -->
+  <item id="12">
+    <ingredient id="1460" count="305"/>
+    <ingredient id="1461" count="61"/>
+    <production id="600" count="1"/>
+  </item>
+  <!-- Avadon Circlet -->
+  <item id="13">
+    <ingredient id="1460" count="390"/>
+    <ingredient id="1461" count="78"/>
+    <production id="2415" count="1"/>
+  </item>
+  <!-- Avadon Robe -->
+  <item id="14">
+    <ingredient id="1460" count="780"/>
+    <ingredient id="1461" count="156"/>
+    <production id="2406" count="1"/>
+  </item>
+  <!-- Avadon Leather Armor -->
+  <item id="15">
+    <ingredient id="1460" count="780"/>
+    <ingredient id="1461" count="156"/>
+    <production id="2390" count="1"/>
+  </item>
+  <!-- Avadon Breastplate -->
+  <item id="16">
+    <ingredient id="1460" count="440"/>
+    <ingredient id="1461" count="88"/>
+    <production id="2376" count="1"/>
+  </item>
+  <!-- Avadon Gaiters -->
+  <item id="17">
+    <ingredient id="1460" count="340"/>
+    <ingredient id="1461" count="68"/>
+    <production id="2379" count="1"/>
+  </item>
+  <!-- Avadon Shield -->
+  <item id="18">
+    <ingredient id="1460" count="135"/>
+    <ingredient id="1461" count="27"/>
+    <production id="673" count="1"/>
+  </item>
+  <!-- Blue Wolf Gloves -->
+  <item id="19">
+    <ingredient id="1460" count="405"/>
+    <ingredient id="1461" count="81"/>
+    <production id="2487" count="1"/>
+  </item>
+  <!-- Blue Wolf Boots -->
+  <item id="20">
+    <ingredient id="1460" count="405"/>
+    <ingredient id="1461" count="81"/>
+    <production id="2439" count="1"/>
+  </item>
+  <!-- Blue Wolf Helmet -->
+  <item id="21">
+    <ingredient id="1460" count="510"/>
+    <ingredient id="1461" count="102"/>
+    <production id="2416" count="1"/>
+  </item>
+  <!-- Blue Wolf Tunic -->
+  <item id="22">
+    <ingredient id="1460" count="575"/>
+    <ingredient id="1461" count="115"/>
+    <production id="2398" count="1"/>
+  </item>
+  <!-- Blue Wolf Stockings -->
+  <item id="23">
+    <ingredient id="1460" count="440"/>
+    <ingredient id="1461" count="88"/>
+    <production id="2403" count="1"/>
+  </item>
+  <!-- Blue Wolf Leather Armor -->
+  <item id="24">
+    <ingredient id="1460" count="1015"/>
+    <ingredient id="1461" count="203"/>
+    <production id="2391" count="1"/>
+  </item>
+  <!-- Blue Wolf Breastplate -->
+  <item id="25">
+    <ingredient id="1460" count="575"/>
+    <ingredient id="1461" count="115"/>
+    <production id="358" count="1"/>
+  </item>
+  <!-- Blue Wolf Gaiters -->
+  <item id="26">
+    <ingredient id="1460" count="440"/>
+    <ingredient id="1461" count="88"/>
+    <production id="2380" count="1"/>
+  </item>
+  <!-- Doom Gloves -->
+  <item id="27">
+    <ingredient id="1460" count="405"/>
+    <ingredient id="1461" count="81"/>
+    <production id="2475" count="1"/>
+  </item>
+  <!-- Boots of Doom -->
+  <item id="28">
+    <ingredient id="1460" count="405"/>
+    <ingredient id="1461" count="81"/>
+    <production id="601" count="1"/>
+  </item>
+  <!-- Doom Helmet -->
+  <item id="29">
+    <ingredient id="1460" count="510"/>
+    <ingredient id="1461" count="102"/>
+    <production id="2417" count="1"/>
+  </item>
+  <!-- Tunic of Doom -->
+  <item id="30">
+    <ingredient id="1460" count="575"/>
+    <ingredient id="1461" count="115"/>
+    <production id="2399" count="1"/>
+  </item>
+  <!-- Stockings of Doom -->
+  <item id="31">
+    <ingredient id="1460" count="440"/>
+    <ingredient id="1461" count="88"/>
+    <production id="2404" count="1"/>
+  </item>
+  <!-- Leather Armor of Doom -->
+  <item id="32">
+    <ingredient id="1460" count="1015"/>
+    <ingredient id="1461" count="203"/>
+    <production id="2392" count="1"/>
+  </item>
+  <!-- Doom Plate Armor -->
+  <item id="33">
+    <ingredient id="1460" count="1015"/>
+    <ingredient id="1461" count="203"/>
+    <production id="2381" count="1"/>
+  </item>
+  <!-- Doom Shield -->
+  <item id="34">
+    <ingredient id="1460" count="330"/>
+    <ingredient id="1461" count="66"/>
+    <production id="110" count="1"/>
+  </item>
+</list>

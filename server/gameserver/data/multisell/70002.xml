@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Armas B-->
+
+<list>
+  <!-- Blade of serenity -->
+  <item id="16">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="136" count="1"/>
+  </item>
+
+  <!-- Dusk sword -->
+  <item id="17">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="139" count="1"/>
+  </item>
+
+  <!-- Eminence sword  -->
+  <item id="18">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="140" count="1"/>
+  </item>
+
+  <!-- Damascus -->
+  <item id="19">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="79" count="1"/>
+  </item>
+
+  <!-- Wizard tear -->
+  <item id="20">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="7889" count="1"/>
+  </item>
+
+  <!-- Sword of Valhala -->
+  <item id="21">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="148" count="1"/>
+  </item>
+
+  <!-- Keshandber -->
+  <item id="22">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="142" count="1"/>
+  </item>
+
+  <!-- Great axe -->
+  <item id="23">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="300" count="1"/>
+  </item>
+
+  <!-- Lance -->
+  <item id="24">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="97" count="1"/>
+  </item>
+
+  <!-- anthro nail -->
+  <item id="25">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="267" count="1"/>
+  </item>
+
+  <!-- Bellion Cestus -->
+  <item id="26">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="268" count="1"/>
+  </item>
+
+  <!-- Pata -->
+  <item id="27">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="264" count="1"/>
+  </item>
+
+  <!-- Caliburs edge -->
+  <item id="28">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2610" count="1"/>
+  </item>
+
+  <!-- Katana edge -->
+  <item id="29">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2588" count="1"/>
+  </item>
+
+  <!-- Raid sword edge -->
+  <item id="30">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2601" count="1"/>
+  </item>
+
+  <!-- Sharmirs edge -->
+  <item id="31">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2578" count="1"/>
+  </item>
+
+  <!-- Sprit sword edge -->
+  <item id="32">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2598" count="1"/>
+  </item>
+
+  <!-- Stortbimger edge -->
+  <item id="33">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2567" count="1"/>
+  </item>
+
+  <!-- Tsrugi Duals -->
+  <item id="34">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2624" count="1"/>
+  </item>
+
+  <!-- Sword of nigthware edge -->
+  <item id="35">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2623" count="1"/>
+  </item>
+
+  <!-- Sword of limiti edge -->
+  <item id="36">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="2613" count="1"/>
+  </item>
+
+  <!-- Hell Khinfe -->
+  <item id="37">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="4787" count="1"/>
+  </item>
+
+  <!-- Demon Dagger -->
+  <item id="38">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="234" count="1"/>
+  </item>
+
+  <!-- Kriss dagger -->
+  <item id="39">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="229" count="1"/>
+  </item>
+
+  <!-- Bow of peril -->
+  <item id="40">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="287" count="1"/>
+  </item>
+
+  <!-- Dark elven long bow  -->
+  <item id="41">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="284" count="1"/>
+  </item>
+
+  <!-- Art of battle axe -->
+  <item id="42">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="7834" count="1"/>
+  </item>
+
+  <!-- Deadman glory -->
+  <item id="43">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="171" count="1"/>
+  </item>
+
+  <!-- Heavy war axe -->
+  <item id="44">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="91" count="1"/>
+  </item>
+
+  <!-- Kain baul bones -->
+  <item id="45">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="7893" count="1"/>
+  </item>
+
+  <!-- Spell breaker -->
+  <item id="46">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="7892" count="1"/>
+  </item>
+
+  <!-- Great sword -->
+  <item id="47">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="78" count="1"/>
+  </item>
+
+  <!-- Guardian Sword -->
+  <item id="48">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="7883" count="1"/>
+  </item>
+  
+  <!-- Divine staff -->
+  <item id="49">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="209" count="1"/>
+  </item>
+
+  <!-- Ice strom hammer -->
+  <item id="50">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="7900" count="1"/>
+  </item>
+
+  <!-- Sprite staff -->
+  <item id="51">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="92" count="1"/>
+  </item>
+
+  <!-- Staff of evil spirits -->
+  <item id="52">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="210" count="1"/>
+  </item>
+
+  <!-- Guardian Sword -->
+  <item id="53">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="7883" count="1"/>
+  </item>
+
+  <!-- Staff of nobility -->
+  <item id="54">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="211" count="1"/>
+  </item>
+
+  <!-- Staff of phamtom -->
+  <item id="55">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="207" count="1"/>
+  </item>
+
+  <!-- Staff of seal -->
+  <item id="56">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="208" count="1"/>
+  </item>
+
+  <!-- Start buster -->
+  <item id="57">
+    <ingredient id="57" count="100000000" isTaxIngredient="true"/>
+    <ingredient id="1678" count="70" isTaxIngredient="true"/>
+    <ingredient id="1868" count="70" isTaxIngredient="true"/>
+    <ingredient id="1865" count="70" isTaxIngredient="true"/>
+    <ingredient id="5575" count="70000000" isTaxIngredient="true"/>
+    <production id="7901" count="1"/>
+  </item>
+
+</list>

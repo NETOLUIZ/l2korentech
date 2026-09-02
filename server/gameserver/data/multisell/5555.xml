@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Trader Alexandria (Luxury Shop) Miscellaneous -->
+<list>
+<!-- Itens da primeira job -->
+  <item id="1">
+    <ingredient id="57" count="500000"/>
+    <production id="1270" count="1"/>
+  </item>
+  
+  <item id="2">
+    <ingredient id="57" count="500000"/>
+    <production id="1201" count="1"/>
+  </item>
+
+  <item id="3">
+    <ingredient id="57" count="500000"/>
+    <production id="1261" count="1"/>
+  </item>  
+  
+  <item id="4">
+    <ingredient id="57" count="500000"/>
+    <production id="1292" count="1"/>
+  </item>  
+  
+  <item id="5">
+    <ingredient id="57" count="500000"/>
+    <production id="1615" count="1"/>
+  </item>  
+  
+  <item id="6">
+    <ingredient id="57" count="500000"/>
+    <production id="1244" count="1"/>
+  </item>
+
+  <item id="7">
+    <ingredient id="57" count="500000"/>
+    <production id="1642" count="1"/>
+  </item>
+
+  <item id="8">
+    <ingredient id="57" count="500000"/>
+    <production id="1190" count="1"/>
+  </item>
+  
+  <item id="9">
+    <ingredient id="57" count="500000"/>
+    <production id="1252" count="1"/>
+  </item>  
+  
+  <item id="10">
+    <ingredient id="57" count="500000"/>
+    <production id="1217" count="1"/>
+  </item>  
+  
+  <item id="11">
+    <ingredient id="57" count="500000"/>
+    <production id="1230" count="1"/>
+  </item>  
+
+  <item id="12">
+    <ingredient id="57" count="500000"/>
+    <production id="1635" count="1"/>
+  </item>  
+  
+  
+</list>

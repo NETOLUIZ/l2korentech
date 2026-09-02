@@ -1,0 +1,10 @@
+Multisell enhancements. Requires [GS 1.1.9] 
+Supports taxable multisells and multisells that maintain enchantment. 
+SA addition/removal can slowly be changed to multisell with this. 
+NOTE 1: I changed prices for duals as per my sources 
+NOTE 2: I allowed unsealing armors while maintaining enchantment. This 
+means that people will be able to end up with sealed gloves+3 (for example). 
+However, I allowed this so that people can unseal those again without loss. 
+For example, having unsealed heavy gloves +3, get sealed +3, and then unseal into 
+light gloves +3... 
+According to my sources, this lossless conversion exists in retail. 

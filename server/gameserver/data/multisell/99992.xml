@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list>
+
+  <!-- Katana*Katana -->
+  <item id="1">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="2582" count="1"/>  <!-- Katana*Katana -->
+  </item>
+
+  <!-- Spirit Sword*Spirit Sword -->
+  <item id="2">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="2591" count="1"/>  <!-- Spirit Sword*Spirit Sword -->
+  </item>
+
+  <!-- Stormbringer*Stormbringer -->
+  <item id="3">
+    <ingredient id="57" count="4500000"/>  <!-- Adena -->
+    <production id="2561" count="1"/>  <!-- Stormbringer*Stormbringer -->
+  </item>
+
+  <!-- Sword of Revolution*Elven Long Sword -->
+  <item id="4">
+    <ingredient id="57" count="3000000"/>  <!-- Adena -->
+    <production id="2559" count="1"/>  <!-- Sword of Revolution*Elven Long Sword -->
+  </item>
+
+  <!-- Samurai Long Sword*Samurai Long Sword -->
+  <item id="5">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="2626" count="1"/>  <!-- Samurai Long Sword*Samurai Long Sword -->
+  </item>
+
+  <!-- Tsurugi*Samurai Long Sword -->
+  <item id="6">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="2625" count="1"/>  <!-- Tsurugi*Samurai Long Sword -->
+  </item>
+
+  <!-- Sword of Nightmare*Samurai Long Sword -->
+  <item id="7">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="2623" count="1"/>  <!-- Sword of Nightmare*Samurai Long Sword -->
+  </item>
+
+  <!-- Sword of Limit*Samurai Long Sword -->
+  <item id="8">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="2616" count="1"/>  <!-- Sword of Limit*Samurai Long Sword -->
+  </item>
+
+  <!-- Sword of Delusion*Samurai Long Sword -->
+  <item id="9">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="2620" count="1"/>  <!-- Sword of Delusion*Samurai Long Sword -->
+  </item>
+
+  <!-- Caliburs*Samurai Long Sword -->
+  <item id="10">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="2611" count="1"/>  <!-- Caliburs*Samurai Long Sword -->
+  </item>
+
+  <!-- Raid Sword*Tsurugi -->
+  <item id="11">
+    <ingredient id="57" count="3500000"/>  <!-- Adena -->
+    <production id="2604" count="1"/>  <!-- Raid Sword*Tsurugi -->
+  </item>
+
+
+</list>

@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- L2Emu Project -->
+<!-- Elite Luxury - Weapons B Grade Top and Low -->
+<list>
+  <!-- Spell Breaker -->
+  <item id="1">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="7892" count="1"/>
+  </item>
+  <!-- Heavy War Axe -->
+  <item id="2">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="91" count="1"/>
+  </item>
+  <!-- Ice Storm Hammer -->
+  <item id="3">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="7900" count="1"/>
+  </item>
+  <!-- Sprite's Staff -->
+  <item id="4">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="92" count="1"/>
+  </item>
+  <!-- Dark Elven Long Bow -->
+  <item id="5">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="284" count="1"/>
+  </item>
+  <!-- Hell Knife -->
+  <item id="6">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="243" count="1"/>
+  </item>
+  <!-- Kris -->
+  <item id="7">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="229" count="1"/>
+  </item>
+  <!-- Arthro Nail -->
+  <item id="8">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="267" count="1"/>
+  </item>
+  <!-- Great Axe -->
+  <item id="9">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="300" count="1"/>
+  </item>
+  <!-- Sword of Valhalla -->
+  <item id="10">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="148" count="1"/>
+  </item>
+  <!-- Keshanberk -->
+  <item id="11">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="142" count="1"/>
+  </item>
+  <!-- Great Sword -->
+  <item id="12">
+    <ingredient id="1460" count="2530"/>
+    <ingredient id="1461" count="506"/>
+    <production id="78" count="1"/>
+  </item>
+  <!-- Kaim Vanul's Bones -->
+  <item id="13">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="7893" count="1"/>
+  </item>
+  <!-- Art of Battle Axe -->
+  <item id="14">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="175" count="1"/>
+  </item>
+  <!-- Deadman's Glory -->
+  <item id="15">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="171" count="1"/>
+  </item>
+  <!-- Star Buster -->
+  <item id="16">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="7901" count="1"/>
+  </item>
+  <!-- Staff of Evil Spirits -->
+  <item id="17">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="210" count="1"/>
+  </item>
+  <!-- Bow of Peril -->
+  <item id="18">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="287" count="1"/>
+  </item>
+  <!-- Demon's Sword -->
+  <item id="19">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="234" count="1"/>
+  </item>
+  <!-- Bellion Cestus -->
+  <item id="20">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="268" count="1"/>
+  </item>
+  <!-- Lance -->
+  <item id="21">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="97" count="1"/>
+  </item>
+  <!-- Wizard's Tear -->
+  <item id="22">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="7889" count="1"/>
+  </item>
+  <!-- Sword of Damascus -->
+  <item id="23">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="79" count="1"/>
+  </item>
+  <!-- Guardian Sword -->
+  <item id="24">
+    <ingredient id="1460" count="3370"/>
+    <ingredient id="1461" count="674"/>
+    <production id="7883" count="1"/>
+  </item>
+</list>

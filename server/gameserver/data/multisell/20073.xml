@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Tattoo of Fight Lv.1 -->
+  <item id="1">
+    <ingredient id="9999" count="10"/>
+    <production id="9540" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight Lv.2 -->
+  <item id="2">
+    <ingredient id="9999" count="15"/>
+    <production id="9541" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight Lv.3 -->
+  <item id="3">
+    <ingredient id="9999" count="20"/>
+    <production id="9542" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight Lv.4 -->
+  <item id="4">
+    <ingredient id="9999" count="25"/>
+    <production id="9543" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight Lv.5 -->
+  <item id="5">
+    <ingredient id="9999" count="30"/>
+    <production id="9544" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight Lv.2 -->
+  <item id="6">
+    <ingredient id="9540" count="1"/>
+    <ingredient id="9999" count="7"/>
+    <production id="9541" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight Lv.3 -->
+  <item id="7">
+    <ingredient id="9541" count="1"/>
+    <ingredient id="9999" count="8"/>
+    <production id="9542" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight Lv.4 -->
+  <item id="8">
+    <ingredient id="9542" count="1"/>
+    <ingredient id="9999" count="9"/>
+    <production id="9543" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight Lv.5 -->
+  <item id="9">
+    <ingredient id="9543" count="1"/>
+    <ingredient id="9999" count="10"/>
+    <production id="9544" count="1"/>
+  </item>
+
+  <!-- Tattoo of Fight - Gm Power -->
+  <item id="10">
+    <ingredient id="9540" count="1"/>
+    <ingredient id="9541" count="1"/>
+    <ingredient id="9542" count="1"/>
+    <ingredient id="9543" count="1"/>
+    <ingredient id="9544" count="1"/>
+    <production id="9545" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.1 -->
+  <item id="11">
+    <ingredient id="9999" count="10"/>
+    <production id="9546" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.2 -->
+  <item id="12">
+    <ingredient id="9999" count="15"/>
+    <production id="9547" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.3 -->
+  <item id="13">
+    <ingredient id="9999" count="20"/>
+    <production id="9548" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.4 -->
+  <item id="14">
+    <ingredient id="9999" count="25"/>
+    <production id="9549" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.5 -->
+  <item id="15">
+    <ingredient id="9999" count="30"/>
+    <production id="9550" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.2 -->
+  <item id="16">
+    <ingredient id="9546" count="1"/>
+    <ingredient id="9999" count="7"/>
+    <production id="9547" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.3 -->
+  <item id="17">
+    <ingredient id="9547" count="1"/>
+    <ingredient id="9999" count="8"/>
+    <production id="9548" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.4 -->
+  <item id="18">
+    <ingredient id="9548" count="1"/>
+    <ingredient id="9999" count="9"/>
+    <production id="9549" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage Lv.5 -->
+  <item id="19">
+    <ingredient id="9549" count="1"/>
+    <ingredient id="9999" count="10"/>
+    <production id="9550" count="1"/>
+  </item>
+
+  <!-- Tattoo of Mage - Gm Power -->
+  <item id="20">
+    <ingredient id="9546" count="1"/>
+    <ingredient id="9547" count="1"/>
+    <ingredient id="9548" count="1"/>
+    <ingredient id="9549" count="1"/>
+    <ingredient id="9550" count="1"/>
+    <production id="9551" count="1"/>
+  </item>
+
+  <!-- TATTOO AIOX -->
+  <item id="21">
+    <ingredient id="9999" count="20"/>
+    <production id="9500" count="1"/>
+  </item>
+
+
+</list>

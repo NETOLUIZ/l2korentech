@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Trader by Max -->
+
+<list>
+
+  <!-- [Top-Grade Life Stone: level 46] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="1">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8753" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Top-Grade Life Stone: level 49] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="2">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8754" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Top-Grade Life Stone: level 52] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="3">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8755" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Top-Grade Life Stone: level 55] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="4">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8756" count="1" enchant="0"/>
+  </item>
+
+
+  <!-- [Top-Grade Life Stone: level 58] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="5">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8757" count="1" enchant="0"/>
+  </item>
+
+
+  <!-- [Top-Grade Life Stone: level 61] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="6">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8758" count="1" enchant="0"/>
+  </item>
+
+
+  <!-- [Top-Grade Life Stone: level 64] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="7">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8759" count="1" enchant="0"/>
+  </item>
+
+
+  <!-- [Top-Grade Life Stone: level 67] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="8">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8760" count="1" enchant="0"/>
+  </item>
+
+
+  <!-- [Top-Grade Life Stone: level 70] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="9">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8761" count="1" enchant="0"/>
+  </item>
+
+
+  <!-- [Top-Grade Life Stone: level 76] for [Dead Souls Fish Soup] + [adena];10000000 -->
+  <item id="10">
+    <ingredient id="57" count="10000000" enchant="0"/>
+    <ingredient id="7538" count="1" enchant="0"/>
+    <production id="8762" count="1" enchant="0"/>
+  </item>
+
+</list>

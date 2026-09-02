@@ -1,0 +1,1660 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "skills.dtd"> 
+<list>
+<skill id="5000" levels="1" name="Alfred - Super Strike">
+<!-- L2jnet --> 
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5001" levels="1" name="Alfred - Life Drain">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5002" levels="1" name="Giselle - Vampiric Rage">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5003" levels="1" name="Giselle - Tempest">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5004" levels="1" name="Dimensional Shock">
+  <!--Shocks and instantly immobilizes.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5005" levels="1" name="Frintezza's Ghost Summoning">
+<!--
+        Frintezza is in temporary state of paralysis.
+    I added that when he is in the state of paralysis he summons a mob
+    For that you will have to change the npcid=29047 from l2Monster to L2Pet
+    Representation - Frintessa is in temporary paralysis state.
+-->
+  <set name="mpConsume" val="300"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="100000"/>
+  <set name="hitTime" val="1000"/>
+  <set name="skillType" val="SUMMON"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="1200"/>
+  <set name="effectRange" val="1200"/>
+  <!-- Summon-specific -->
+  <set name="npcId" val="29047"/>
+  <set name="expPenalty" val="0.0"/>
+  <set name="isCubic" val="false" />
+  <for>
+    <effect count="1" name="Buff" time="90" val="0">
+      <add order="0x40" stat="reflectSkillPhysic" val="90"/>
+      <add order="0x40" stat="pDef" val="6500"/>
+      <add order="0x40" stat="mDef" val="4700"/>
+      <add order="0x40" stat="rEvas" val="90"/>
+      <sub order="0x40" stat="cancel" val="200"/>
+    </effect>
+  </for>
+</skill>
+<skill id="5006" levels="1" name="Frintezza's Melody">
+<!--
+        A general performance.
+  Wichi dont have the slightest clue what effects it makes. I set it to drop max hp :D 
+  Also you can set the skill target to TARGET_AURA but the it affects other mobs aswell.
+-->
+  <set name="mpConsume" val="60"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="1000"/>
+  <set name="reuseDelay" val="1100"/>
+  <set name="hitTime" val="2500"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="buffDuration" val="10800000"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect name="Buff" time="10800" count="1" val="0">
+      <mul order="0x30" stat="maxHp" val="0.70"/>
+    </effect>
+  </for>
+</skill>
+<skill id="5007" levels="5" name="Frintezza's Songs">
+<!--
+      Lvl 1 - Frintezza's Healing Rhapsody	Add a stat yourself  to customize the skill ;).
+      Lvl 2 - Frintezza's Rampaging Opus		Increasez the Attack Speed Performance
+      Lvl 3 - Frintezza Power Encore	            Attack Power Pwerformance Increase
+      Lvl 4 - Mournful Chorale Prelude	      Instantly Increasez the effect of HP regeneration magic.
+      Lvl 5 - Frintezza's Psycho Symphony		Critical Damage and Power Performance Increase
+
+-->
+  <table name="#mpConsume"> 122 157 194 202 207 212 </table>
+  <table name="#accCombat"> 0.77 0.0 0.0 0.0 0.0 </table>
+  <table name="#mp"> 0.0 0.0 0.0 0.0 0.0 </table>             <!-- here is the line you can customize yourself (it's the 4-th 0.0 ) -->
+  <table name="#pAtk"> 0 0 700 0 0 </table>
+  <table name="#Tab-pAtkSpd"> 0 3.89 0 0 0 </table>
+  <table name="#rate"> 0 0 0 0 4.3 </table>
+  <table name="#crit"> 0 0 0 0 4.25 </table>
+  <table name="#dur"> 120000 120000 120000 30 120000 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_PARTY"/>
+  <set name="skillRadius" val="1200"/>
+  <set name="hitTime" val="3000"/>
+  <set name="reuseDelay" val="1000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="buffDuration" val="#dur"/>
+  <set name="castRange" val="1200"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+     <effect count="1" name="Buff" time="120" val="0">
+      <sub order="0x30" stat="accCombat" val="#accCombat"/>
+     </effect>
+     <mul stat="maxMp" order="0x30" val="#mp"/>          <!-- here is the effect you can customize yourself -->     
+     <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="pAtk" val="#pAtk"/>
+     </effect>
+     <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="pAtkSpd" val="#Tab-pAtkSpd"/>
+     </effect>
+     <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="rCrit" val="#rate"/>
+      <mul order="0x30" stat="cAtk" val="#crit"/>
+     </effect>
+   </for>
+</skill>
+<skill id="5008" levels="5" name="Frintezza's Songs">
+<!--
+        Lvl 1 - Frintezza's Concert Hall Melody			Music that makes you Leave Your Guard Down Againt's Magic Attacks.
+      Lvl 2 - Frintezza's Rampaging Opus en masse		      Instantly immobilizes the target by making it dance involuntarily
+      Lvl 3 - Frintezza Power Encore					Instant Poison Attack
+      Lvl 4 - Frintezza's Mornfull Song :P				Music That calms Your Body(Drops attack speed).
+      Lvl 5 - Hypnotic Mazurka						Instantly drops speed and evasion.
+
+-->
+  <table name="#mpConsume"> 122 157 194 202 207 212 </table>
+  <table name="#mDef"> 0.37 0.0 0.0 0.0 0.0 </table>
+  <table name="#poison-dmg"> 0 0 250 0 0 </table>
+  <table name="#poison-lvl"> 0 450 9.0 0 0 </table>
+  <table name="#Tab-pAtkSpd"> 0 0 0 0.65 0 </table>
+  <table name="#Tab-runSpd"> 0 0 0 0 0.65 </table>
+  <table name="#Tab-rEvas"> 0 0 0 0 0.25 </table>
+  <table name="#dur"> 120000 120000 120000 30 120000 </table>
+  <set name="mpConsume" val="#mpConsume"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="power" val="#poison-lvl"/>
+  <set name="skillRadius" val="1200"/>
+  <set name="reuseDelay" val="2000"/>
+  <set name="hitTime" val="9000"/>
+  <set name="skillType" val="DEBUFF"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="1200"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+     <effect count="1" name="Root" time="30" val="0" stackOrder="1" stackType="Root"/>
+     <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="mDef" val="0.40"/>
+   </effect>
+          <effect count="1" name="Buff" time="120" val="0">
+      <mul order="0x30" stat="pAtkSpd" val="#Tab-pAtkSpd"/>
+   </effect>
+          <effect count="1" name="Buff" time="120" val="0">
+      <add order="0x40" stat="runSpd" val="#Tab-runSpd"/>
+   </effect> 
+          <effect count="1" name="Buff" time="120" val="0">
+      <add order="0x40" stat="rEvas" val="#Tab-rEvas"/>
+   </effect>
+  </for>
+</skill>
+<skill id="5009" levels="1" name="Frintezza's Ghostly Fighter">
+<!--
+        A portrait ghost that can make physical attacks.
+-->
+  <set name="lvlDepend" val="1"/>
+  <set name="power" val="900"/>
+  <set name="mpConsume" val="140"/>
+  <set name="save" val="4"/>
+  <set name="reuseDelay" val="100"/> 
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="830"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="buffDuration" val="9000"/>
+  <set name="castRange" val="900"/>
+  <set name="effectRange" val="1400"/>
+  <set name="effectType" val="STUN"/>
+  <set name="effectPower" val="9000"/>
+  <for>
+	<effect count="1" name="Stun" time="10" val="0" stackOrder="1" stackType="Stun"/>
+  </for>
+</skill>
+<skill id="5010" levels="1" name="Frintezza's Ghostly Mage">
+<!--
+        A portrait ghost that can make magical attacks.
+-->
+  <set name="mpConsume" val="20"/>
+  <set name="save" val="3"/>
+  <set name="power" val="500.0"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="1500"/>
+  <set name="reuseDelay" val="1200"/>
+  <set name="skillType" val="MDAM"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="buffDuration" val="30000"/>
+  <set name="castRange" val="400"/>
+  <set name="effectRange" val="900"/>
+  <set name="effectType" val="PARALYZE"/>
+  <set name="effectPower" val="9000"/>
+  <for>
+	<effect count="1" name="Paralyze" time="9" val="0"/>
+  </for>
+</skill>
+<skill id="5011" levels="1" name="Frintezza's Bomber Ghost">
+<!--
+      A portrait ghost who can create a suicide explosion.
+      Affects every1 arround the mob including other mobs
+-->
+  <set name="hpConsume" val="28000"/>
+  <set name="mpConsume" val="1"/>
+  <set name="power" val="120000"/>
+  <set name="overHit" val="true"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="150"/>
+  <set name="reuseDelay" val="3000"/>
+  <set name="hitTime" val="300"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <cond>
+    <player hp="65"/>
+  </cond>
+  <for>
+      <effect count="1" name="Stun" time="25" val="0">
+      <add order="0x40" stat="rCrit" val="20"/>
+    </effect>
+  </for>
+</skill>
+<skill id="5012" levels="1" name="Breath of Scarlet">
+<!--
+      Instantly immobilizes.
+    Animation doesn't work well
+-->
+  <set name="mpConsume" val="200"/>
+  <set name="save" val="5"/>
+  <set name="power" val="100"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="hitTime" val="830"/>
+  <set name="reuseDelay" val="9000"/>
+  <set name="skillType" val="ROOT"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="buffDuration" val="30000"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+    <effect count="1" name="Root" time="30" val="0" stackOrder="1" stackType="Root"/>
+  </for>
+</skill>
+<skill id="5013" levels="1" name="Frintezza Ghost Drain">
+<!--
+      Portrait ghost drains HP.
+-->
+  <set name="mpConsume" val="200"/>
+  <set name="power" val="150"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="800"/>
+  <set name="element" val="6"/>
+  <set name="reuseDelay" val="1500"/>
+  <set name="skillType" val="DRAIN"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <set name="absorbPart" val="2.8"/>
+  <for>
+  </for>
+</skill>
+<skill id="5014" levels="3" name="Frintezza's Daemon Attack">
+<!--
+        Lvl 1 - Demon 1 general attack.
+      Lvl 2 - Demon 2 general attack.
+      Lvl 3 - Demon 3 general attack.
+-->
+  <set name="mpConsume" val="300"/>
+  <set name="power" val="63460"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="conditionValue" val="2"/>
+  <set name="hitTime" val="830"/>
+  <set name="condition" val="128"/>
+  <set name="reuseDelay" val="10000"/>
+  <set name="skillType" val="CHARGEDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="200"/> 
+  <set name="effectRange" val="400"/>
+    <!-- charge values -->
+  <set name="num_charges" val="1"/>
+  <set name="charge_skill_id" val="5015"/>
+  <for>
+  </for>
+</skill>
+<skill id="5015" levels="6" name="Frintezza's Daemon Charge">
+<!--
+      Lvl 1 - Demon 1 charge.
+      Lvl 2 - Demon 2 charge.
+      Lvl 3 - Demon 3 charge.
+      Lvl 4 - Demon 1 slow charge.
+      Lvl 5 - Demon 2 slow charge.
+      Lvl 6 - Demon 3 slow charge.
+-->
+  <table name="#power"> 3.0 5.0 10.0 15.0 20.0 30.0 </table>
+  <table name="#charges"> 1 2 3 4 5 6 </table>
+  <table name="#reuseDelay"> 6 5 4 3 2 1 </table>
+  <table name="#hitTime"> 500 450 400 300 250 200 </table>
+  <set name="mpConsume" val="20"/>
+  <set name="hpConsume" val="300"/>
+  <set name="power" val="#power"/>
+  <set name="hitTime" val="#hitTime"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="reuseDelay" val="#reuseDelay"/>
+  <set name="skillType" val="CHARGE"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <set name="num_charges" val="#charges"/>
+  <for>
+    <effect count="1" name="Charge" time="180000" val="1"/> 
+  </for>
+</skill>
+<skill id="5016" levels="1" name="Yoke of Scarlet">
+<!--
+        Instantly immobilizes.
+-->
+  <set name="mpConsume" val="200"/>
+  <set name="save" val="5"/>
+  <set name="power" val="100"/>
+  <set name="lvlDepend" val="2"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="hitTime" val="830"/>
+  <set name="reuseDelay" val="8000"/>
+  <set name="skillType" val="ROOT"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="buffDuration" val="30000"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+    <effect count="1" name="Root" time="30" val="0" stackOrder="1" stackType="Root"/>
+  </for>
+</skill>
+<skill id="5017" levels="1" name="Frintezza's Daemon Morph">
+<!--
+        Demon 1 metamorphosis. into demon 2
+             NOTDONE
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5018" levels="2" name="Frintezza's Daemon Field">
+<!--
+        Lvl 1 - Demon 2 magic field.
+      Lvl 2 - Demon 3 magic field.
+-->
+  <table name="#Tab-pDef"> 2.08 3.12 </table>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="hitTime" val="1000"/>
+  <set name="reuseDelay" val="1800000"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="buffDuration" val="30000"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Buff" time="10800" val="0">
+      <mul order="0x30" stat="pDef" val="#Tab-pDef"/>
+    </effect>
+   </for>
+</skill>
+<skill id="5019" levels="1" name="Frintezza's Daemon Drain">
+<!--
+        Demon 3 HP drain range.
+-->
+  <set name="mpConsume" val="200"/>
+  <set name="power" val="2000"/>
+  <set name="target" val="TARGET_ONE"/>
+  <set name="hitTime" val="1000"/>
+  <set name="element" val="6"/>
+  <set name="reuseDelay" val="4500"/>
+  <set name="skillType" val="DRAIN"/>
+  <set name="isMagic" val="true"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <set name="absorbPart" val="2.8"/>
+  <for>
+ </for>
+</skill>
+<skill id="5020" levels="1" name="Forced Action">
+<!--
+        Crumples to the ground because of unknown power.
+   Takes damage and when he falls he makes damage and stunn's every1 arround
+-->
+  <set name="hpConsume" val="2000"/>
+  <set name="mpConsume" val="87"/>
+  <set name="power" val="40000"/>
+  <set name="overHit" val="true"/>
+  <set name="hitTime" val="1100"/>
+  <set name="reuseDelay" val="45000"/>
+  <set name="target" val="TARGET_AURA"/>
+  <set name="skillRadius" val="350"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <effect count="1" name="Stun" time="25" val="0">
+      <add order="0x40" stat="rCrit" val="20"/>
+   </effect>
+  </for>
+</skill>
+<skill id="5021" levels="12" name="Inspiration of Einhasad">
+<!--
+       Lvl 1 - Makes sacred attacks.
+      Lvl 2 - Makes sacred attacks.
+      Lvl 3 - Makes sacred attacks.
+      Lvl 4 - Makes sacred attacks.
+      Lvl 5 - Makes sacred attacks.
+      Lvl 6 - Makes sacred attacks.
+      Lvl 7 - Makes sacred attacks.
+      Lvl 8 - Makes sacred attacks.
+      Lvl 9 - Makes sacred attacks.
+      Lvl 10 - Makes sacred attacks.
+      Lvl 11 - Makes sacred attacks.
+      Lvl 12 - Makes sacred attacks.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5022" levels="12" name="Decrease Speed">
+<!--
+        Lvl 1 - Instantly reduces Speed. Effect 1.
+      Lvl 2 - Instantly reduces Speed. Effect 2.
+      Lvl 3 - Instantly reduces Speed. Effect 2.
+      Lvl 4 - Instantly reduces Speed. Effect 3.
+      Lvl 5 - Instantly reduces Speed. Effect 3.
+      Lvl 6 - Instantly reduces Speed. Effect 3.
+      Lvl 7 - Instantly reduces Speed. Effect 3.
+      Lvl 8 - Instantly reduces Speed. Effect 3.
+      Lvl 9 - Instantly reduces Speed. Effect 3.
+      Lvl 10 - Instantly reduces Speed. Effect 3.
+      Lvl 11 - Instantly reduces Speed. Effect 3.
+      Lvl 12 - Instantly reduces Speed. Effect 3.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5023" levels="12" name="Hold">
+<!--
+        Lvl 1 - Temporarily holds and immobilizes target.
+      Lvl 2 - Temporarily holds and immobilizes target.
+      Lvl 3 - Temporarily holds and immobilizes target.
+      Lvl 4 - Temporarily holds and immobilizes target.
+      Lvl 5 - Temporarily holds and immobilizes target.
+      Lvl 6 - Temporarily holds and immobilizes target.
+      Lvl 7 - Temporarily holds and immobilizes target.
+      Lvl 8 - Temporarily holds and immobilizes target.
+      Lvl 9 - Temporarily holds and immobilizes target.
+      Lvl 10 - Temporarily holds and immobilizes target.
+      Lvl 11 - Temporarily holds and immobilizes target.
+      Lvl 12 - Temporarily holds and immobilizes target.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5024" levels="12" name="Decrease Atk.Speed">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1 - Instantly reduces Atk. Spd. Effect 1.
+      Lvl 2 - Instantly reduces Atk. Spd. Effect 2.
+      Lvl 3 - Instantly reduces Atk. Spd. Effect 2.
+      Lvl 4 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 5 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 6 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 7 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 8 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 9 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 10 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 11 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 12 - Instantly reduces Atk. Spd. Effect 3.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5025" levels="1" name="Raid Boss - Level 30">
+<!-- TODO -->
+ <!--His exploits are famous among Wererats. He assigned the South to the Sukar Wererats while he and his followers journeyed to the North. Unlike other Wererats, he possesses an enterprising spirit.He began plundering tombs in the graveyards of the Orc tribal chief graveyards, but was chased away by vengeful spirits. Now he iand his band rob unwary travelers passing through the region.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5026" levels="1" name="Raid Boss - Level 39">
+<!-- TODO -->
+<!--Once a human magician with an almost Dwarven interest in machinery,he heard about Titan Age Sky Wagon Relic and theorized that a combination of Dwarven skills and magic could reproduce the flying wagon.He died without succeeding in his goal, but his spirit still wanders the area.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5027" levels="1" name="Raid Boss - Level 37">
+<!-- TODO -->
+ <!--This villain preys on adventurers who travel between the Dwarven Village and the Town of Schuttgart. He summoned all the northern Goblin powers to create a great bandit force and rule over them. But he made a serious mistake and stole the tribute intended for Schuttgart. Hearing rumors that the lord was preparing an army to clear out the bandits, he ran and hid.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5028" levels="1" name="Raid Boss - Level 53">
+<!-- TODO -->
+ <!--Once a shaman who worshipped Pa'agrio, he is now consumed by evil and bent on manipulating the powers of the spirit-being Tasha to conquer the world. His growing horde of followers include Ragna Orcs, evil spirits and insects.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5029" levels="1" name="Raid Boss - Level 52">
+<!-- TODO -->
+ <!--This Powerful Gigantic Golem is made from Starstones gathered from the Pavel Ruins by the mad scientist Dr. Chaos who calls himself the Emperor of Evil.Once a Golem Maestro, Dr. Chaos was expelled from the Black Anvil Guild for trying to steal the blueprint from an elders. He swore revenge on the Black Anvil Guild and conquered the Pavel Ruins with the Horrifying Golem Army he created.He views all outsiders as assassins sent by the Guild and will attack immediately.His ultimate goal is world domination.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5030" levels="1" name="Raid Boss - Level 59">
+<!-- TODO -->
+<!--He was a captain who secretly loved and was loyal to the Ice Queen, Freya.He was saddened by the transformation of Freya, and one day he found out the truth.  Freya turned him into a gargoyle.One of the few who knows the secrets of the Frozen Labyrinth and the fate of Princess Melissa. Freya turned him into a Gargoyle. Now he is an evil creature who kills those who come to look for Freya.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5031" levels="1" name="Raid Boss - Level 80">
+<!-- TODO -->
+<!--This Queen of Spike Stakatos conducts breeding experiments using top-ranking Spike Stakatos.She knows that her life is almost at the end and is trying to grow the Stakato queen in her nest, despite the low chances for success.She nurses her power while dreaming of a resurgence of the weakened Stakato race.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5032" levels="1" name="Raid Boss - Level 87">
+<!-- TODO -->
+ <!--Although he appears human, he is actually a high-ranking angel who directly interacts with Einhasad and worships the Grail.Recently an ancient religious document found in the Tower of Insolence provided proof that the Grail is hidden in the Monastery of Silence. Since then, adherents of the Pagan Temple have frequently tried to steal the Grail, but none has avoided the judgment of the Ruler of Splendor.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5033" levels="1" name="Raid Boss - Level 87">
+<!-- TODO -->
+<!--He is an aristocrat of Rune who worships Trioll, occasionally conducting bloody worship ceremonies in the Temple.His background, despite his claims of aristocracy, is murky, and Antharas may not be his real name.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5034" levels="1" name="Raid Boss - Level 73">
+<!-- TODO -->
+ <!--This Golem was originally a follower of Argos during the war between Giants and Humans.He remained with his master after Argos's imprisonment by Einhasad into the cliff wall.He has devolved to the point that he no longer resembles a Titan and isn't sure why he is still there.Even Daimon the White-Eyed cannot harm him in the Wall of Argos.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5035" levels="1" name="Raid Boss - Level 76">
+<!-- TODO -->
+<!--Hardin's artificial creature created by a magic experiment.He has a monster's appearance that spews lava from all over his body, but he once used to be a very submissive Golem who followed Hardin like his own father.He went mad from the feeling of abandonment after Hardin left the Blazing Swamp.When the King Astaire attacked Aden Castle, some of the soldiers of Elmore were caught in the Blazing Swamp, and they saw a giant that was covered in lava.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5036" levels="1" name="Raid Boss - Level 60">
+<!-- TODO -->
+ <!--The Ice Fairy who came to Freya after princess Melissa was turned. She oversees everything in the Frozen Labyrinth on behalf of Freya. She has watched the movements of the Zinnia Guild ever since the Order of Canna Knights disappeared.--> 
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5037" levels="3" name="Decrease Casting Speed">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1 - Instantly reduces Casting Speed. Effect 1.
+      Lvl 2 - Instantly reduces Casting Speed. Effect 2.
+      Lvl 3 - Instantly reduces Casting Speed. Effect 3.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5038" levels="16" name="Summon PVP Penalty">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5039" levels="1" name="NPC - Ultra Bomb">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5040" levels="12" name="NPC - Healing Potion">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5041" levels="1" name="Charm of Courage">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Prevents experience value from decreasing if killed during a siege war.
+-->
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5042" levels="12" name="NPC Dispel Bomb">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5043" levels="12" name="NPC Super Sonic Blaster">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5044" levels="2" name="NPC Ultimate Defense">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5045" levels="12" name="Castle Power Strike">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5046" levels="12" name="Castle Power Shot">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5047" levels="12" name="Castle Spinning Slash">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5048" levels="12" name="Castle Burst Shot">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5049" levels="12" name="Castle Blow">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5050" levels="12" name="Castle DD Fire">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5051" levels="12" name="Castle Self AE Fire">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5052" levels="12" name="Castle Long AE Fire">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5053" levels="12" name="Castle DD Water">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5054" levels="12" name="Castle Self AE Water">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5055" levels="12" name="Castle Long AE Water">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5056" levels="12" name="Castle DD Wind">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5057" levels="12" name="Castle Self AE Wind">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5058" levels="12" name="Castle Long AE Wind">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5059" levels="12" name="Castle DD Earth">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5060" levels="12" name="Castle Self AE Earth">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5061" levels="12" name="Castle Long AE Earth">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5062" levels="12" name="Castle DD Holy">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5063" levels="12" name="Castle Self AE Holy">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5064" levels="12" name="Castle Long AE Holy">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5065" levels="12" name="Castle DD Unholy">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5066" levels="12" name="Castle Self AE Unholy">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5067" levels="12" name="Castle Long AE Unholy">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5068" levels="12" name="Decrease Speed">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1 - Instantly reduces Speed. Effect 3.
+      Lvl 2 - Instantly reduces Speed. Effect 3.
+      Lvl 3 - Instantly reduces Speed. Effect 3.
+      Lvl 4 - Instantly reduces Speed. Effect 3.
+      Lvl 5 - Instantly reduces Speed. Effect 3.
+      Lvl 6 - Instantly reduces Speed. Effect 3.
+      Lvl 7 - Instantly reduces Speed. Effect 3.
+      Lvl 8 - Instantly reduces Speed. Effect 3.
+      Lvl 9 - Instantly reduces Speed. Effect 3.
+      Lvl 10 - Instantly reduces Speed. Effect 3.
+      Lvl 11 - Instantly reduces Speed. Effect 3.
+      Lvl 12 - Instantly reduces Speed. Effect 3.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5069" levels="12" name="Decrease Atk.Spd.">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 2 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 3 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 4 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 5 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 6 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 7 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 8 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 9 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 10 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 11 - Instantly reduces Atk. Spd. Effect 3.
+      Lvl 12 - Instantly reduces Atk. Spd. Effect 3.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5070" levels="12" name="Decrease Casting Spd">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 2 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 3 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 4 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 5 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 6 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 7 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 8 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 9 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 10 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 11 - Instantly reduces Casting Spd. Effect 3.
+      Lvl 12 - Instantly reduces Casting Spd. Effect 3.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5071" levels="12" name="Decrease P.Atk">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1 - Instantly reduces P. Atk. Effect 3.
+      Lvl 2 - Instantly reduces P. Atk. Effect 3.
+      Lvl 3 - Instantly reduces P. Atk. Effect 3.
+      Lvl 4 - Instantly reduces P. Atk. Effect 3.
+      Lvl 5 - Instantly reduces P. Atk. Effect 3.
+      Lvl 6 - Instantly reduces P. Atk. Effect 3.
+      Lvl 7 - Instantly reduces P. Atk. Effect 3.
+      Lvl 8 - Instantly reduces P. Atk. Effect 3.
+      Lvl 9 - Instantly reduces P. Atk. Effect 3.
+      Lvl 10 - Instantly reduces P. Atk. Effect 3.
+      Lvl 11 - Instantly reduces P. Atk. Effect 3.
+      Lvl 12 - Instantly reduces P. Atk. Effect 3.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5072" levels="12" name="Decrease M. Atk.">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1 - Instantly reduces M. Atk. Effect 3.
+      Lvl 2 - Instantly reduces M. Atk. Effect 3.
+      Lvl 3 - Instantly reduces M. Atk. Effect 3.
+      Lvl 4 - Instantly reduces M. Atk. Effect 3.
+      Lvl 5 - Instantly reduces M. Atk. Effect 3.
+      Lvl 6 - Instantly reduces M. Atk. Effect 3.
+      Lvl 7 - Instantly reduces M. Atk. Effect 3.
+      Lvl 8 - Instantly reduces M. Atk. Effect 3.
+      Lvl 9 - Instantly reduces M. Atk. Effect 3.
+      Lvl 10 - Instantly reduces M. Atk. Effect 3.
+      Lvl 11 - Instantly reduces M. Atk. Effect 3.
+      Lvl 12 - Instantly reduces M. Atk. Effect 3.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5073" levels="12" name="Quest Trap -  Power Shot">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5074" levels="1" name="The Victor of War">
+<!--
+  Description(s):
+      Maximum CP is increased.
+-->
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="isMagic" val="true"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <mul order="0x30" stat="maxCp" val="1.10"/>
+  </for>
+</skill>
+<skill id="5075" levels="1" name="The Vanquished of War">
+<!--
+  Description(s):
+      Maximum CP is decreased.
+-->
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="isMagic" val="true"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <mul order="0x30" stat="maxCp" val="0.9"/>
+  </for>
+</skill>
+<skill id="5076" levels="15" name="Death Penalty">
+<!--
+  Description(s):
+      Lvl [1-15] - Combat ability is decreased due to death.  Effect [1-15].
+-->
+  <table name="#power"> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 </table>
+  <table name="#pAtk"> 1 0.958 0.907 0.856 0.805 0.754 0.703 0.652 0.601 0.550 0.499 0.448 0.397 0.356 0.305 0.254 </table>
+  <table name="#mAtk"> 1 0.949 0.898 0.847 0.796 0.745 0.694 0.643 0.592 0.591 0.540 0.489 0.438 0.387 0.336 0.285 </table>
+  <table name="#pDef"> 1 0.969 0.942 0.915 0.888 0.861 0.834 0.807 0.780 0.753 0.726 0.699 0.672 0.645 0.618 0.591 </table>
+  <table name="#mDef"> 1 0.965 0.929 0.893 0.857 0.821 0.785 0.749 0.713 0.677 0.641 0.605 0.569 0.553 0.497 0.461 </table>
+  <table name="#pAtkSpd"> 1 0.949 0.898 0.847 0.796 0.745 0.694 0.643 0.592 0.591 0.540 0.489 0.438 0.387 0.336 0.285 </table>
+  <table name="#mAtkSpd"> 1 0.949 0.898 0.847 0.796 0.745 0.694 0.643 0.592 0.591 0.540 0.489 0.438 0.387 0.336 0.285 </table>
+  <table name="#runSpd"> 1 0.949 0.898 0.847 0.796 0.745 0.694 0.643 0.592 0.591 0.540 0.489 0.438 0.387 0.336 0.285 </table>
+  <table name="#rEvas"> 1 0.949 0.898 0.847 0.796 0.745 0.694 0.643 0.592 0.591 0.540 0.489 0.438 0.387 0.336 0.285 </table>
+  <table name="#cAtk"> 1 0.949 0.898 0.847 0.796 0.745 0.694 0.643 0.592 0.591 0.540 0.489 0.438 0.387 0.336 0.285 </table>
+  <table name="#accCombat"> 1 0.949 0.898 0.847 0.796 0.745 0.694 0.643 0.592 0.591 0.540 0.489 0.438 0.387 0.336 0.285 </table>
+  <set name="power" val="#power"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+    <mul order="0x50" stat="pAtk" val="#pAtk"/>
+    <mul order="0x50" stat="mAtk" val="#mAtk"/>
+    <mul order="0x50" stat="pDef" val="#pDef"/>
+    <mul order="0x50" stat="mDef" val="#mDef"/>
+    <mul order="0x50" stat="pAtkSpd" val="#pAtkSpd"/>
+    <mul order="0x50" stat="mAtkSpd" val="#mAtkSpd"/>
+    <mul order="0x50" stat="runSpd" val="#runSpd"/>
+    <mul order="0x50" stat="rEvas" val="#rEvas"/>
+    <mul order="0x50" stat="cAtk" val="#cAtk"/>
+    <mul order="0x50" stat="accCombat" val="#accCombat"/>
+  </for>
+</skill>
+<skill id="5077" levels="1" name="NPC Remove Death Penalty">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5078" levels="1" name="Frintezza Critical Power">
+<!--
+  This had no description so i just went by the name
+-->
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_SELF"/>
+  <set name="skillType" val="BUFF"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <set name="effectRange" val="-1"/>
+  <for>
+    <mul order="0x30" stat="cAtk" val="9.25"/>
+  </for>
+</skill>
+<skill id="5079" levels="1" name="NPC Focused Haste">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5080" levels="1" name="NPC Mighty Haste">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5081" levels="4" name="Silence">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1-4 - Blocks the ability to use physical skills.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5082" levels="4" name="NPC Spinning, Slashing Trick">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1-4 - none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5083" levels="4" name="Shock">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1-4 - Temporarily gets thrown into a state of shock and immobilized.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5084" levels="4" name="NPC Blinding Blow">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1-4 - none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5085" levels="1" name="Anesthesia">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Temporarily stunned and immobilized.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5086" levels="1" name="Deadly Poison">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Infected with poison and gradually losing HP. If HP falls to 0, death will ensue.
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5087" levels="2" name="Berserk">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1-2 - none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5088" levels="1" name="Signal">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5089" levels="1" name="Representation - Enter the Sailren Nest Quest">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5090" levels="1" name="Sailren Production">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5091" levels="1" name="Sailren Production 2">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5092" levels="1" name="Antharas Terror">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Temporarily overcome with fear and mindlessly fleeing.
+-->
+  <set name="magicLvl" val="70"/>
+  <set name="lvlDepend" val="1"/>
+  <set name="save" val="2"/>
+  <set name="power" val="0.0"/>
+  <set name="target" val="TARGET_AREA"/>
+  <set name="skillRadius" val="900"/>
+  <set name="coolTime" val="2700"/>
+  <set name="hitTime" val="2300"/>
+  <set name="skillType" val="FEAR"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+    <effect count="5" name="Fear" time="6" val="0"/>
+  </for>
+</skill>
+<skill id="5093" levels="1" name="Antharas Meteor">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_AREA"/>
+  <set name="power" val="0.0"/>
+  <set name="skillType" val="PDAM"/>
+  <set name="hitTime" val="8000"/>
+  <set name="operateType" val="OP_ACTIVE"/>
+  <set name="castRange" val="600"/>
+  <set name="effectRange" val="1100"/>
+  <for>
+  </for>
+</skill>
+<skill id="5094" levels="1" name="Antharas Subordinate Suicide ">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5095" levels="1" name="Antharas Subordinate Melee Attack">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5096" levels="1" name="Antharas Subordinate Remote Attack">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5097" levels="1" name="Antharas Subordinate Suicide (Narrow Range)">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5098" levels="2" name="Capture Penalty">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      Lvl 1-2 - none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+<skill id="5099" levels="1" name="Cancel Capture A">
+<!--
+  Needs to be finished.
+  Target is set to TARGET_NONE, skillType to NOTDONE for server compatability.
+  Description(s):
+      none
+-->
+  <set name="target" val="TARGET_NONE"/>
+  <set name="skillType" val="NOTDONE"/>
+  <set name="operateType" val="OP_PASSIVE"/>
+  <set name="castRange" val="-1"/>
+  <for>
+  </for>
+</skill>
+</list>

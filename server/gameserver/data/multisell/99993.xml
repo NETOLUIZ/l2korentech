@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list>
+
+  <!-- Flamberge -->
+  <item id="1">
+    <ingredient id="57" count="2000000"/>  <!-- Adena -->
+    <production id="71" count="1"/>  <!-- Flamberge -->
+  </item>
+
+  <!-- Great Sword -->
+  <item id="2">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="78" count="1"/>  <!-- Great Sword -->
+  </item>
+
+
+</list>

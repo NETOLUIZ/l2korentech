@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Titanium Helmet -->
+  <item id="1">
+    <ingredient id="9999" count="20"/>
+    <production id="9513" count="1"/>
+  </item>
+
+  <!-- Heavy Titanium Armor -->
+  <item id="2">
+    <ingredient id="9999" count="20"/>
+    <production id="9514" count="1"/>
+  </item>
+
+  <!-- Heavy Titanium Gloves -->
+  <item id="3">
+    <ingredient id="9999" count="20"/>
+    <production id="9515" count="1"/>
+  </item>
+
+  <!-- Heavy Titanium Boots -->
+  <item id="4">
+    <ingredient id="9999" count="20"/>
+    <production id="9516" count="1"/>
+  </item>
+
+  <!-- Light Titanium Mail -->
+  <item id="5">
+    <ingredient id="9999" count="20"/>
+    <production id="9517" count="1"/>
+  </item>
+
+  <!-- Light Titanium Gauntlets -->
+  <item id="6">
+    <ingredient id="9999" count="20"/>
+    <production id="9518" count="1"/>
+  </item>
+
+  <!-- Light Titanium Boots -->
+  <item id="7">
+    <ingredient id="9999" count="20"/>
+    <production id="9519" count="1"/>
+  </item>
+
+  <!-- Titanium Tunic -->
+  <item id="8">
+    <ingredient id="9999" count="20"/>
+    <production id="9520" count="1"/>
+  </item>
+
+  <!-- Titanium Gauntlets -->
+  <item id="9">
+    <ingredient id="9999" count="20"/>
+    <production id="9521" count="1"/>
+  </item>
+
+  <!-- Titanium Shoes -->
+  <item id="10">
+    <ingredient id="9999" count="20"/>
+    <production id="9522" count="1"/>
+  </item>
+
+  <!-- Mesh Ice FullArmor -->
+  <item id="11">
+    <ingredient id="9999" count="20"/>
+    <production id="9526" count="1"/>
+  </item>
+
+  <!-- Mesh Ice Helmet -->
+  <item id="12">
+    <ingredient id="9999" count="20"/>
+    <production id="9527" count="1"/>
+  </item>
+
+  <!-- Mesh Ice Boot -->
+  <item id="13">
+    <ingredient id="9999" count="20"/>
+    <production id="9528" count="1"/>
+  </item>
+
+  <!-- Mesh Ice Gloves -->
+  <item id="14">
+    <ingredient id="9999" count="20"/>
+    <production id="9529" count="1"/>
+  </item>
+
+  <!-- Light Ice Chest -->
+  <item id="15">
+    <ingredient id="9999" count="20"/>
+    <production id="9530" count="1"/>
+  </item>
+
+  <!-- Light Ice Legs -->
+  <item id="16">
+    <ingredient id="9999" count="20"/>
+    <production id="9531" count="1"/>
+  </item>
+
+  <!-- Light Ice Boots -->
+  <item id="17">
+    <ingredient id="9999" count="20"/>
+    <production id="9532" count="1"/>
+  </item>
+
+  <!-- Light Ice Gloves -->
+  <item id="18">
+    <ingredient id="9999" count="20"/>
+    <production id="9533" count="1"/>
+  </item>
+
+  <!-- Heavy Ice Legs -->
+  <item id="19">
+    <ingredient id="9999" count="20"/>
+    <production id="9535" count="1"/>
+  </item>
+
+  <!-- Heavy Ice Boots -->
+  <item id="20">
+    <ingredient id="9999" count="20"/>
+    <production id="9536" count="1"/>
+  </item>
+
+  <!-- Heavy Ice Gloves -->
+  <item id="21">
+    <ingredient id="9999" count="20"/>
+    <production id="9537" count="1"/>
+  </item>
+
+  <!-- Heavy Ice Helmet -->
+  <item id="22">
+    <ingredient id="9999" count="20"/>
+    <production id="9538" count="1"/>
+  </item>
+
+  <!-- Heavy Ice Chest -->
+  <item id="23">
+    <ingredient id="9999" count="20"/>
+    <production id="9539" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Heavy Armor -->
+  <item id="24">
+    <ingredient id="9999" count="20"/>
+    <production id="9600" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Heavy Gloves -->
+  <item id="25">
+    <ingredient id="9999" count="20"/>
+    <production id="9601" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Boots -->
+  <item id="26">
+    <ingredient id="9999" count="20"/>
+    <production id="9602" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Heavy Helm -->
+  <item id="27">
+    <ingredient id="9999" count="20"/>
+    <production id="9603" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Light Armor -->
+  <item id="28">
+    <ingredient id="9999" count="20"/>
+    <production id="9604" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Light Gloves -->
+  <item id="29">
+    <ingredient id="9999" count="20"/>
+    <production id="9605" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Light Boots -->
+  <item id="30">
+    <ingredient id="9999" count="20"/>
+    <production id="9606" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Light Helmet -->
+  <item id="31">
+    <ingredient id="9999" count="20"/>
+    <production id="9607" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Tunic -->
+  <item id="32">
+    <ingredient id="9999" count="20"/>
+    <production id="9608" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Legs -->
+  <item id="33">
+    <ingredient id="9999" count="20"/>
+    <production id="9609" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Gauntlets -->
+  <item id="34">
+    <ingredient id="9999" count="20"/>
+    <production id="9610" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Shoes -->
+  <item id="35">
+    <ingredient id="9999" count="20"/>
+    <production id="9611" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Cap -->
+  <item id="36">
+    <ingredient id="9999" count="20"/>
+    <production id="9612" count="1"/>
+  </item>
+
+  <!-- Epic Shield -->
+  <item id="37">
+    <ingredient id="9999" count="30"/>
+    <production id="9450" count="1"/>
+  </item>
+
+
+</list>

@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+<item id='9700' name="Epic Zeus Neckle">
+  <for>
+    <add val='65' order='0x10' stat='mDef'/>
+    <add val='250' order='0x10' stat='maxMp'/>
+	<add val='400' order='0x10' stat='maxHp'/> 
+	<mul val='1.5' order='0x30' stat='pAtk'/> 
+	<mul val='1.5' order='0x30' stat='mAtk'/> 
+	<mul val='2.5' order='0x30' stat='mCritRate'/> 
+	<add order="0x10" stat="reflectDam" val="0"/>
+	<enchant val='0' order='0x0C' stat='mDef'/> 
+  </for> 
+</item>
+<item id='9701' name="Epic Rhea`s Earring">
+<!-- TODO: Decrease in MP consumption -->
+  <for>
+<add val='110' order='0x10' stat='mDef'/>
+<add val='200' order='0x40' stat='maxMp'>
+<!--	<or>
+		<and>
+			<using slotitem="9701;1"/>
+			<not>
+				<using slotitem="9701;2"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9701;2"/>
+			<not>
+				<using slotitem="9701;1"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='18.5' order='0x40' stat='maxMp'>
+		<and>
+			<using slotitem="9701;1"/>
+			<using slotitem="9701;2"/>
+		</and>-->
+</add>
+<mul val='3.48' order='0x30' stat='regHp'>
+	<!--<or>
+		<and>
+			<using slotitem="9701;1"/>
+			<not>
+				<using slotitem="9701;2"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9701;2"/>
+			<not>
+				<using slotitem="9701;1"/>
+			</not>
+		</and>
+	</or>
+</mul>
+<mul val='1.0725' order='0x30' stat='regHp'>
+		<and>
+			<using slotitem="9701;1"/>
+			<using slotitem="9701;2"/>
+		</and>-->
+</mul>
+<add val='15' order='0x40' stat='absorbDam'>
+	<!--<or>
+		<and>
+			<using slotitem="9701;1"/>
+			<not>
+				<using slotitem="9701;2"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9701;2"/>
+			<not>
+				<using slotitem="9701;1"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='5' order='0x40' stat='absorbDam'>
+		<and>
+			<using slotitem="9701;1"/>
+			<using slotitem="9701;2"/>
+		</and>-->
+</add>
+	<enchant val='0' order='0x0C' stat='mDef'/> 
+  </for> 
+</item>
+<item id='9702' name="Epic Cronos Earring">
+<!-- TODO: Decrease in MP consumption -->
+  <for>
+<add val='110' order='0x10' stat='mDef'/>
+<add val='200' order='0x40' stat='maxMp'>
+	<!--<or>
+		<and>
+			<using slotitem="9902;1"/>
+			<not>
+				<using slotitem="9902;2"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9902;2"/>
+			<not>
+				<using slotitem="9902;1"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='18.5' order='0x40' stat='maxMp'>
+		<and>
+			<using slotitem="9902;1"/>
+			<using slotitem="9902;2"/>
+		</and>-->
+</add>
+<mul val='3.48' order='0x30' stat='regHp'>
+	<!--<or>
+		<and>
+			<using slotitem="9902;1"/>
+			<not>
+				<using slotitem="9902;2"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9902;2"/>
+			<not>
+				<using slotitem="9902;1"/>
+			</not>
+		</and>
+	</or>
+</mul>
+<mul val='1.0725' order='0x30' stat='regHp'>
+		<and>
+			<using slotitem="9902;1"/>
+			<using slotitem="9902;2"/>
+		</and>-->
+</mul>
+<add val='15' order='0x40' stat='absorbDam'>
+	<!--<or>
+		<and>
+			<using slotitem="9902;1"/>
+			<not>
+				<using slotitem="9902;2"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9902;2"/>
+			<not>
+				<using slotitem="9902;1"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='5' order='0x40' stat='absorbDam'>
+		<and>
+			<using slotitem="9902;1"/>
+			<using slotitem="9902;2"/>
+		</and>-->
+</add>
+	<enchant val='0' order='0x0C' stat='mDef'/> 
+  </for> 
+</item>
+<item id='9703' name="Epic Heracles Ring">
+  <for>
+    <add val='70' order='0x10' stat='mDef'/>
+<add val='50' order='0x40' stat='maxMp'>
+	<!--<or>
+		<and>
+			<using slotitem="9703;4"/>
+			<not>
+				<using slotitem="9703;5"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9703;5"/>
+			<not>
+				<using slotitem="9703;4"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='15.5' order='0x40' stat='maxMp'>
+		<and>
+			<using slotitem="9703;4"/>
+			<using slotitem="9703;5"/>
+		</and>-->
+</add>
+<add val='4' order='0x10' stat='accCombat'>
+	<!--<or>
+		<and>
+			<using slotitem="9703;4"/>
+			<not>
+				<using slotitem="9703;5"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9703;5"/>
+			<not>
+				<using slotitem="9703;4"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='2' order='0x40' stat='accCombat'>
+       <and>
+          <using slotitem="9703;4"/>
+          <using slotitem="9703;5"/>
+       </and>-->
+</add>
+<add val='70' order='0x40' stat='cAtk'>
+	<!--<or>
+		<and>
+			<using slotitem="9703;4"/>
+			<not>
+				<using slotitem="9703;5"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9703;5"/>
+			<not>
+				<using slotitem="9703;4"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='35' order='0x40' stat='cAtk'>
+       <and>
+          <using slotitem="9703;4"/>
+          <using slotitem="9703;5"/>
+       </and>-->
+</add>
+     <enchant val='0' order='0x0C' stat='mDef'/>
+  </for>
+</item>
+<item id='9704' name="Epic Alcmene Ring">
+
+  <for>
+<add val='70' order='0x10' stat='mDef'/>
+<add val='50' order='0x40' stat='maxMp'>
+	<!--<or>
+		<and>
+			<using slotitem="9704;4"/>
+			<not>
+				<using slotitem="9704;5"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9704;5"/>
+			<not>
+				<using slotitem="9704;4"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='15.5' order='0x40' stat='maxMp'>
+		<and>
+			<using slotitem="9704;4"/>
+			<using slotitem="9704;5"/>
+		</and>-->
+</add>
+<add val='6' order='0x40' stat='accCombat'>
+	<!--<or>
+		<and>
+			<using slotitem="9704;4"/>
+			<not>
+				<using slotitem="9704;5"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9704;5"/>
+			<not>
+				<using slotitem="9704;4"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='3' order='0x40' stat='accCombat'>
+		<and>
+			<using slotitem="9704;4"/>
+			<using slotitem="9704;5"/>
+		</and>-->
+</add>
+<add val='85' order='0x40' stat='cAtk'>
+	<!--<or>
+		<and>
+			<using slotitem="9704;4"/>
+			<not>
+				<using slotitem="9704;5"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9704;5"/>
+			<not>
+				<using slotitem="9704;4"/>
+			</not>
+		</and>
+	</or>
+</add>
+<add val='42.5' order='0x40' stat='cAtk'>
+		<and>
+			<using slotitem="9704;4"/>
+			<using slotitem="9704;5"/>
+		</and>-->
+</add>
+<mul val='1.5' order='0x30' stat='pAtkSpd'>
+	<!--<or>
+		<and>
+			<using slotitem="9704;4"/>
+			<not>
+				<using slotitem="9704;5"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9704;5"/>
+			<not>
+				<using slotitem="9704;4"/>
+			</not>
+		</and>
+	</or>
+</mul>
+<mul val='3.0489' order='0x30' stat='pAtkSpd'>
+		<and>
+			<using slotitem="9704;4"/>
+			<using slotitem="9704;5"/>
+		</and>-->
+</mul>
+<mul val='1.5' order='0x30' stat='mAtkSpd'>
+	<!--<or>
+		<and>
+			<using slotitem="9704;4"/>
+			<not>
+				<using slotitem="9704;5"/>
+			</not>
+		</and>
+		<and>
+			<using slotitem="9704;5"/>
+			<not>
+				<using slotitem="9704;4"/>
+			</not>
+		</and>
+	</or>
+</mul>
+<mul val='3.0489' order='0x30' stat='mAtkSpd'>
+		<and>
+			<using slotitem="9704;4"/>
+			<using slotitem="9704;5"/>
+		</and>-->
+</mul>
+<enchant val='0' order='0x0C' stat='mDef'/>
+  </for>
+</item>
+<item id='9705' name="Dynasty Breastplate Heavy">
+  <for> 
+    <add val='219' order='0x10' stat='pDef'/> 
+  <enchant val='0' order='0x0C' stat='pDef'/> 
+  </for> 
+</item>
+<item id='9706' name="Dynasty Gaiters Heavy">
+  <for>
+    <add val='137' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9707' name="Dynasty Helm Heavy">
+  <for>
+    <add val='89' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9708' name="Dynasty Golves Heavy">
+  <for>
+    <add val='59' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9709' name="Dynasty Boots Heavy">
+  <for>
+    <add val='59' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9710' name="Dynasty Leather Armor Light">
+  <for> 
+    <add val='219' order='0x10' stat='pDef'/> 
+  <enchant val='0' order='0x0C' stat='pDef'/> 
+  </for> 
+</item>
+<item id='9711' name="Dynasty Leather Pants Light">
+  <for>
+    <add val='137' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9712' name="Dynasty Leather Helm Light">
+  <for>
+    <add val='89' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9713' name="Dynasty Leather Gloves Light">
+  <for>
+    <add val='59' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9714' name="Dynasty Leather Shoes Light">
+  <for>
+    <add val='59' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9715' name="Dynasty Armor Robe">
+  <for> 
+    <add val='219' order='0x10' stat='pDef'/> 
+  <enchant val='0' order='0x0C' stat='pDef'/> 
+  </for> 
+</item>
+<item id='9716' name="Dynasty Stockings">
+  <for>
+    <add val='137' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9717' name="Dynasty Cap Robe">
+  <for>
+    <add val='89' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9718' name="Dynasty Mittens Robe">
+  <for>
+    <add val='59' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9719' name="Dynasty Slippers Robe">
+  <for>
+    <add val='59' order='0x10' stat='pDef'/>
+  <enchant val='0' order='0x0C' stat='pDef'/>
+  </for>
+</item>
+<item id='9720' name="Bow Master Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9721' name="Dagger Master Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9722' name="Darkelf Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9723' name="Darkelf High Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9724' name="Dwarf Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9725' name="Dwarf High Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9726' name="Elf Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9727' name="Elf High Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9728' name="Enchanter Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9729' name="Enchant Knight Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9730' name="Force Master Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9731' name="Healer Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9732' name="High Phantom Mask">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9733' name="Human Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9734' name="Human High Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9735' name="Knight Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9736' name="Mask of Chaotic">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9737' name="Orc Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9738' name="Orc High Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9739' name="Summoner Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9740' name="Weapon Master Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+<item id='9741' name="Wizard Circlet">
+  <for>
+    <add val='0' order='0x10' stat='pDef'/>
+  </for>
+</item>
+</list>

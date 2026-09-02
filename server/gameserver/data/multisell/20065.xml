@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+
+<list>
+
+  <!-- [Infinity Axe] for [DONATE ADENA] -->
+  <item id="1">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6613" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Infinity Blade] for [DONATE ADENA] -->
+  <item id="2">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6611" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Infinity Bow] for [DONATE ADENA] -->
+  <item id="3">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6619" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Infinity Cleaver] for [DONATE ADENA] -->
+  <item id="4">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6612" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Infinity Crusher] for [DONATE ADENA] -->
+  <item id="5">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6615" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Infinity Fang] for [DONATE ADENA] -->
+  <item id="6">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6618" count="1" enchant="0"/>
+  </item>
+
+	<!-- [Infinity Rod] for [DONATE ADENA] -->
+  <item id="7">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6614" count="1" enchant="0"/>
+  </item>
+
+	<!-- [Infinity Scepter] for [DONATE ADENA] -->
+  <item id="8">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6616" count="1" enchant="0"/>
+  </item>
+
+	<!-- [Infinity Spear] for [DONATE ADENA] -->
+  <item id="9">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6621" count="1" enchant="0"/>
+  </item>
+
+	<!-- [Infinity Stinger] for [DONATE ADENA] -->
+  <item id="10">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6617" count="1" enchant="0"/>
+  </item>
+
+	<!-- [Infinity Wing] for [DONATE ADENA] -->
+  <item id="11">
+    <ingredient id="9999" count="30" enchant="0"/>
+    <production id="6620" count="1" enchant="0"/>
+  </item>
+
+ </list>
+

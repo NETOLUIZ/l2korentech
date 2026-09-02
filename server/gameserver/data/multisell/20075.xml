@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Epic Dark Knight Heavy Armor -->
+  <item id="1">
+    <ingredient id="9999" count="20"/>
+    <production id="9600" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Heavy Gloves -->
+  <item id="2">
+    <ingredient id="9999" count="20"/>
+    <production id="9601" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Boots -->
+  <item id="3">
+    <ingredient id="9999" count="20"/>
+    <production id="9602" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Heavy Helm -->
+  <item id="4">
+    <ingredient id="9999" count="20"/>
+    <production id="9603" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Light Armor -->
+  <item id="5">
+    <ingredient id="9999" count="20"/>
+    <production id="9604" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Light Gloves -->
+  <item id="6">
+    <ingredient id="9999" count="20"/>
+    <production id="9605" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Light Boots -->
+  <item id="7">
+    <ingredient id="9999" count="20"/>
+    <production id="9606" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Light Helmet -->
+  <item id="8">
+    <ingredient id="9999" count="20"/>
+    <production id="9607" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Tunic -->
+  <item id="9">
+    <ingredient id="9999" count="20"/>
+    <production id="9608" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Legs -->
+  <item id="10">
+    <ingredient id="9999" count="20"/>
+    <production id="9609" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Gauntlets -->
+  <item id="11">
+    <ingredient id="9999" count="20"/>
+    <production id="9610" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Shoes -->
+  <item id="12">
+    <ingredient id="9999" count="20"/>
+    <production id="9611" count="1"/>
+  </item>
+
+  <!-- Epic Dark Knight Robe Cap -->
+  <item id="13">
+    <ingredient id="9999" count="20"/>
+    <production id="9612" count="1"/>
+  </item>
+
+  <!-- Epic Shield -->
+  <item id="14">
+    <ingredient id="9999" count="30"/>
+    <production id="9450" count="1"/>
+  </item>
+
+  <!-- Epic Alcmene Ring -->
+  <item id="15">
+    <ingredient id="9999" count="10"/>
+    <production id="9704" count="1"/>
+  </item>
+
+  <!-- Epic Cronos Earring -->
+  <item id="16">
+    <ingredient id="9999" count="10"/>
+    <production id="9702" count="1"/>
+  </item>
+
+  <!-- Epic Heracles Ring -->
+  <item id="17">
+    <ingredient id="9999" count="10"/>
+    <production id="9703" count="1"/>
+  </item>
+
+  <!-- Epic Rhea`s Earring -->
+  <item id="18">
+    <ingredient id="9999" count="10"/>
+    <production id="9701" count="1"/>
+  </item>
+
+  <!-- Epic Zeus Neckle -->
+  <item id="19">
+    <ingredient id="9999" count="10"/>
+    <production id="9700" count="1"/>
+  </item>
+
+  <!-- Epic mask -->
+  <item id="20">
+    <ingredient id="9999" count="10"/>
+    <production id="9534" count="1"/>
+  </item>
+
+
+</list>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list>
+
+  <!-- Bow of Scion -->
+  <item id="1">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9820" count="1"/>  <!-- Bow of Scion -->
+  </item>
+
+  <!-- Bow of Scion Cheap Shot -->
+  <item id="2">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9821" count="1"/>  <!-- Bow of Scion Cheap Shot -->
+  </item>
+
+  <!-- Bow of Scion Focus -->
+  <item id="3">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9822" count="1"/>  <!-- Bow of Scion Focus -->
+  </item>
+
+  <!-- Bow of Scion Critical Slow -->
+  <item id="4">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9823" count="1"/>  <!-- Bow of Scion Critical Slow -->
+  </item>
+
+  <!-- Glint Eye -->
+  <item id="5">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9824" count="1"/>  <!-- Glint Eye -->
+  </item>
+
+  <!-- Glint Eye Focus -->
+  <item id="6">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9825" count="1"/>  <!-- Glint Eye Focus -->
+  </item>
+
+  <!-- Glint Eye Might Mortal -->
+  <item id="7">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9826" count="1"/>  <!-- Glint Eye Might Mortal -->
+    <production id="9827" count="1"/>  <!-- Glint Eye Haste -->
+  </item>
+
+  <!-- Sword of Templar -->
+  <item id="8">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9828" count="1"/>  <!-- Sword of Templar -->
+  </item>
+
+  <!-- Sword of Templar Focus -->
+  <item id="9">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9829" count="1"/>  <!-- Sword of Templar Focus -->
+  </item>
+
+  <!-- Sword of Templar Haste -->
+  <item id="10">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9830" count="1"/>  <!-- Sword of Templar Haste -->
+  </item>
+
+  <!-- Sword of Templar Critical Stun -->
+  <item id="11">
+    <ingredient id="9999" count="20"/>  <!-- Donate Adena -->
+    <production id="9831" count="1"/>  <!-- Sword of Templar Critical Stun -->
+  </item>
+
+  <!-- Devil Spear -->
+  <item id="12">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9834" count="1"/>  <!-- Devil Spear -->
+  </item>
+
+  <!-- Medusa Blade -->
+  <item id="13">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9835" count="1"/>  <!-- Medusa Blade -->
+  </item>
+
+  <!-- Hades Dagger -->
+  <item id="14">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9836" count="1"/>  <!-- Hades Dagger -->
+  </item>
+
+  <!-- Thor Hammer -->
+  <item id="15">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9837" count="1"/>  <!-- Thor Hammer -->
+  </item>
+
+  <!-- Odin Cleaver -->
+  <item id="16">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9838" count="1"/>  <!-- Odin Cleaver -->
+  </item>
+
+  <!-- Artemis Bow -->
+  <item id="17">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9839" count="1"/>  <!-- Artemis Bow -->
+  </item>
+
+  <!-- Zeus Mace -->
+  <item id="18">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9840" count="1"/>  <!-- Zeus Mace -->
+  </item>
+
+  <!-- Ares Fists -->
+  <item id="19">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9841" count="1"/>  <!-- Ares Fists -->
+  </item>
+
+  <!-- Aphrodite Staff -->
+  <item id="20">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9842" count="1"/>  <!-- Aphrodite Staff -->
+  </item>
+
+  <!-- Dual Medusa Blade -->
+  <item id="21">
+    <ingredient id="9999" count="30"/>  <!-- Donate Adena -->
+    <production id="9843" count="1"/>  <!-- Dual Medusa Blade -->
+  </item>
+
+
+</list>

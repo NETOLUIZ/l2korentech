@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list>
+
+  <!-- Dark Screamer -->
+  <item id="1">
+    <ingredient id="57" count="4000000"/>  <!-- Adena -->
+    <production id="233" count="1"/>  <!-- Dark Screamer -->
+  </item>
+
+  <!-- Crystal Dagger -->
+  <item id="2">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="228" count="1"/>  <!-- Crystal Dagger -->
+  </item>
+
+  <!-- Kris -->
+  <item id="3">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="229" count="1"/>  <!-- Kris -->
+  </item>
+
+  <!-- Demon Dagger -->
+  <item id="4">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="234" count="1"/>  <!-- Demon Dagger -->
+  </item>
+
+  <!-- Hell Knife -->
+  <item id="5">
+    <ingredient id="57" count="4000000"/>  <!-- Adena -->
+    <production id="243" count="1"/>  <!-- Hell Knife -->
+  </item>
+
+
+</list>

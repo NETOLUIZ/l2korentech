@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list>
+
+  <!-- Soulshot: D-grade -->
+  <item id="1">
+    <ingredient id="57" count="69"/>  <!-- Adena -->
+    <production id="1463" count="1"/>  <!-- Soulshot: D-grade -->
+  </item>
+
+  <!-- Soulshot: C-grade -->
+  <item id="2">
+    <ingredient id="57" count="99"/>  <!-- Adena -->
+    <production id="1464" count="1"/>  <!-- Soulshot: C-grade -->
+  </item>
+
+  <!-- Soulshot: B-grade -->
+  <item id="3">
+    <ingredient id="57" count="159"/>  <!-- Adena -->
+    <production id="1465" count="1"/>  <!-- Soulshot: B-grade -->
+  </item>
+
+  <!-- Blessed Spiritshot: D-Grade -->
+  <item id="4">
+    <ingredient id="57" count="99"/>  <!-- Adena -->
+    <production id="3948" count="1"/>  <!-- Blessed Spiritshot: D-Grade -->
+  </item>
+
+  <!-- Blessed Spiritshot: C-Grade -->
+  <item id="5">
+    <ingredient id="57" count="159"/>  <!-- Adena -->
+    <production id="3949" count="1"/>  <!-- Blessed Spiritshot: C-Grade -->
+  </item>
+
+  <!-- Blessed Spiritshot: B-Grade -->
+  <item id="6">
+    <ingredient id="57" count="209"/>  <!-- Adena -->
+    <production id="3950" count="1"/>  <!-- Blessed Spiritshot: B-Grade -->
+  </item>
+
+  <!-- Greater Haste Potion -->
+  <item id="7">
+    <ingredient id="57" count="10000"/>  <!-- Adena -->
+    <production id="1374" count="1"/>  <!-- Greater Haste Potion -->
+  </item>
+
+  <!-- Party Mask -->
+  <item id="8">
+    <ingredient id="57" count="500000"/>  <!-- Adena -->
+    <production id="5808" count="1"/>  <!-- Party Mask -->
+  </item>
+
+  <!-- Red Soul Crystal - Stage 4 -->
+  <item id="9">
+    <ingredient id="1459" count="500"/>  <!-- Crystal: C-Grade -->
+    <production id="4633" count="1"/>  <!-- Red Soul Crystal - Stage 4 -->
+  </item>
+
+  <!-- Red Soul Crystal - Stage 5 -->
+  <item id="10">
+    <ingredient id="1459" count="600"/>  <!-- Crystal: C-Grade -->
+    <production id="4634" count="1"/>  <!-- Red Soul Crystal - Stage 5 -->
+  </item>
+
+  <!-- Red Soul Crystal - Stage 6 -->
+  <item id="11">
+    <ingredient id="1459" count="700"/>  <!-- Crystal: C-Grade -->
+    <production id="4635" count="1"/>  <!-- Red Soul Crystal - Stage 6 -->
+  </item>
+
+  <!-- Red Soul Crystal - Stage 7 -->
+  <item id="12">
+    <ingredient id="1459" count="1000"/>  <!-- Crystal: C-Grade -->
+    <production id="4636" count="1"/>  <!-- Red Soul Crystal - Stage 7 -->
+  </item>
+
+  <!-- Red Soul Crystal - Stage 8 -->
+  <item id="13">
+    <ingredient id="1460" count="1000"/>  <!-- Crystal: B-Grade -->
+    <production id="4637" count="1"/>  <!-- Red Soul Crystal - Stage 8 -->
+  </item>
+
+  <!-- Red Soul Crystal - Stage 9 -->
+  <item id="14">
+    <ingredient id="1461" count="1000"/>  <!-- Crystal: A-Grade -->
+    <production id="4638" count="1"/>  <!-- Red Soul Crystal - Stage 9 -->
+  </item>
+
+  <!-- Green Soul Crystal - Stage 4 -->
+  <item id="15">
+    <ingredient id="1459" count="500"/>  <!-- Crystal: C-Grade -->
+    <production id="4644" count="1"/>  <!-- Green Soul Crystal - Stage 4 -->
+  </item>
+
+  <!-- Green Soul Crystal - Stage 5 -->
+  <item id="16">
+    <ingredient id="1459" count="600"/>  <!-- Crystal: C-Grade -->
+    <production id="4645" count="1"/>  <!-- Green Soul Crystal - Stage 5 -->
+  </item>
+
+  <!-- Green Soul Crystal - Stage 6 -->
+  <item id="17">
+    <ingredient id="1459" count="700"/>  <!-- Crystal: C-Grade -->
+    <production id="4646" count="1"/>  <!-- Green Soul Crystal - Stage 6 -->
+  </item>
+
+  <!-- Green Soul Crystal - Stage 7 -->
+  <item id="18">
+    <ingredient id="1459" count="1000"/>  <!-- Crystal: C-Grade -->
+    <production id="4647" count="1"/>  <!-- Green Soul Crystal - Stage 7 -->
+  </item>
+
+  <!-- Green Soul Crystal - Stage 8 -->
+  <item id="19">
+    <ingredient id="1460" count="1000"/>  <!-- Crystal: B-Grade -->
+    <production id="4648" count="1"/>  <!-- Green Soul Crystal - Stage 8 -->
+  </item>
+
+  <!-- Green Soul Crystal - Stage 9 -->
+  <item id="20">
+    <ingredient id="1461" count="1000"/>  <!-- Crystal: A-Grade -->
+    <production id="4649" count="1"/>  <!-- Green Soul Crystal - Stage 9 -->
+  </item>
+
+  <!-- Blue Soul Crystal - Stage 4 -->
+  <item id="21">
+    <ingredient id="1459" count="500"/>  <!-- Crystal: C-Grade -->
+    <production id="4655" count="1"/>  <!-- Blue Soul Crystal - Stage 4 -->
+  </item>
+
+  <!-- Blue Soul Crystal - Stage 5 -->
+  <item id="22">
+    <ingredient id="1459" count="600"/>  <!-- Crystal: C-Grade -->
+    <production id="4656" count="1"/>  <!-- Blue Soul Crystal - Stage 5 -->
+  </item>
+
+  <!-- Blue Soul Crystal - Stage 6 -->
+  <item id="23">
+    <ingredient id="1459" count="700"/>  <!-- Crystal: C-Grade -->
+    <production id="4657" count="1"/>  <!-- Blue Soul Crystal - Stage 6 -->
+  </item>
+
+  <!-- Blue Soul Crystal - Stage 7 -->
+  <item id="24">
+    <ingredient id="1459" count="1000"/>  <!-- Crystal: C-Grade -->
+    <production id="4658" count="1"/>  <!-- Blue Soul Crystal - Stage 7 -->
+  </item>
+
+  <!-- Blue Soul Crystal - Stage 8 -->
+  <item id="25">
+    <ingredient id="1460" count="1000"/>  <!-- Crystal: B-Grade -->
+    <production id="4659" count="1"/>  <!-- Blue Soul Crystal - Stage 8 -->
+  </item>
+
+  <!-- Blue Soul Crystal - Stage 9 -->
+  <item id="26">
+    <ingredient id="1461" count="1000"/>  <!-- Crystal: A-Grade -->
+    <production id="4660" count="1"/>  <!-- Blue Soul Crystal - Stage 9 -->
+  </item>
+
+  <!-- Mana Potion -->
+  <item id="27">
+    <ingredient id="57" count="1800"/>  <!-- Adena -->
+    <production id="728" count="1"/>  <!-- Mana Potion -->
+  </item>
+
+  <!-- Cursed Bone -->
+  <item id="28">
+    <ingredient id="57" count="300"/>  <!-- Adena -->
+    <production id="2508" count="1"/>  <!-- Cursed Bone -->
+  </item>
+
+
+</list>

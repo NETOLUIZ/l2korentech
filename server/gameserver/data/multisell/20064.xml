@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+
+<list>
+
+  <!-- [Red Soul Crystall Stage 11] for [DONATE ADENA] -->
+  <item id="1">
+    <ingredient id="9999" count="15" enchant="0"/>
+    <production id="5906" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Red Soul Crystall Stage 12] for [DONATE ADENA] -->
+  <item id="2">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="5907" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Green Soul Crystall Stage 11] for [DONATE ADENA] -->
+  <item id="3">
+    <ingredient id="9999" count="15" enchant="0"/>
+    <production id="5578" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Green Soul Crystall Stage 12] for [DONATE ADENA] -->
+  <item id="4">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="5581" count="1" enchant="0"/>
+  </item>
+  
+  <!-- [Blue Soul Crystall Stage 11] for [DONATE ADENA] -->
+  <item id="5">
+    <ingredient id="9999" count="15" enchant="0"/>
+    <production id="5579" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Blue Soul Crystall Stage 12] for [DONATE ADENA] -->
+  <item id="6">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="5582" count="1" enchant="0"/>
+  </item>
+
+</list>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list>
+
+  <!-- Stick of Faith -->
+  <item id="1">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="193" count="1"/>  <!-- Stick of Faith -->
+  </item>
+
+  <!-- Club of Nature - Acumen -->
+  <item id="2">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="7710" count="1"/>  <!-- Club of Nature - Acumen -->
+  </item>
+
+  <!-- Homunkulus's Sword -->
+  <item id="3">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="84" count="1"/>  <!-- Homunkulus's Sword -->
+  </item>
+
+  <!-- Mace of The Underworld -->
+  <item id="4">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="202" count="1"/>  <!-- Mace of The Underworld -->
+  </item>
+
+  <!-- Stick of Eternity -->
+  <item id="5">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="196" count="1"/>  <!-- Stick of Eternity -->
+  </item>
+
+  <!-- Sword of Whispering Death -->
+  <item id="6">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="145" count="1"/>  <!-- Sword of Whispering Death -->
+  </item>
+
+  <!-- Crystal Staff -->
+  <item id="7">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="192" count="1"/>  <!-- Crystal Staff -->
+  </item>
+
+  <!-- Inferno Staff -->
+  <item id="8">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="198" count="1"/>  <!-- Inferno Staff -->
+  </item>
+
+  <!-- Demon's Staff -->
+  <item id="9">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="206" count="1"/>  <!-- Demon's Staff -->
+  </item>
+
+  <!-- Sword of Valhalla -->
+  <item id="10">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="148" count="1"/>  <!-- Sword of Valhalla -->
+  </item>
+
+
+</list>

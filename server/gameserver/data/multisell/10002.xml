@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list>
+
+  <!-- Great Pata -->
+  <item id="1">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="266" count="1"/>  <!-- Great Pata -->
+  </item>
+
+  <!-- Knuckle Duster -->
+  <item id="2">
+    <ingredient id="57" count="4500000"/>  <!-- Adena -->
+    <production id="4233" count="1"/>  <!-- Knuckle Duster -->
+  </item>
+
+  <!-- Chakram -->
+  <item id="3">
+    <ingredient id="57" count="3500000"/>  <!-- Adena -->
+    <production id="263" count="1"/>  <!-- Chakram -->
+  </item>
+
+  <!-- Bellion Cestus -->
+  <item id="4">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="268" count="1"/>  <!-- Bellion Cestus -->
+  </item>
+
+  <!-- Arthro Nail -->
+  <item id="5">
+    <ingredient id="57" count="4000000"/>  <!-- Adena -->
+    <production id="267" count="1"/>  <!-- Arthro Nail -->
+  </item>
+
+  <!-- Pata -->
+  <item id="6">
+    <ingredient id="57" count="3000000"/>  <!-- Adena -->
+    <production id="264" count="1"/>  <!-- Pata -->
+  </item>
+
+
+</list>

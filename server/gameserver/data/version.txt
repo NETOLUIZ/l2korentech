@@ -1,0 +1,5 @@
+   committed-rev="3.0"
+   name=""
+   committed-date="2007-12-15T22:16:18.110522Z"
+   url="http://tools.assembla.com/svn/L2jnetproject/trunk/L2jnet_DataPack_IL"
+   last-author="Charus"

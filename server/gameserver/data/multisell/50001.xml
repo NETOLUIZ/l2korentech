@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list>
+
+  <!-- Draconic Leather Armor -->
+  <item id="1">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6379" count="1"/>  <!-- Draconic Leather Armor -->
+  </item>
+
+  <!-- Draconic Leather Gloves -->
+  <item id="2">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6380" count="1"/>  <!-- Draconic Leather Gloves -->
+  </item>
+
+  <!-- Draconic Leather Boots -->
+  <item id="3">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="10"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6381" count="1"/>  <!-- Draconic Leather Boots -->
+  </item>
+
+  <!-- Draconic Leather Helmet -->
+  <item id="4">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6382" count="1"/>  <!-- Draconic Leather Helmet -->
+  </item>
+
+  <!-- Imperial Crusader Helmet -->
+  <item id="5">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6378" count="1"/>  <!-- Imperial Crusader Helmet -->
+  </item>
+
+  <!-- Imperial Crusader Breastplate -->
+  <item id="6">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6373" count="1"/>  <!-- Imperial Crusader Breastplate -->
+  </item>
+
+  <!-- Imperial Crusader Gaiters -->
+  <item id="7">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6374" count="1"/>  <!-- Imperial Crusader Gaiters -->
+  </item>
+
+  <!-- Imperial Crusader Gauntlets -->
+  <item id="8">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6375" count="1"/>  <!-- Imperial Crusader Gauntlets -->
+  </item>
+
+  <!-- Imperial Crusader Boots -->
+  <item id="9">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6376" count="1"/>  <!-- Imperial Crusader Boots -->
+    <production id="6378" count="1"/>  <!-- Imperial Crusader Helmet -->
+  </item>
+
+  <!-- Major Arcana Circlet -->
+  <item id="10">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+	<production id="6386" count="1"/>  <!-- Major Arcana Circlet -->
+  </item>
+
+  <!-- Major Arcana Robe -->
+  <item id="11">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6383" count="1"/>  <!-- Major Arcana Robe -->
+  </item>
+
+  <!-- Major Arcana Gloves -->
+  <item id="12">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6384" count="1"/>  <!-- Major Arcana Gloves -->
+    <production id="6386" count="1"/>  <!-- Major Arcana Circlet -->
+  </item>
+
+  <!-- Major Arcana Boots -->
+  <item id="13">
+    <ingredient id="57" count="250000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="100"/>  <!-- Thread -->
+    <ingredient id="1865" count="100"/>  <!-- Varnish -->
+    <ingredient id="5575" count="80000000"/>  <!-- Ancient Adena -->
+    <production id="6385" count="1"/>  <!-- Major Arcana Boots -->
+  </item>
+
+
+</list>

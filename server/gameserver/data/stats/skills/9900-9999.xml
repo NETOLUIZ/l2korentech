@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+<!-- L2jnet -->
+<skill id="9995" levels="6" name="Tattoo of Mage">
+	<table name="#Tab-runSpd"> 7 13 20 26 33 98</table>
+	<table name="#Tab-maxMp"> 500 1000 1500 2000 2500 5000 </table>
+	<table name="#Tab-WIT"> 0 0 0 2 4 8</table>
+	<table name="#Tab-MEN"> 0 0 0 2 4 8 </table>
+	<table name="#Tab-INT"> 0 0 0 2 4 8 </table>
+	<table name="#Tab-mAtkSpd"> 1.07 1.14 1.21 1.28 1.35 1.99 </table>
+	<table name="#Tab-mAtk"> 1.07 1.14 1.21 1.28 1.35 1.99 </table>
+	<table name="#Tab-pDef"> 1.07 1.14 1.21 1.28 1.35 1.99 </table>
+	<table name="#Tab-mDef"> 1.07 1.14 1.21 1.28 1.35 1.99 </table>
+	<table name="#Tab-regMp"> 1.0 1.0 1.0 1.7 1.14 1.35 </table>
+	<set name="power" val="0.0"/>
+	<set name="target" val="TARGET_SELF"/>
+	<set name="skillType" val="BUFF"/>
+	<set name="operateType" val="OP_PASSIVE"/>
+	<set name="castRange" val="-1"/>
+	<set name="effectRange" val="-1"/>
+<for>
+	<add order="0x40" stat="runSpd" val="#Tab-runSpd"/>
+	<add order="0x40" stat="maxMp" val="#Tab-maxMp"/>
+	<add order="0x40" stat="WIT" val="#Tab-WIT"/>
+	<add order="0x40" stat="MEN" val="#Tab-MEN"/>
+	<add order="0x40" stat="INT" val="#Tab-INT"/>
+	<mul order="0x30" stat="mAtkSpd" val="#Tab-mAtkSpd"/>
+	<mul order="0x30" stat="mAtk" val="#Tab-mAtk"/>
+	<mul order="0x30" stat="pDef" val="#Tab-pDef"/>
+	<mul order="0x30" stat="mDef" val="#Tab-mDef"/>
+	<mul order="0x30" stat="regMp" val="#Tab-regMp"/>
+</for>
+</skill>
+<skill id="9996" levels="6" name="Tattoo of Fight">
+	<table name="#Tab-runSpd"> 7 13 20 26 33 98</table>
+	<table name="#Tab-maxHp"> 500 1000 1500 2000 2500 5000 </table>
+	<table name="#Tab-rEvas"> 0 0 0 2 4 8</table>
+	<table name="#Tab-DEX"> 0 0 0 2 4 8 </table>
+	<table name="#Tab-accCombat"> 0 0 0 2 4 8 </table>
+	<table name="#Tab-pAtkSpd"> 1.07 1.14 1.21 1.28 1.35 1.99 </table>
+	<table name="#Tab-pAtk"> 1.07 1.14 1.21 1.28 1.35 1.99 </table>
+	<table name="#Tab-pDef"> 1.07 1.14 1.21 1.28 1.35 1.99 </table>
+	<table name="#Tab-mDef"> 1.07 1.14 1.21 1.28 1.35 1.99 </table>
+	<table name="#Tab-regHp"> 1.0 1.0 1.0 1.7 1.14 1.35 </table>
+	<set name="power" val="0.0"/>
+	<set name="target" val="TARGET_SELF"/>
+	<set name="skillType" val="BUFF"/>
+	<set name="operateType" val="OP_PASSIVE"/>
+	<set name="castRange" val="-1"/>
+	<set name="effectRange" val="-1"/>
+<for>
+	<add order="0x40" stat="runSpd" val="#Tab-runSpd"/>
+	<add order="0x40" stat="maxHp" val="#Tab-maxHp"/>
+	<add order="0x40" stat="rEvas" val="#Tab-rEvas"/>
+	<add order="0x40" stat="DEX" val="#Tab-DEX"/>
+	<add order="0x40" stat="accCombat" val="#Tab-accCombat"/>
+	<mul order="0x30" stat="pAtkSpd" val="#Tab-pAtkSpd"/>
+	<mul order="0x30" stat="pAtk" val="#Tab-pAtk"/>
+	<mul order="0x30" stat="pDef" val="#Tab-pDef"/>
+	<mul order="0x30" stat="mDef" val="#Tab-mDef"/>
+	<mul order="0x30" stat="regHp" val="#Tab-regHp"/>
+</for>
+</skill>
+	<skill id="9997" levels="1" name="GM Slow">
+		<!-- Done by GR -->
+		<!--no description-->
+		<set name="power" val="0.0"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="castRange" val="-1"/>
+		<for>
+		</for>
+	</skill>
+	<skill id="9998" levels="1" name="GM Arena Slow">
+		<!-- Done by GR -->
+		<!--no description-->
+		<set name="power" val="0.0"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="castRange" val="-1"/>
+		<for>
+		</for>
+	</skill>
+	<skill id="9999" levels="1" name="GM Mass Ressurection">
+		<!-- Done by GR -->
+		<!--no description-->
+		<set name="power" val="0.0"/>
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="castRange" val="-1"/>
+		<for>
+		</for>
+	</skill>
+</list>

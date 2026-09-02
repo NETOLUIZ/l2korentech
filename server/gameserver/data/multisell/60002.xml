@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list>
+
+  <!-- Soul Separator -->
+  <item id="1">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="236" count="1"/>  <!-- Soul Separator -->
+  </item>
+
+  <!-- Carnage Bow -->
+  <item id="2">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="288" count="1"/>  <!-- Carnage Bow -->
+  </item>
+
+  <!-- Soul Bow -->
+  <item id="3">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="289" count="1"/>  <!-- Soul Bow -->
+  </item>
+
+  <!-- Samurai Longsword -->
+  <item id="4">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="135" count="1"/>  <!-- Samurai Longsword -->
+  </item>
+
+  <!-- Dragon Slayer -->
+  <item id="5">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="81" count="1"/>  <!-- Dragon Slayer -->
+  </item>
+
+  <!-- Tallum Blade -->
+  <item id="6">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="80" count="1"/>  <!-- Tallum Blade -->
+  </item>
+
+  <!-- Katana*Katana -->
+  <item id="7">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="2582" count="1"/>  <!-- Katana*Katana -->
+  </item>
+
+  <!-- Samurai Long Sword*Samurai Long Sword -->
+  <item id="8">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="2626" count="1"/>  <!-- Samurai Long Sword*Samurai Long Sword -->
+  </item>
+
+  <!-- Keshanberk*Damascus -->
+  <item id="9">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="5705" count="1"/>  <!-- Keshanberk*Damascus -->
+  </item>
+
+  <!-- Damascus*Damascus -->
+  <item id="10">
+    <ingredient id="57" count="140000000"/>  <!-- Adena -->
+    <ingredient id="1868" count="90"/>  <!-- Thread -->
+    <ingredient id="1865" count="90"/>  <!-- Varnish -->
+    <ingredient id="5575" count="60000000"/>  <!-- Ancient Adena -->
+    <production id="5706" count="1"/>  <!-- Damascus*Damascus -->
+  </item>
+
+
+</list>

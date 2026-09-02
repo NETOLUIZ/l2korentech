@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list>
+
+  <!-- Eminence Bow -->
+  <item id="1">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="286" count="1"/>  <!-- Eminence Bow -->
+  </item>
+
+  <!-- Akat Long Bow -->
+  <item id="2">
+    <ingredient id="57" count="4000000"/>  <!-- Adena -->
+    <production id="283" count="1"/>  <!-- Akat Long Bow -->
+  </item>
+
+  <!-- Elemental Bow -->
+  <item id="3">
+    <ingredient id="57" count="3000000"/>  <!-- Adena -->
+    <production id="282" count="1"/>  <!-- Elemental Bow -->
+  </item>
+
+  <!-- Crystallized Ice Bow -->
+  <item id="4">
+    <ingredient id="57" count="2000000"/>  <!-- Adena -->
+    <production id="281" count="1"/>  <!-- Crystallized Ice Bow -->
+  </item>
+
+  <!-- Bow of Peril -->
+  <item id="5">
+    <ingredient id="57" count="6000000"/>  <!-- Adena -->
+    <production id="287" count="1"/>  <!-- Bow of Peril -->
+  </item>
+
+  <!-- Dark Elven Long Bow -->
+  <item id="6">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="284" count="1"/>  <!-- Dark Elven Long Bow -->
+  </item>
+
+  <!-- Silver Arrow -->
+  <item id="7">
+    <ingredient id="57" count="200000"/>  <!-- Adena -->
+    <production id="1343" count="500"/>  <!-- Silver Arrow -->
+  </item>
+
+  <!-- Mithril Arrow -->
+  <item id="8">
+    <ingredient id="57" count="400000"/>  <!-- Adena -->
+    <production id="1344" count="500"/>  <!-- Mithril Arrow -->
+  </item>
+
+  <!-- Shining Arrow -->
+  <item id="9">
+    <ingredient id="57" count="300000"/>  <!-- Adena -->
+    <production id="1345" count="500"/>  <!-- Shining Arrow -->
+  </item>
+
+
+</list>

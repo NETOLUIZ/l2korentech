@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Created with Lineage II - Multisell Manager -->
+<!-- © 2007 by tReXpert -->
+
+<list maintainEnchantment="true">
+
+  <!-- Dual Dragon Slayer -->
+  <item id="1">
+    <ingredient id="9999" count="20"/>
+    <production id="9451" count="1"/>
+  </item>
+
+  <!-- Dual Zariche Sword -->
+  <item id="2">
+    <ingredient id="9999" count="20"/>
+    <production id="9452" count="1"/>
+  </item>
+
+  <!-- Hero Dual Cleaver -->
+  <item id="3">
+    <ingredient id="9999" count="20"/>
+    <production id="9453" count="1"/>
+  </item>
+
+  <!-- Hero Dual Axe -->
+  <item id="4">
+    <ingredient id="9999" count="20"/>
+    <production id="9454" count="1"/>
+  </item>
+
+  <!-- Hero Dual Rod -->
+  <item id="5">
+    <ingredient id="9999" count="20"/>
+    <production id="9455" count="1"/>
+  </item>
+
+  <!-- Hero Dual Crusher -->
+  <item id="6">
+    <ingredient id="9999" count="20"/>
+    <production id="9456" count="1"/>
+  </item>
+
+  <!-- Hero Dual Scepter -->
+  <item id="7">
+    <ingredient id="9999" count="20"/>
+    <production id="9457" count="1"/>
+  </item>
+
+  <!-- Hero Dual Stinger -->
+  <item id="8">
+    <ingredient id="9999" count="20"/>
+    <production id="9458" count="1"/>
+  </item>
+
+  <!-- Hero Dual Bow -->
+  <item id="9">
+    <ingredient id="9999" count="20"/>
+    <production id="9459" count="1"/>
+  </item>
+
+  <!-- Hero Dual Spear -->
+  <item id="10">
+    <ingredient id="9999" count="20"/>
+    <production id="9460" count="1"/>
+  </item>
+
+  <!-- Hero Dual Sword -->
+  <item id="11">
+    <ingredient id="9999" count="20"/>
+    <production id="9461" count="1"/>
+  </item>
+
+  <!-- Dynasty Rapier*Dynasty Rapier -->
+  <item id="12">
+    <ingredient id="9999" count="20"/>
+    <production id="9462" count="1"/>
+  </item>
+
+  <!-- Dynasty Dagger*Dynasty Dagger -->
+  <item id="13">
+    <ingredient id="9999" count="20"/>
+    <production id="9463" count="1"/>
+  </item>
+
+  <!-- Dynasty Blade*Dynasty Blade -->
+  <item id="14">
+    <ingredient id="9999" count="20"/>
+    <production id="9464" count="1"/>
+  </item>
+
+  <!-- Dynasty Magic Sword*Dynasty Magic Sword -->
+  <item id="15">
+    <ingredient id="9999" count="20"/>
+    <production id="9465" count="1"/>
+  </item>
+
+  <!-- Dynasty Magic Sword*Dynasty Rapier -->
+  <item id="16">
+    <ingredient id="9999" count="20"/>
+    <production id="9466" count="1"/>
+  </item>
+
+  <!-- Dynasty Blade*Dynasty Magic Sword -->
+  <item id="17">
+    <ingredient id="9999" count="20"/>
+    <production id="9467" count="1"/>
+  </item>
+
+  <!-- Dark_Screamer*Dark_Screamer -->
+  <item id="18">
+    <ingredient id="9999" count="20"/>
+    <production id="9468" count="1"/>
+  </item>
+
+  <!-- Cursed_Dagger*Cursed_Dagger -->
+  <item id="19">
+    <ingredient id="9999" count="20"/>
+    <production id="9469" count="1"/>
+  </item>
+
+  <!-- Wolverine_Needle*Wolverine_Needle -->
+  <item id="20">
+    <ingredient id="9999" count="20"/>
+    <production id="9470" count="1"/>
+  </item>
+
+  <!-- DarkElven_Dagger*DarkElven_Dagger -->
+  <item id="21">
+    <ingredient id="9999" count="20"/>
+    <production id="9471" count="1"/>
+  </item>
+
+  <!-- Stiletto*Stiletto -->
+  <item id="22">
+    <ingredient id="9999" count="20"/>
+    <production id="9472" count="1"/>
+  </item>
+
+  <!-- Grace_Dagger*Grace_Dagger -->
+  <item id="23">
+    <ingredient id="9999" count="20"/>
+    <production id="9473" count="1"/>
+  </item>
+
+  <!-- Crystal_Dagger*Crystal_Dagger -->
+  <item id="24">
+    <ingredient id="9999" count="20"/>
+    <production id="9474" count="1"/>
+  </item>
+
+  <!-- Kris*Kris -->
+  <item id="25">
+    <ingredient id="9999" count="20"/>
+    <production id="9475" count="1"/>
+  </item>
+
+  <!-- Hell_Knife*Hell_Knife -->
+  <item id="26">
+    <ingredient id="9999" count="20"/>
+    <production id="9476" count="1"/>
+  </item>
+
+  <!-- Bloody_Orchid*Bloody_Orchid -->
+  <item id="27">
+    <ingredient id="9999" count="20"/>
+    <production id="9477" count="1"/>
+  </item>
+
+  <!-- Soul_Separator*Soul_Separator -->
+  <item id="28">
+    <ingredient id="9999" count="20"/>
+    <production id="9478" count="1"/>
+  </item>
+
+
+</list>

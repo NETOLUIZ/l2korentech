@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+
+<list>
+
+  <!-- [Earring of Antharas] for [DONATE ADENA] -->
+  <item id="1">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="6656" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Necklace of Valakas] for [DONATE ADENA] -->
+  <item id="2">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="6657" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Ring of Baium] for [DONATE ADENA] -->
+  <item id="3">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="6658" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Zaken's Earring] for [DONATE ADENA] -->
+  <item id="4">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="6659" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Ring of Queen Ant] for [DONATE ADENA] -->
+  <item id="5">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="6660" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Earring of Orfen] for [DONATE ADENA] -->
+  <item id="6">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="6661" count="1" enchant="0"/>
+  </item>
+
+  <!-- [Ring of Core] for [DONATE ADENA] -->
+  <item id="7">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="6662" count="1" enchant="0"/>
+  </item>
+    
+    <!-- [EPIC] for [DONATE ADENA] -->
+  <item id="8">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="9700" count="1" enchant="0"/>
+  </item>
+  
+    <!-- [EPIC] for [DONATE ADENA] -->
+  <item id="9">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="9701" count="1" enchant="0"/>
+  </item>
+  
+    <!-- [EPIC] for [DONATE ADENA] -->
+  <item id="10">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="9702" count="1" enchant="0"/>
+  </item>
+  
+    <!-- [EPIC] for [DONATE ADENA] -->
+  <item id="11">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="9703" count="1" enchant="0"/>
+  </item>
+  
+    <!-- [EPIC] for [DONATE ADENA] -->
+  <item id="12">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="9704" count="1" enchant="0"/>
+  </item>
+  
+   <!-- [JOIAS TT] for [DONATE ADENA] -->
+  <item id="13">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="9523" count="1" enchant="0"/>
+  </item>
+ 
+ <!-- [JOIAS TT] for [DONATE ADENA] -->
+  <item id="14">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="9524" count="1" enchant="0"/>
+  </item>
+  
+ <!-- [JOIAS TT] for [DONATE ADENA] -->
+  <item id="15">
+    <ingredient id="9999" count="20" enchant="0"/>
+    <production id="9525" count="1" enchant="0"/>
+  </item>
+  
+</list>

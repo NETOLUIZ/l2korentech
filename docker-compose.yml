@@ -1,0 +1,63 @@
+services:
+  l2mariadb:
+    image: mariadb:10.11
+    container_name: l2mariadb
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: "password"
+      MYSQL_DATABASE: "l2jdb"
+    ports:
+      - "3307:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./server/sql:/docker-entrypoint-initdb.d:ro
+    networks:
+      - l2_net
+
+  l2adminer:
+    image: adminer:latest
+    container_name: l2adminer
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+    depends_on:
+      - l2mariadb
+    networks:
+      - l2_net
+
+  l2login:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.login
+    container_name: l2login
+    restart: unless-stopped
+    ports:
+      - "2106:2106"
+      - "9014:9014"
+    depends_on:
+      - l2mariadb
+    networks:
+      - l2_net
+
+  l2game:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.game
+    container_name: l2game
+    restart: unless-stopped
+    ports:
+      - "7777:7777"
+    depends_on:
+      - l2mariadb
+      - l2login
+    networks:
+      - l2_net
+
+networks:
+  l2_net:
+    name: l2_net
+    external: true
+
+volumes:
+  mariadb_data:
+    driver: local

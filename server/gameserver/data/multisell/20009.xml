@@ -1,0 +1,1086 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Dye Trader By Setokaiba -->
+<list>
+
+<!-- [Adena] for [Dye of Strength <Str+1 Con-3>] -->
+  <item id="1">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4445" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Strength <Str+1 Dex-3>] -->
+  <item id="2">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4446" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Constitution <Con+1 Str-3>] -->
+  <item id="3">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4447" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Constitution <Con+1 Dex-3>] -->
+  <item id="4">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4448" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Dexterity <Dex+1 Str-3>] -->
+  <item id="5">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4449" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Dexterity <Dex+1 Con-3>] -->
+  <item id="6">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4450" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Intelligence <Int+1 Men-3>] -->
+  <item id="7">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4451" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Intelligence <Int+1 Wit-3>] -->
+  <item id="8">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4452" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Mental Strength <Men+1 Int-3>] -->
+  <item id="9">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4453" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Mental Strength <Men+1 Wit-3>] -->
+  <item id="10">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4454" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Wit <Wit+1 Int-3>] -->
+  <item id="11">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4455" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Wit <Wit+1 Men-3>] -->
+  <item id="12">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4456" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Strength <Str+1 Con-2>] -->
+  <item id="13">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4457" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Strength <Str+1 Dex-2>] -->
+  <item id="14">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4458" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Constitution <Con+1 Str-2>] -->
+  <item id="15">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4459" count="10" enchant="0"/>
+  </item>
+ 
+  <!-- [Adena] for [Dye of Constitution <Con+1 Dex-2>] -->
+  <item id="16">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4460" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Dexterity <Dex+1 Str-2>] -->
+  <item id="17">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4461" count="10" enchant="0"/>
+  </item>
+
+
+  <!-- [Adena] for [Dye of Dexterity <Dex+1 Con-2>] -->
+  <item id="18">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4462" count="10" enchant="0"/>
+  </item>
+
+ <!-- [Adena] for [Dye of Intelligence <Int+1 Men-2>] -->
+  <item id="19">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4463" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Intelligence <Int+1 Wit-2>] -->
+  <item id="20">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4464" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Mental Strength <Men+1 Int-2>] -->
+  <item id="21">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4465" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Mental Strength <Men+1 Wit-2>] -->
+  <item id="22">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4466" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Wit <Wit+1 Int-2>] -->
+  <item id="23">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4467" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Wit <Wit+1 Men-2>] -->
+  <item id="24">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4468" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Strength <Str+1 Con-1>] -->
+  <item id="25">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4469" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Strength <Str+1 Dex-1>] -->
+  <item id="26">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4470" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Constitution <Con+1 Str-1>] -->
+  <item id="27">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4471" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Constitution <Con+1 Dex-1>] -->
+  <item id="28">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4472" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Dexterity <Dex+1 Str-1>] -->
+  <item id="29">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4473" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Dexterity <Dex+1 Con-1>] -->
+  <item id="30">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4474" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Intelligence <Int+1 Men-1>] -->
+  <item id="31">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4475" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Intelligence <Int+1 Wit-1>] -->
+  <item id="32">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4476" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Mental Strength <Men+1 Int-1>] -->
+  <item id="33">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4477" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Mental Strength <Men+1 Wit-1>] -->
+  <item id="34">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4478" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Wit <Wit+1 Int-1>] -->
+  <item id="35">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4479" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Dye of Wit <Wit+1 Men-1>] -->
+  <item id="36">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4480" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+1 Con-3>] -->
+  <item id="37">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4481" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+1 Dex-3>] -->
+  <item id="38">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4482" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution<Con+1 Str-3>] -->
+  <item id="39">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4483" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution<Con+1 Dex-3>] -->
+  <item id="40">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4484" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+1 Str-3>] -->
+  <item id="41">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4485" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+1 Con-3>] -->
+  <item id="42">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4486" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+1 Men-3>] -->
+  <item id="43">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4487" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+1 Wit-3>] -->
+  <item id="44">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4488" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+1 Int-3>] -->
+  <item id="45">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4489" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+1 Wit-3>] -->
+  <item id="46">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4490" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+1 Int-3>] -->
+  <item id="47">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4491" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+1 Men-3>] -->
+  <item id="48">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4492" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+1 Con-2>] -->
+  <item id="49">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4493" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+1 Dex-2>] -->
+  <item id="50">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4494" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+1 Str-2>] -->
+  <item id="51">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4495" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+1 Dex-2>] -->
+  <item id="52">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4496" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+1 Str-2>] -->
+  <item id="53">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4497" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+1 Con-2>] -->
+  <item id="54">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4498" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+1 Men-2>] -->
+  <item id="55">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4499" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+1 Wit-2>] -->
+  <item id="56">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4500" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+1 Int-2>] -->
+  <item id="57">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4501" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+1 Wit-2>] -->
+  <item id="58">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4502" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+1 Int-2>] -->
+  <item id="59">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4503" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+1 Men-2>] -->
+  <item id="60">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4504" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+2 Con-4>] -->
+  <item id="61">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4505" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+2 Dex-4>] -->
+  <item id="62">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4506" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+2 Str-4>] -->
+  <item id="63">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4507" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+2 Dex-4>] -->
+  <item id="64">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4508" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+2 Str-4>] -->
+  <item id="65">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4509" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+2 Con-4>] -->
+  <item id="66">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4510" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+2 Men-4>] -->
+  <item id="67">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4511" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+2 Wit-4>] -->
+  <item id="68">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4512" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+2 Int-4>] -->
+  <item id="69">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4513" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+2 Wit-4>] -->
+  <item id="70">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4514" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+2 Int-4>] -->
+  <item id="71">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4515" count="10" enchant="0"/>
+  </item>
+
+<!-- [Adena] for [Greater Dye of Wit <Wit+2 Men-4>] -->
+  <item id="72">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4516" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+2 Con-3>] -->
+  <item id="73">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4517" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+2 Dex-3>] -->
+  <item id="74">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4518" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+2 Str-3>] -->
+  <item id="75">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4519" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+2 Dex-3>] -->
+  <item id="76">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4520" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+2 Str-3>] -->
+  <item id="77">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4521" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+2 Con-3>] -->
+  <item id="78">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4522" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+2 Men-3>] -->
+  <item id="79">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4523" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+2 Wit-3>] -->
+  <item id="80">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4524" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+2 Int-3>] -->
+  <item id="81">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4525" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+2 Wit-3>] -->
+  <item id="82">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4526" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+2 Int-3>] -->
+  <item id="83">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4527" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+2 Men-3>] -->
+  <item id="84">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4528" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+3 Con-5>] -->
+  <item id="85">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4529" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+3 Dex-5>] -->
+  <item id="86">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4530" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+3 Str-5>] -->
+  <item id="87">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4531" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+3 Dex-5>] -->
+  <item id="88">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4532" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+3 Str-5>] -->
+  <item id="89">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4533" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+3 Con-5>] -->
+  <item id="90">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4534" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+3 Men-5>] -->
+  <item id="91">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4535" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+3 Wit-5>] -->
+  <item id="92">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4536" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+3 Int-5>] -->
+  <item id="93">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4537" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+3 Wit-5>] -->
+  <item id="94">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4538" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+3 Int-5>] -->
+  <item id="95">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4539" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+3 Men-5>] -->
+  <item id="96">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4540" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+3 Con-4>] -->
+  <item id="97">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4541" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+3 Dex-4>] -->
+  <item id="98">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4542" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+3 Str-4>] -->
+  <item id="99">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4543" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+3 Dex-4>] -->
+  <item id="100">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4544" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+3 Str-4>] -->
+  <item id="101">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4545" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+3 Con-4>] -->
+  <item id="102">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4546" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+3 Men-4>] -->
+  <item id="103">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4547" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+3 Wit-4>] -->
+  <item id="104">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4548" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+3 Int-4>] -->
+  <item id="105">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4549" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+3 Wit-4>] -->
+  <item id="106">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4550" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+3 Int-4>] -->
+  <item id="107">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4551" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+3 Men-4>] -->
+  <item id="108">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4552" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+4 Con-6>] -->
+  <item id="109">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4565" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+4 Dex-6>] -->
+  <item id="110">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4566" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+4 Str-6>] -->
+  <item id="111">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4567" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+4 Dex-6>] -->
+  <item id="112">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4568" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+4 Str-6>] -->
+  <item id="113">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4569" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+4 Con-6>] -->
+  <item id="114">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4570" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+4 Men-6>] -->
+  <item id="115">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4571" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+4 Wit-6>] -->
+  <item id="116">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4572" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+4 Int-6>] -->
+  <item id="117">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4573" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+4 Wit-6>] -->
+  <item id="118">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4574" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+4 Int-6>] -->
+  <item id="119">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4575" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+4 Men-6>] -->
+  <item id="120">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4576" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+4 Con-5>] -->
+  <item id="121">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4576" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+4 Dex-5>] -->
+  <item id="122">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4578" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+4 Str-5>] -->
+  <item id="123">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4579" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+4 Dex-5>] -->
+  <item id="124">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4580" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+4 Str-5>] -->
+  <item id="125">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4581" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+4 Con-5>] -->
+  <item id="126">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4582" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+4 Men-5>] -->
+  <item id="127">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4583" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+4 Wit-5>] -->
+  <item id="128">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4584" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+4 Int-5>] -->
+  <item id="129">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4585" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+4 Wit-5>] -->
+  <item id="130">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4586" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+4 Int-5>] -->
+  <item id="131">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4587" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+4 Men-5>] -->
+  <item id="132">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4588" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+1 Con-1>] -->
+  <item id="133">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4553" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+1 Dex-1>] -->
+  <item id="134">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4554" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+1 Str-1>] -->
+  <item id="135">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4555" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+1 Dex-1>] -->
+  <item id="136">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4556" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+1 Str-1>] -->
+  <item id="137">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4557" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+1 Con-1>] -->
+  <item id="138">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4558" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+1 Men-1>] -->
+  <item id="139">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4559" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+1 Wit-1>] -->
+  <item id="140">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4560" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+1 Int-1>] -->
+  <item id="141">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4561" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+1 Wit-1>] -->
+  <item id="142">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4562" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+1 Int-1>] -->
+  <item id="143">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4563" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+1 Men-1>] -->
+  <item id="144">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4564" count="10" enchant="0"/>
+  </item>
+
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+2 Con-2>] -->
+  <item id="145">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4589" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+2 Dex-2>] -->
+  <item id="146">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4590" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+2 Str-2>] -->
+  <item id="147">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4591" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+2 Dex-2>] -->
+  <item id="148">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4592" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+2 Str-2>] -->
+  <item id="149">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4593" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+2 Con-2>] -->
+  <item id="150">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4594" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+2 Men-2>] -->
+  <item id="151">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4595" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+2 Wit-2>] -->
+  <item id="152">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4596" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+2 Int-2>] -->
+  <item id="153">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4597" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+2 Wit-2>] -->
+  <item id="154">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4598" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+2 Int-2>] -->
+  <item id="155">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4599" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+2 Men-2>] -->
+  <item id="156">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4600" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+3 Con-3>] -->
+  <item id="157">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4601" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+3 Dex-3>] -->
+  <item id="158">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4602" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+3 Str-3>] -->
+  <item id="159">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4603" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+3 Dex-3>] -->
+  <item id="160">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4604" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+3 Str-3>] -->
+  <item id="161">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4605" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+3 Con-3>] -->
+  <item id="162">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4606" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+3 Men-3>] -->
+  <item id="163">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4607" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+3 Wit-3>] -->
+  <item id="164">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4608" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+3 Int-3>] -->
+  <item id="165">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4609" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+3 Wit-3>] -->
+  <item id="166">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4610" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+3 Int-3>] -->
+  <item id="167">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4611" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+3 Men-3>] -->
+  <item id="168">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4612" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+4 Con-4>] -->
+  <item id="169">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4613" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Strength <Str+4 Dex-4>] -->
+  <item id="170">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4614" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+4 Str-4>] -->
+  <item id="171">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4615" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Constitution <Con+4 Dex-4>] -->
+  <item id="172">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4616" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+4 Str-4>] -->
+  <item id="173">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4617" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Dexterity <Dex+4 Con-4>] -->
+  <item id="174">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4618" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+4 Men-4>] -->
+  <item id="175">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4619" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Intelligence <Int+4 Wit-4>] -->
+  <item id="176">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4620" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+4 Int-4>] -->
+  <item id="177">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4621" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Mental Strength <Men+4 Wit-4>] -->
+  <item id="178">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4622" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+4 Int-4>] -->
+  <item id="179">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4623" count="10" enchant="0"/>
+  </item>
+
+  <!-- [Adena] for [Greater Dye of Wit <Wit+4 Men-4>] -->
+  <item id="180">
+    <ingredient id="57" count="30000000" enchant="0"/>
+    <production id="4624" count="10" enchant="0"/>
+  </item>
+</list>

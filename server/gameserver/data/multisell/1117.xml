@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Criado pro L2jnet www.l2jnet.com.br -->
+<!-- © 2008 by L2jnet -->
+
+<list>
+
+  <!-- Gold Drake 1kk -->
+  <item id="1">
+    <ingredient id="57" count="1000000"/>  <!-- Adena -->
+    <production id="9997" count="1"/>  <!-- Gold Drake 1kk -->
+  </item>
+
+
+</list>
