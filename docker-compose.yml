@@ -48,6 +48,7 @@ services:
         mkdir -p /opt/acisgame
         cp -r /tmp/repo/server/acis/gameserver/. /opt/acisgame/
         cp -r /tmp/repo/server/acis/datapack/data /opt/acisgame/data
+        cp /tmp/repo/server/acis/datapack/data/serverNames.xml /opt/acisgame/serverNames.xml
         cd /opt/acisgame
         exec java -Dfile.encoding=UTF-8 -Xmx256m -cp "bin:lib/*:config" net.sf.l2j.loginserver.LoginServer
 
@@ -75,6 +76,7 @@ services:
         mkdir -p /opt/acisgame
         cp -r /tmp/repo/server/acis/gameserver/. /opt/acisgame/
         cp -r /tmp/repo/server/acis/datapack/data /opt/acisgame/data
+        cp /tmp/repo/server/acis/datapack/data/serverNames.xml /opt/acisgame/serverNames.xml
         cd /opt/acisgame
         sleep 5
         exec java -Dfile.encoding=UTF-8 -Xms512m -Xmx1024m -cp "bin:lib/*:config" net.sf.l2j.gameserver.GameServer
