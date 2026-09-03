@@ -40,13 +40,16 @@ services:
       - -c
       - |
         apt-get update -qq
-        apt-get install -y -qq git > /dev/null
+        apt-get install -y -qq git mariadb-client > /dev/null
         rm -rf /tmp/repo
         git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
-        mkdir -p /opt/login
-        cp -r /tmp/repo/server/login/. /opt/login/
-        cd /opt/login
-        exec java -Dfile.encoding=UTF-8 -Xmx64m -cp "*:config:." net.sf.l2j.loginserver.L2LoginServer
+        until mysql -h l2mariadb -u root -ppassword --skip-ssl -e "SELECT 1" > /dev/null 2>&1; do sleep 2; done
+        mysql -h l2mariadb -u root -ppassword --skip-ssl < /tmp/repo/server/acis/sql/acis_schema_full.sql
+        mkdir -p /opt/acisgame
+        cp -r /tmp/repo/server/acis/gameserver/. /opt/acisgame/
+        cp -r /tmp/repo/server/acis/datapack/data /opt/acisgame/data
+        cd /opt/acisgame
+        exec java -Dfile.encoding=UTF-8 -Xmx256m -cp "bin:lib/*:config" net.sf.l2j.loginserver.LoginServer
 
   l2game:
     image: eclipse-temurin:8-jre
@@ -64,13 +67,17 @@ services:
       - -c
       - |
         apt-get update -qq
-        apt-get install -y -qq git > /dev/null
+        apt-get install -y -qq git mariadb-client > /dev/null
         rm -rf /tmp/repo
         git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
-        mkdir -p /opt/gameserver
-        cp -r /tmp/repo/server/gameserver/. /opt/gameserver/
-        cd /opt/gameserver
-        exec java -Dfile.encoding=UTF-8 -Xms512m -Xmx1024m -cp "*:config:." net.sf.l2j.gameserver.GameServer
+        until mysql -h l2mariadb -u root -ppassword --skip-ssl -e "SELECT 1" > /dev/null 2>&1; do sleep 2; done
+        mysql -h l2mariadb -u root -ppassword --skip-ssl < /tmp/repo/server/acis/sql/acis_schema_full.sql
+        mkdir -p /opt/acisgame
+        cp -r /tmp/repo/server/acis/gameserver/. /opt/acisgame/
+        cp -r /tmp/repo/server/acis/datapack/data /opt/acisgame/data
+        cd /opt/acisgame
+        sleep 5
+        exec java -Dfile.encoding=UTF-8 -Xms512m -Xmx1024m -cp "bin:lib/*:config" net.sf.l2j.gameserver.GameServer
 
 networks:
   l2_net:
