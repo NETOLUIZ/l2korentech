@@ -25,7 +25,7 @@ services:
       - l2_net
 
   l2login:
-    image: eclipse-temurin:8-jre
+    image: eclipse-temurin:11-jre
     container_name: l2login
     restart: unless-stopped
     ports:
@@ -44,7 +44,7 @@ services:
         rm -rf /tmp/repo
         git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
         until mysql -h l2mariadb -u root -ppassword --skip-ssl -e "SELECT 1" > /dev/null 2>&1; do sleep 2; done
-        mysql -h l2mariadb -u root -ppassword --skip-ssl < /tmp/repo/server/acis/sql/acis_schema_full.sql
+        mysql -h l2mariadb -u root -ppassword --skip-ssl --force < /tmp/repo/server/acis/sql/acis_schema_full.sql 2>/dev/null
         mkdir -p /opt/acisgame
         cp -r /tmp/repo/server/acis/gameserver/. /opt/acisgame/
         cp -r /tmp/repo/server/acis/datapack/data /opt/acisgame/data
@@ -52,7 +52,7 @@ services:
         exec java -Dfile.encoding=UTF-8 -Xmx256m -cp "bin:lib/*:config" net.sf.l2j.loginserver.LoginServer
 
   l2game:
-    image: eclipse-temurin:8-jre
+    image: eclipse-temurin:11-jre
     container_name: l2game
     restart: unless-stopped
     ports:
@@ -71,7 +71,7 @@ services:
         rm -rf /tmp/repo
         git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
         until mysql -h l2mariadb -u root -ppassword --skip-ssl -e "SELECT 1" > /dev/null 2>&1; do sleep 2; done
-        mysql -h l2mariadb -u root -ppassword --skip-ssl < /tmp/repo/server/acis/sql/acis_schema_full.sql
+        mysql -h l2mariadb -u root -ppassword --skip-ssl --force < /tmp/repo/server/acis/sql/acis_schema_full.sql 2>/dev/null
         mkdir -p /opt/acisgame
         cp -r /tmp/repo/server/acis/gameserver/. /opt/acisgame/
         cp -r /tmp/repo/server/acis/datapack/data /opt/acisgame/data
