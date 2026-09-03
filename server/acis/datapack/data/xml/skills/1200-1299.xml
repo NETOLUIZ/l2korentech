@@ -57,7 +57,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="speed_up">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="speed_up">
 				<add order="0x40" stat="runSpd" val="#runSpd"/>
 			</effect>
 		</for>
@@ -910,7 +910,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="hit_up">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="hit_up">
 				<add order="0x40" stat="accCombat" val="#accCombat"/>
 			</effect>
 		</for>
@@ -946,7 +946,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="critical_dmg_up">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="critical_dmg_up">
 				<mul order="0x30" stat="cAtk" val="#cAtk"/>
 			</effect>
 		</for>
@@ -1727,7 +1727,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="vampiric_attack">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="vampiric_attack">
 				<add order="0x40" stat="absorbDam" val="#absorbDam"/>
 			</effect>
 		</for>

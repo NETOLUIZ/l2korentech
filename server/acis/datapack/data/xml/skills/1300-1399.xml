@@ -1066,7 +1066,7 @@
 		<set name="effectRange" val="900"/>
 		<set name="aggroPoints" val="662"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="3" stackType="md_up_attr">
+			<effect name="Buff" time="3600" val="0" stackOrder="3" stackType="md_up_attr">
 				<addMul order="0x40" stat="waterRes" val="20" />
 				<addMul order="0x40" stat="fireRes" val="20" />
 				<addMul order="0x40" stat="windRes" val="20" />
@@ -1104,7 +1104,7 @@
 		<set name="effectRange" val="900"/>
 		<set name="aggroPoints" val="662"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="3" stackType="resist_debuff_dispel">
+			<effect name="Buff" time="3600" val="0" stackOrder="3" stackType="resist_debuff_dispel">
 				<addMul order="0x40" stat="cancelVuln" val="30" />
 				<addMul order="0x40" stat="debuffVuln" val="20" />
 			</effect>
@@ -1311,7 +1311,7 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="aggroPoints" val="669"/>
 		<for>
-			<effect name="Buff" time="300" val="0" stackOrder="2" stackType="multi_buff">
+			<effect name="Buff" time="3600" val="0" stackOrder="2" stackType="multi_buff">
 				<mul order="0x30" stat="pAtk" val="1.1"/>
 				<mul order="0x30" stat="pDef" val="1.2"/>
 				<basemul order="0x30" stat="rCrit" val="0.2"/>
