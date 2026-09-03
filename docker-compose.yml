@@ -45,6 +45,8 @@ services:
         git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
         until mysql -h l2mariadb -u root -ppassword --skip-ssl -e "SELECT 1" > /dev/null 2>&1; do sleep 2; done
         mysql -h l2mariadb -u root -ppassword --skip-ssl --force < /tmp/repo/server/acis/sql/acis_schema_full.sql 2>/dev/null
+        mysql -h l2mariadb -u root -ppassword --skip-ssl --force < /tmp/repo/server/acis/sql/custom_triggers.sql 2>/dev/null
+        mysql -h l2mariadb -u root -ppassword --skip-ssl --force -e "INSERT IGNORE INTO acis.buffer_schemes (object_id, scheme_name, skills) SELECT obj_Id, 'warrior', '1086,1242,1077,1268,1062,1240,1045,1040,1036,1035,1204,1352,271,275,274,269,264,304,1363' FROM acis.characters; INSERT IGNORE INTO acis.buffer_schemes (object_id, scheme_name, skills) SELECT obj_Id, 'mage', '1035,1036,1040,1045,1048,1059,1078,1085,1204,1352,1354,1363,272,276,311' FROM acis.characters;" 2>/dev/null
         mkdir -p /opt/acisgame
         cp -r /tmp/repo/server/acis/gameserver/. /opt/acisgame/
         cp -r /tmp/repo/server/acis/datapack/data /opt/acisgame/data
@@ -73,6 +75,8 @@ services:
         git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
         until mysql -h l2mariadb -u root -ppassword --skip-ssl -e "SELECT 1" > /dev/null 2>&1; do sleep 2; done
         mysql -h l2mariadb -u root -ppassword --skip-ssl --force < /tmp/repo/server/acis/sql/acis_schema_full.sql 2>/dev/null
+        mysql -h l2mariadb -u root -ppassword --skip-ssl --force < /tmp/repo/server/acis/sql/custom_triggers.sql 2>/dev/null
+        mysql -h l2mariadb -u root -ppassword --skip-ssl --force -e "INSERT IGNORE INTO acis.buffer_schemes (object_id, scheme_name, skills) SELECT obj_Id, 'warrior', '1086,1242,1077,1268,1062,1240,1045,1040,1036,1035,1204,1352,271,275,274,269,264,304,1363' FROM acis.characters; INSERT IGNORE INTO acis.buffer_schemes (object_id, scheme_name, skills) SELECT obj_Id, 'mage', '1035,1036,1040,1045,1048,1059,1078,1085,1204,1352,1354,1363,272,276,311' FROM acis.characters;" 2>/dev/null
         mkdir -p /opt/acisgame
         cp -r /tmp/repo/server/acis/gameserver/. /opt/acisgame/
         cp -r /tmp/repo/server/acis/datapack/data /opt/acisgame/data
