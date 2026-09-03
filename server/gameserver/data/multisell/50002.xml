@@ -7,109 +7,73 @@
 
   <!-- Draconic Bow -->
   <item id="1">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="7575" count="1"/>  <!-- Draconic Bow -->
   </item>
 
   <!-- Tallum Blade*Dark Legion's Edge -->
   <item id="2">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6580" count="1"/>  <!-- Tallum Blade*Dark Legion's Edge -->
   </item>
 
   <!-- Arcana Mace -->
   <item id="3">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6579" count="1"/>  <!-- Arcana Mace -->
   </item>
 
   <!-- Heaven's Divider -->
   <item id="4">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6372" count="1"/>  <!-- Heaven's Divider -->
   </item>
 
   <!-- Demon Splinter -->
   <item id="5">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6371" count="1"/>  <!-- Demon Splinter -->
   </item>
 
   <!-- Saint Spear -->
   <item id="6">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6370" count="1"/>  <!-- Saint Spear -->
   </item>
 
   <!-- Dragon Hunter Axe -->
   <item id="7">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6369" count="1"/>  <!-- Dragon Hunter Axe -->
   </item>
 
   <!-- Angel Slayer -->
   <item id="8">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6367" count="1"/>  <!-- Angel Slayer -->
   </item>
 
   <!-- Imperial Staff -->
   <item id="9">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6366" count="1"/>  <!-- Imperial Staff -->
   </item>
 
   <!-- Basalt Battlehammer -->
   <item id="10">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6365" count="1"/>  <!-- Basalt Battlehammer -->
   </item>
 
   <!-- Forgotten Blade -->
   <item id="11">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="6364" count="1"/>  <!-- Forgotten Blade -->
   </item>
 
   <!-- Dark Legion's Edge -->
   <item id="12">
-    <ingredient id="57" count="300000000"/>  <!-- Adena -->
-    <ingredient id="1868" count="90"/>  <!-- Thread -->
-    <ingredient id="1865" count="90"/>  <!-- Varnish -->
-    <ingredient id="5575" count="70000000"/>  <!-- Ancient Adena -->
+    <ingredient id="6392" count="100"/>  <!-- Medal -->
     <production id="2500" count="1"/>  <!-- Dark Legion's Edge -->
   </item>
 
