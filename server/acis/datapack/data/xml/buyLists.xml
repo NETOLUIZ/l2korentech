@@ -19798,4 +19798,84 @@
 		<product id="7969" price="150000"/>
 		<product id="7970" price="150000"/>
 	</buyList>
+
+	<!-- Shari (30517) - Grade Shop D -->
+	<buyList id="90001" npcId="30517">
+		<product id="69" price="5000"/><!-- Bastard Sword -->
+		<product id="225" price="5000"/><!-- Mithril Dagger -->
+		<product id="275" price="5000"/><!-- Long Bow -->
+		<product id="86" price="5000"/><!-- Tomahawk -->
+		<product id="291" price="5000"/><!-- Trident -->
+		<product id="258" price="5000"/><!-- Bagh-Nakh -->
+		<product id="183" price="5000"/><!-- Mystic Staff -->
+		<product id="46" price="3000"/><!-- Bronze Helmet -->
+		<product id="347" price="3000"/><!-- Ring Mail Breastplate -->
+		<product id="376" price="3000"/><!-- Iron Plate Gaiters -->
+		<product id="63" price="3000"/><!-- Gauntlets -->
+		<product id="553" price="3000"/><!-- Iron Boots -->
+		<product id="629" price="3000"/><!-- Kite Shield -->
+		<product id="882" price="2000"/><!-- Mithril Ring -->
+		<product id="850" price="2000"/><!-- Elven Earring -->
+		<product id="913" price="2000"/><!-- Elven Necklace -->
+	</buyList>
+
+	<!-- Shari (30517) - Grade Shop C -->
+	<buyList id="90002" npcId="30517">
+		<product id="134" price="25000"/><!-- Sword of Nightmare -->
+		<product id="228" price="25000"/><!-- Crystal Dagger -->
+		<product id="283" price="25000"/><!-- Akat Long Bow -->
+		<product id="160" price="25000"/><!-- Battle Axe -->
+		<product id="96" price="25000"/><!-- Scythe -->
+		<product id="263" price="25000"/><!-- Chakram -->
+		<product id="200" price="25000"/><!-- Sage's Staff -->
+		<product id="499" price="15000"/><!-- Mithril Helmet -->
+		<product id="356" price="15000"/><!-- Full Plate Armor -->
+		<product id="381" price="15000"/><!-- Chain Gaiters -->
+		<product id="608" price="15000"/><!-- Mithril Gauntlets -->
+		<product id="1128" price="15000"/><!-- Adamantite Boots -->
+		<product id="107" price="15000"/><!-- Composite Shield -->
+		<product id="884" price="10000"/><!-- Ring of Protection -->
+		<product id="852" price="10000"/><!-- Moonstone Earring -->
+		<product id="916" price="10000"/><!-- Necklace of Protection -->
+	</buyList>
+
+	<!-- Shari (30517) - Grade Shop B -->
+	<buyList id="90003" npcId="30517">
+		<product id="142" price="120000"/><!-- Keshanberk -->
+		<product id="234" price="120000"/><!-- Demon Dagger -->
+		<product id="284" price="120000"/><!-- Dark Elven Long Bow -->
+		<product id="91" price="120000"/><!-- Heavy War Axe -->
+		<product id="97" price="120000"/><!-- Lance -->
+		<product id="268" price="120000"/><!-- Bellion Cestus -->
+		<product id="209" price="120000"/><!-- Divine Staff -->
+		<product id="503" price="70000"/><!-- Zubei's Helmet -->
+		<product id="358" price="70000"/><!-- Blue Wolf Breastplate -->
+		<product id="2380" price="70000"/><!-- Blue Wolf Gaiters -->
+		<product id="610" price="70000"/><!-- Saint Knight's Gauntlets -->
+		<product id="554" price="70000"/><!-- Zubei's Boots -->
+		<product id="633" price="70000"/><!-- Zubei's Shield -->
+		<product id="887" price="50000"/><!-- Adamantite Ring -->
+		<product id="856" price="50000"/><!-- Adamantite Earring -->
+		<product id="918" price="50000"/><!-- Adamantite Necklace -->
+	</buyList>
+
+	<!-- Shari (30517) - Grade Shop A -->
+	<buyList id="90004" npcId="30517">
+		<product id="80" price="600000"/><!-- Tallum Blade -->
+		<product id="235" price="600000"/><!-- Bloody Orchid -->
+		<product id="288" price="600000"/><!-- Carnage Bow -->
+		<product id="164" price="600000"/><!-- Elysian -->
+		<product id="304" price="600000"/><!-- Orcish Halberd -->
+		<product id="269" price="600000"/><!-- Blood Tornado -->
+		<product id="212" price="600000"/><!-- Dasparion's Staff -->
+		<product id="512" price="350000"/><!-- Dark Crystal Helmet -->
+		<product id="365" price="350000"/><!-- Dark Crystal Breastplate -->
+		<product id="388" price="350000"/><!-- Dark Crystal Gaiters -->
+		<product id="613" price="350000"/><!-- Sand Dragon Gloves -->
+		<product id="563" price="350000"/><!-- Dark Crystal Boots -->
+		<product id="641" price="350000"/><!-- Dark Crystal Shield -->
+		<product id="893" price="250000"/><!-- Majestic Ring -->
+		<product id="862" price="250000"/><!-- Majestic Earring -->
+		<product id="924" price="250000"/><!-- Majestic Necklace -->
+	</buyList>
 </list>
