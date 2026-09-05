@@ -1,0 +1,39 @@
+services:
+  l2korentech:
+    image: php:8.2-apache
+    container_name: l2korentech
+    restart: unless-stopped
+    environment:
+      DB_HOST: l2mariadb
+      DB_NAME: acis
+      DB_USER: root
+      DB_PASS: "password"
+      SERVER_IP: "2.24.108.110"
+      LOGIN_PORT: "2106"
+      GAME_PORT: "7777"
+    ports:
+      - "8090:80"
+    networks:
+      - l2_net
+    volumes:
+      - l2korentech_data:/var/www/html
+    command:
+      - sh
+      - -c
+      - |
+        apt-get update -qq
+        apt-get install -y -qq git > /dev/null
+        docker-php-ext-install mysqli
+        rm -rf /tmp/repo
+        git clone --depth 1 https://github.com/NETOLUIZ/l2korentech.git /tmp/repo
+        rm -rf /var/www/html/*
+        cp -r /tmp/repo/site/. /var/www/html/
+        exec apache2-foreground
+
+networks:
+  l2_net:
+    external: true
+
+volumes:
+  l2korentech_data:
+    driver: local
