@@ -2,7 +2,7 @@
 <?php require 'header.php'; ?>
 
 <section class="hero">
-  <div class="hero-bg" style="--hero-image:url('images/hero.jpg');"></div>
+  <div class="hero-bg" style="--hero-image:url('images/hero.png');"></div>
   <div class="hero-inner">
     <div class="hero-text">
       <?php if (isServerOnline($serverIp, $loginPort)): ?>
