@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Shari (30517) - Armas Grade S -->
 <list>
-	<npcs>
-		<npc>30517</npc> <!-- Shari -->
-	</npcs>
+
 	<!-- Forgotten Blade -->
 	<item>
 		<ingredient id="6392" count="1500"/>
