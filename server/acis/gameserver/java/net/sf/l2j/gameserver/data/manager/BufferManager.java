@@ -29,6 +29,7 @@ import org.w3c.dom.NamedNodeMap;
 public class BufferManager implements IXmlReader
 {
 	private static final String LOAD_SCHEMES = "SELECT * FROM buffer_schemes";
+	private static final String LOAD_SCHEMES_FOR_PLAYER = "SELECT * FROM buffer_schemes WHERE object_id=?";
 	private static final String DELETE_SCHEMES = "TRUNCATE TABLE buffer_schemes";
 	private static final String INSERT_SCHEME = "INSERT INTO buffer_schemes (object_id, scheme_name, skills) VALUES (?,?,?)";
 	
@@ -137,6 +138,50 @@ public class BufferManager implements IXmlReader
 		}
 	}
 	
+	/**
+	 * Loads a single player's schemes from database into _schemesTable, if not already cached.<br>
+	 * Needed because _schemesTable is only fully loaded once on boot, so characters created (or edited in DB) after that would otherwise never get their schemes.
+	 * @param playerId : The player objectId to load.
+	 */
+	private void loadPlayerSchemesIfAbsent(int playerId)
+	{
+		if (_schemesTable.containsKey(playerId))
+			return;
+
+		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
+			PreparedStatement ps = con.prepareStatement(LOAD_SCHEMES_FOR_PLAYER))
+		{
+			ps.setInt(1, playerId);
+			try (ResultSet rs = ps.executeQuery())
+			{
+				while (rs.next())
+				{
+					final ArrayList<Integer> schemeList = new ArrayList<>();
+
+					final String[] skills = rs.getString("skills").split(",");
+					for (String skill : skills)
+					{
+						// Don't feed the skills list if the list is empty.
+						if (skill.isEmpty())
+							break;
+
+						final int skillId = Integer.valueOf(skill);
+
+						// Integrity check to see if the skillId is available as a buff.
+						if (_availableBuffs.containsKey(skillId))
+							schemeList.add(skillId);
+					}
+
+					setScheme(playerId, rs.getString("scheme_name"), schemeList);
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			LOGGER.error("Failed to load schemes data for player {}.", playerId, e);
+		}
+	}
+
 	public void setScheme(int playerId, String schemeName, ArrayList<Integer> list)
 	{
 		if (!_schemesTable.containsKey(playerId))
@@ -153,6 +198,8 @@ public class BufferManager implements IXmlReader
 	 */
 	public Map<String, ArrayList<Integer>> getPlayerSchemes(int playerId)
 	{
+		loadPlayerSchemesIfAbsent(playerId);
+
 		return _schemesTable.get(playerId);
 	}
 	
@@ -163,6 +210,8 @@ public class BufferManager implements IXmlReader
 	 */
 	public List<Integer> getScheme(int playerId, String schemeName)
 	{
+		loadPlayerSchemesIfAbsent(playerId);
+
 		if (_schemesTable.get(playerId) == null || _schemesTable.get(playerId).get(schemeName) == null)
 			return Collections.emptyList();
 		
