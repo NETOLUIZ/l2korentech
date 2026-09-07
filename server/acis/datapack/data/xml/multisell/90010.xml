@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Shari (30517) - Armas Grade S -->
+<list>
+	<npcs>
+		<npc>30517</npc> <!-- Shari -->
+	</npcs>
+	<!-- Forgotten Blade -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6583" count="1"/>
+	</item>
+	<!-- Angel Slayer -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6590" count="1"/>
+	</item>
+	<!-- Draconic Bow -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="7575" count="1"/>
+	</item>
+	<!-- Arcana Mace -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6579" count="1"/>
+	</item>
+	<!-- Imperial Staff -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6580" count="1"/>
+	</item>
+	<!-- Heaven's Divider -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6608" count="1"/>
+	</item>
+	<!-- Saint Spear -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6587" count="1"/>
+	</item>
+	<!-- Demon Splinter -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6588" count="1"/>
+	</item>
+	<!-- Basalt Battlehammer -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6585" count="1"/>
+	</item>
+	<!-- Dragon Hunter Axe -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6589" count="1"/>
+	</item>
+	<!-- Tallum Blade*Dark Legion's Edge -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6582" count="1"/>
+	</item>
+</list>

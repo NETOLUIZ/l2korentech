@@ -19799,83 +19799,301 @@
 		<product id="7970" price="150000"/>
 	</buyList>
 
-	<!-- Shari (30517) - Grade Shop D -->
-	<buyList id="90001" npcId="30517">
-		<product id="69" price="5000"/><!-- Bastard Sword -->
-		<product id="225" price="5000"/><!-- Mithril Dagger -->
-		<product id="275" price="5000"/><!-- Long Bow -->
-		<product id="86" price="5000"/><!-- Tomahawk -->
-		<product id="291" price="5000"/><!-- Trident -->
-		<product id="258" price="5000"/><!-- Bagh-Nakh -->
-		<product id="183" price="5000"/><!-- Mystic Staff -->
-		<product id="46" price="3000"/><!-- Bronze Helmet -->
-		<product id="347" price="3000"/><!-- Ring Mail Breastplate -->
-		<product id="376" price="3000"/><!-- Iron Plate Gaiters -->
-		<product id="63" price="3000"/><!-- Gauntlets -->
-		<product id="553" price="3000"/><!-- Iron Boots -->
-		<product id="629" price="3000"/><!-- Kite Shield -->
-		<product id="882" price="2000"/><!-- Mithril Ring -->
-		<product id="850" price="2000"/><!-- Elven Earring -->
-		<product id="913" price="2000"/><!-- Elven Necklace -->
+	<!-- ============================================================= -->
+	<!--                 SHARI (30517) - GRADE SHOP                   -->
+	<!-- ============================================================= -->
+
+	<!-- ARMAS FIGHTER -->
+	<buyList id="90101" npcId="30517"><!-- Armas Fighter D -->
+		<product id="69" price="15000"/><!-- Bastard Sword -->
+		<product id="225" price="15000"/><!-- Mithril Dagger -->
+		<product id="275" price="15000"/><!-- Long Bow -->
+		<product id="86" price="15000"/><!-- Tomahawk -->
+		<product id="291" price="15000"/><!-- Trident -->
+		<product id="258" price="15000"/><!-- Bagh-Nakh -->
+		<product id="2504" price="30000"/><!-- Dual Crimson Sword -->
 	</buyList>
 
-	<!-- Shari (30517) - Grade Shop C -->
-	<buyList id="90002" npcId="30517">
-		<product id="134" price="25000"/><!-- Sword of Nightmare -->
-		<product id="228" price="25000"/><!-- Crystal Dagger -->
-		<product id="283" price="25000"/><!-- Akat Long Bow -->
-		<product id="160" price="25000"/><!-- Battle Axe -->
-		<product id="96" price="25000"/><!-- Scythe -->
-		<product id="263" price="25000"/><!-- Chakram -->
-		<product id="200" price="25000"/><!-- Sage's Staff -->
-		<product id="499" price="15000"/><!-- Mithril Helmet -->
-		<product id="356" price="15000"/><!-- Full Plate Armor -->
-		<product id="381" price="15000"/><!-- Chain Gaiters -->
-		<product id="608" price="15000"/><!-- Mithril Gauntlets -->
-		<product id="1128" price="15000"/><!-- Adamantite Boots -->
-		<product id="107" price="15000"/><!-- Composite Shield -->
-		<product id="884" price="10000"/><!-- Ring of Protection -->
-		<product id="852" price="10000"/><!-- Moonstone Earring -->
-		<product id="916" price="10000"/><!-- Necklace of Protection -->
+	<buyList id="90102" npcId="30517"><!-- Armas Fighter C -->
+		<product id="135" price="150000"/><!-- Samurai Longsword -->
+		<product id="228" price="150000"/><!-- Crystal Dagger -->
+		<product id="285" price="150000"/><!-- Eminence Bow -->
+		<product id="88" price="150000"/><!-- War Pick -->
+		<product id="297" price="150000"/><!-- Orcish Glaive -->
+		<product id="264" price="150000"/><!-- Great Pata -->
+		<product id="2528" price="300000"/><!-- Dual Samurai Longsword -->
 	</buyList>
 
-	<!-- Shari (30517) - Grade Shop B -->
-	<buyList id="90003" npcId="30517">
-		<product id="142" price="120000"/><!-- Keshanberk -->
-		<product id="234" price="120000"/><!-- Demon Dagger -->
-		<product id="284" price="120000"/><!-- Dark Elven Long Bow -->
-		<product id="91" price="120000"/><!-- Heavy War Axe -->
-		<product id="97" price="120000"/><!-- Lance -->
-		<product id="268" price="120000"/><!-- Bellion Cestus -->
-		<product id="209" price="120000"/><!-- Divine Staff -->
-		<product id="503" price="70000"/><!-- Zubei's Helmet -->
-		<product id="358" price="70000"/><!-- Blue Wolf Breastplate -->
-		<product id="2380" price="70000"/><!-- Blue Wolf Gaiters -->
-		<product id="610" price="70000"/><!-- Saint Knight's Gauntlets -->
+	<buyList id="90103" npcId="30517"><!-- Armas Fighter B -->
+		<product id="79" price="600000"/><!-- Damascus -->
+		<product id="234" price="600000"/><!-- Demon Dagger -->
+		<product id="287" price="600000"/><!-- Bow of Peril -->
+		<product id="163" price="600000"/><!-- Art of Battle Axe -->
+		<product id="97" price="600000"/><!-- Lance -->
+		<product id="268" price="600000"/><!-- Bellion Cestus -->
+		<product id="5704" price="1200000"/><!-- Keshanberk*Keshanberk -->
+	</buyList>
+
+	<buyList id="90104" npcId="30517"><!-- Armas Fighter A -->
+		<product id="144" price="2500000"/><!-- Dark Legion's Edge -->
+		<product id="80" price="2000000"/><!-- Tallum Blade -->
+		<product id="236" price="2500000"/><!-- Soul Separator -->
+		<product id="288" price="2500000"/><!-- Carnage Bow -->
+		<product id="289" price="2500000"/><!-- Soul Bow -->
+		<product id="164" price="2500000"/><!-- Elysian -->
+		<product id="98" price="2500000"/><!-- Halberd -->
+		<product id="269" price="2500000"/><!-- Blood Tornado -->
+		<product id="81" price="2500000"/><!-- Dragon Slayer -->
+		<product id="5706" price="3000000"/><!-- Keshanberk*Damascus -->
+	</buyList>
+
+	<!-- ARMAS MYSTIC (MAGO) -->
+	<buyList id="90111" npcId="30517"><!-- Armas Mystic D -->
+		<product id="183" price="15000"/><!-- Mystic Staff -->
+		<product id="185" price="15000"/><!-- Staff of Life -->
+		<product id="191" price="15000"/><!-- Ghoul's Staff -->
+		<product id="186" price="15000"/><!-- Mace of Judgment -->
+	</buyList>
+
+	<buyList id="90112" npcId="30517"><!-- Armas Mystic C -->
+		<product id="84" price="150000"/><!-- Homunkulus's Sword -->
+		<product id="200" price="150000"/><!-- Sage's Staff -->
+		<product id="170" price="150000"/><!-- Club of Nature -->
+		<product id="175" price="150000"/><!-- Sword of Whispering Death -->
+	</buyList>
+
+	<buyList id="90113" npcId="30517"><!-- Armas Mystic B -->
+		<product id="149" price="600000"/><!-- Sword of Valhalla -->
+		<product id="154" price="600000"/><!-- Spell Breaker -->
+		<product id="7889" price="600000"/><!-- Wizard's Tear -->
+		<product id="209" price="600000"/><!-- Divine Staff -->
+	</buyList>
+
+	<buyList id="90114" npcId="30517"><!-- Armas Mystic A -->
+		<product id="171" price="2500000"/><!-- Sword of Miracles -->
+		<product id="211" price="2500000"/><!-- Branch of the Mother Tree -->
+		<product id="212" price="2500000"/><!-- Dasparion's Staff -->
+		<product id="174" price="2500000"/><!-- Spiritual Eye -->
+	</buyList>
+
+	<!-- ARMADURAS ROBE (MAGO / MISTICO) -->
+	<buyList id="90120" npcId="30517"><!-- Robes No-Grade -->
+		<product id="1104" price="3000"/><!-- Tunic of Devotion -->
+		<product id="1101" price="2000"/><!-- Stockings of Devotion -->
+		<product id="43" price="1000"/><!-- Leather Helmet -->
+		<product id="49" price="1000"/><!-- Leather Gloves -->
+		<product id="18" price="1000"/><!-- Leather Shoes -->
+		<product id="463" price="3000"/><!-- Tunic of Knowledge -->
+		<product id="428" price="2000"/><!-- Hose of Knowledge -->
+	</buyList>
+
+	<buyList id="90121" npcId="30517"><!-- Robes Grade D -->
+		<product id="440" price="10000"/><!-- Elven Tunic -->
+		<product id="472" price="8000"/><!-- Elven Hose -->
+		<product id="500" price="5000"/><!-- Mithril Helmet -->
+		<product id="2447" price="5000"/><!-- Knowledge Gloves -->
+		<product id="2423" price="5000"/><!-- Knowledge Boots -->
+		<product id="465" price="10000"/><!-- Manticore Skin Tunic -->
+		<product id="430" price="8000"/><!-- Manticore Skin Hose -->
+	</buyList>
+
+	<buyList id="90122" npcId="30517"><!-- Robes Grade C -->
+		<product id="439" price="40000"/><!-- Carmian Tunic -->
+		<product id="471" price="30000"/><!-- Carmian Stockings -->
+		<product id="2454" price="20000"/><!-- Carmian Gloves -->
+		<product id="2439" price="20000"/><!-- Carmian Boots -->
+		<product id="441" price="50000"/><!-- Demon's Tunic -->
+		<product id="473" price="40000"/><!-- Demon's Hose -->
+		<product id="2455" price="25000"/><!-- Demon's Gloves -->
+		<product id="2440" price="25000"/><!-- Demon's Boots -->
+	</buyList>
+
+	<buyList id="90123" npcId="30517"><!-- Robes Grade B -->
+		<product id="2406" price="200000"/><!-- Avadon Robe -->
+		<product id="2414" price="80000"/><!-- Avadon Circlet -->
+		<product id="2463" price="70000"/><!-- Avadon Gloves -->
+		<product id="2438" price="70000"/><!-- Avadon Boots -->
+		<product id="2398" price="120000"/><!-- Blue Wolf Tunic -->
+		<product id="2403" price="80000"/><!-- Blue Wolf Stockings -->
+		<product id="2413" price="80000"/><!-- Blue Wolf Cap -->
+		<product id="2461" price="70000"/><!-- Blue Wolf Gloves -->
+		<product id="2435" price="70000"/><!-- Blue Wolf Boots -->
+		<product id="443" price="120000"/><!-- Zubei's Tunic -->
+		<product id="475" price="80000"/><!-- Zubei's Stockings -->
+		<product id="503" price="80000"/><!-- Zubei's Helmet -->
+		<product id="612" price="70000"/><!-- Zubei's Gauntlets -->
 		<product id="554" price="70000"/><!-- Zubei's Boots -->
-		<product id="633" price="70000"/><!-- Zubei's Shield -->
-		<product id="887" price="50000"/><!-- Adamantite Ring -->
-		<product id="856" price="50000"/><!-- Adamantite Earring -->
-		<product id="918" price="50000"/><!-- Adamantite Necklace -->
 	</buyList>
 
-	<!-- Shari (30517) - Grade Shop A -->
-	<buyList id="90004" npcId="30517">
-		<product id="80" price="600000"/><!-- Tallum Blade -->
-		<product id="235" price="600000"/><!-- Bloody Orchid -->
-		<product id="288" price="600000"/><!-- Carnage Bow -->
-		<product id="164" price="600000"/><!-- Elysian -->
-		<product id="304" price="600000"/><!-- Orcish Halberd -->
-		<product id="269" price="600000"/><!-- Blood Tornado -->
-		<product id="212" price="600000"/><!-- Dasparion's Staff -->
-		<product id="512" price="350000"/><!-- Dark Crystal Helmet -->
-		<product id="365" price="350000"/><!-- Dark Crystal Breastplate -->
-		<product id="388" price="350000"/><!-- Dark Crystal Gaiters -->
-		<product id="613" price="350000"/><!-- Sand Dragon Gloves -->
-		<product id="563" price="350000"/><!-- Dark Crystal Boots -->
-		<product id="641" price="350000"/><!-- Dark Crystal Shield -->
-		<product id="893" price="250000"/><!-- Majestic Ring -->
-		<product id="862" price="250000"/><!-- Majestic Earring -->
+	<buyList id="90124" npcId="30517"><!-- Robes Grade A -->
+		<product id="2407" price="800000"/><!-- Dark Crystal Robe -->
+		<product id="512" price="250000"/><!-- Dark Crystal Helmet -->
+		<product id="5767" price="200000"/><!-- Dark Crystal Gloves Robe -->
+		<product id="5779" price="200000"/><!-- Dark Crystal Boots Robe -->
+		<product id="2399" price="450000"/><!-- Tallum Tunic -->
+		<product id="2404" price="350000"/><!-- Tallum Stockings -->
+		<product id="509" price="250000"/><!-- Tallum Helmet -->
+		<product id="5769" price="200000"/><!-- Tallum Gloves Robe -->
+		<product id="5781" price="200000"/><!-- Tallum Boots Robe -->
+		<product id="2408" price="800000"/><!-- Majestic Robe -->
+		<product id="511" price="250000"/><!-- Majestic Circlet -->
+		<product id="5771" price="200000"/><!-- Majestic Gloves Robe -->
+		<product id="5783" price="200000"/><!-- Majestic Boots Robe -->
+	</buyList>
+
+	<!-- ARMADURAS HEAVY (GUERREIRO PESADA) -->
+	<buyList id="90131" npcId="30517"><!-- Heavy Grade D -->
+		<product id="354" price="15000"/><!-- Brigandine Tunic -->
+		<product id="379" price="10000"/><!-- Brigandine Gaiters -->
+		<product id="47" price="5000"/><!-- Brigandine Helmet -->
+		<product id="63" price="5000"/><!-- Gauntlets -->
+		<product id="553" price="5000"/><!-- Iron Boots -->
+		<product id="110" price="5000"/><!-- Brigandine Shield -->
+		<product id="347" price="12000"/><!-- Ring Mail Breastplate -->
+		<product id="376" price="8000"/><!-- Iron Plate Gaiters -->
+		<product id="629" price="5000"/><!-- Kite Shield -->
+	</buyList>
+
+	<buyList id="90132" npcId="30517"><!-- Heavy Grade C -->
+		<product id="356" price="70000"/><!-- Full Plate Armor -->
+		<product id="504" price="30000"/><!-- Full Plate Helmet -->
+		<product id="2464" price="25000"/><!-- Full Plate Gauntlets -->
+		<product id="2437" price="25000"/><!-- Full Plate Boots -->
+		<product id="2497" price="25000"/><!-- Full Plate Shield -->
+		<product id="355" price="60000"/><!-- Composite Armor -->
+		<product id="502" price="25000"/><!-- Composite Helmet -->
+		<product id="107" price="25000"/><!-- Composite Shield -->
+	</buyList>
+
+	<buyList id="90133" npcId="30517"><!-- Heavy Grade B -->
+		<product id="358" price="140000"/><!-- Blue Wolf Breastplate -->
+		<product id="2380" price="90000"/><!-- Blue Wolf Gaiters -->
+		<product id="2415" price="80000"/><!-- Blue Wolf Helmet -->
+		<product id="2460" price="70000"/><!-- Blue Wolf Gloves -->
+		<product id="2434" price="70000"/><!-- Blue Wolf Boots -->
+		<product id="2392" price="230000"/><!-- Doom Plate Armor -->
+		<product id="2416" price="80000"/><!-- Doom Helmet -->
+		<product id="2462" price="70000"/><!-- Doom Gloves -->
+		<product id="2436" price="70000"/><!-- Doom Boots -->
+		<product id="2498" price="70000"/><!-- Doom Shield -->
+	</buyList>
+
+	<buyList id="90134" npcId="30517"><!-- Heavy Grade A -->
+		<product id="365" price="500000"/><!-- Dark Crystal Breastplate -->
+		<product id="388" price="300000"/><!-- Dark Crystal Gaiters -->
+		<product id="512" price="250000"/><!-- Dark Crystal Helmet -->
+		<product id="2467" price="200000"/><!-- Dark Crystal Gloves -->
+		<product id="2444" price="200000"/><!-- Dark Crystal Boots -->
+		<product id="641" price="200000"/><!-- Dark Crystal Shield -->
+		<product id="362" price="800000"/><!-- Tallum Plate Armor -->
+		<product id="509" price="250000"/><!-- Tallum Helmet -->
+		<product id="2466" price="200000"/><!-- Tallum Gloves -->
+		<product id="2443" price="200000"/><!-- Tallum Boots -->
+		<product id="2383" price="800000"/><!-- Majestic Plate Armor -->
+		<product id="511" price="250000"/><!-- Majestic Helmet -->
+		<product id="2468" price="200000"/><!-- Majestic Gauntlets -->
+		<product id="2445" price="200000"/><!-- Majestic Boots -->
+	</buyList>
+
+	<!-- ARMADURAS LIGHT (ARQUEIRO / DAGGER LEVE) -->
+	<buyList id="90141" npcId="30517"><!-- Light Grade D -->
+		<product id="395" price="12000"/><!-- Manticore Skin Shirt -->
+		<product id="416" price="8000"/><!-- Manticore Skin Gaiters -->
+		<product id="2424" price="5000"/><!-- Manticore Skin Boots -->
+	</buyList>
+
+	<buyList id="90142" npcId="30517"><!-- Light Grade C -->
+		<product id="398" price="50000"/><!-- Plated Leather Armor -->
+		<product id="419" price="35000"/><!-- Plated Leather Gaiters -->
+		<product id="2427" price="20000"/><!-- Plated Leather Boots -->
+		<product id="397" price="45000"/><!-- Theca Leather Armor -->
+		<product id="418" price="30000"/><!-- Theca Leather Gaiters -->
+		<product id="2426" price="20000"/><!-- Theca Leather Boots -->
+	</buyList>
+
+	<buyList id="90143" npcId="30517"><!-- Light Grade B -->
+		<product id="2393" price="220000"/><!-- Doom Leather Armor -->
+		<product id="2416" price="80000"/><!-- Doom Helmet -->
+		<product id="2462" price="70000"/><!-- Doom Gloves -->
+		<product id="2436" price="70000"/><!-- Doom Boots -->
+		<product id="2391" price="130000"/><!-- Blue Wolf Leather Armor -->
+		<product id="2381" price="90000"/><!-- Blue Wolf Gaiters -->
+		<product id="2415" price="80000"/><!-- Blue Wolf Helmet -->
+		<product id="2460" price="70000"/><!-- Blue Wolf Gloves -->
+		<product id="2434" price="70000"/><!-- Blue Wolf Boots -->
+	</buyList>
+
+	<buyList id="90144" npcId="30517"><!-- Light Grade A -->
+		<product id="2385" price="500000"/><!-- Dark Crystal Leather Armor -->
+		<product id="2389" price="300000"/><!-- Dark Crystal Leggings -->
+		<product id="512" price="250000"/><!-- Dark Crystal Helmet -->
+		<product id="5768" price="200000"/><!-- Dark Crystal Gloves Light -->
+		<product id="5780" price="200000"/><!-- Dark Crystal Boots Light -->
+		<product id="2387" price="800000"/><!-- Majestic Leather Armor -->
+		<product id="511" price="250000"/><!-- Majestic Helmet -->
+		<product id="5772" price="200000"/><!-- Majestic Gloves Light -->
+		<product id="5784" price="200000"/><!-- Majestic Boots Light -->
+		<product id="2384" price="800000"/><!-- Tallum Leather Armor -->
+		<product id="509" price="250000"/><!-- Tallum Helmet -->
+		<product id="5770" price="200000"/><!-- Tallum Gloves Light -->
+		<product id="5782" price="200000"/><!-- Tallum Boots Light -->
+	</buyList>
+
+	<!-- JOIAS (JEWELRY) -->
+	<buyList id="90151" npcId="30517"><!-- Joias Grade D -->
+		<product id="913" price="5000"/><!-- Elven Necklace -->
+		<product id="850" price="4000"/><!-- Elven Earring -->
+		<product id="882" price="3000"/><!-- Mithril Ring -->
+	</buyList>
+
+	<buyList id="90152" npcId="30517"><!-- Joias Grade C -->
+		<product id="916" price="20000"/><!-- Necklace of Protection -->
+		<product id="852" price="15000"/><!-- Moonstone Earring -->
+		<product id="884" price="10000"/><!-- Ring of Protection -->
+		<product id="917" price="25000"/><!-- Blessed Necklace -->
+		<product id="854" price="20000"/><!-- Blessed Earring -->
+		<product id="885" price="15000"/><!-- Blessed Ring -->
+	</buyList>
+
+	<buyList id="90153" npcId="30517"><!-- Joias Grade B -->
+		<product id="919" price="80000"/><!-- Black Ore Necklace -->
+		<product id="857" price="60000"/><!-- Black Ore Earring -->
+		<product id="888" price="40000"/><!-- Black Ore Ring -->
+	</buyList>
+
+	<buyList id="90154" npcId="30517"><!-- Joias Grade A -->
 		<product id="924" price="250000"/><!-- Majestic Necklace -->
+		<product id="862" price="180000"/><!-- Majestic Earring -->
+		<product id="893" price="120000"/><!-- Majestic Ring -->
+		<product id="923" price="200000"/><!-- Phoenix Necklace -->
+		<product id="861" price="150000"/><!-- Phoenix Earring -->
+		<product id="892" price="100000"/><!-- Phoenix Ring -->
+	</buyList>
+
+	<!-- CONSUMIVEIS / SUPRIMENTOS -->
+	<buyList id="90160" npcId="30517"><!-- Shots, Flechas, Potes -->
+		<product id="1835" price="10"/><!-- Soulshot: No-Grade -->
+		<product id="1463" price="15"/><!-- Soulshot: D-Grade -->
+		<product id="1464" price="25"/><!-- Soulshot: C-Grade -->
+		<product id="1465" price="50"/><!-- Soulshot: B-Grade -->
+		<product id="1466" price="80"/><!-- Soulshot: A-Grade -->
+		<product id="1467" price="120"/><!-- Soulshot: S-Grade -->
+		<product id="3947" price="20"/><!-- Blessed Spiritshot: No-Grade -->
+		<product id="3948" price="30"/><!-- Blessed Spiritshot: D-Grade -->
+		<product id="3949" price="50"/><!-- Blessed Spiritshot: C-Grade -->
+		<product id="3950" price="100"/><!-- Blessed Spiritshot: B-Grade -->
+		<product id="3951" price="160"/><!-- Blessed Spiritshot: A-Grade -->
+		<product id="3952" price="240"/><!-- Blessed Spiritshot: S-Grade -->
+		<product id="17" price="2"/><!-- Wooden Arrow -->
+		<product id="1341" price="5"/><!-- Bone Arrow -->
+		<product id="1342" price="10"/><!-- Steel Arrow -->
+		<product id="1343" price="15"/><!-- Silver Arrow -->
+		<product id="1344" price="25"/><!-- Mithril Arrow -->
+		<product id="1345" price="40"/><!-- Shining Arrow -->
+		<product id="1061" price="1000"/><!-- Greater Healing Potion -->
+		<product id="728" price="2000"/><!-- Mana Potion -->
+		<product id="5592" price="1500"/><!-- Greater CP Potion -->
+		<product id="736" price="500"/><!-- Scroll of Escape -->
+		<product id="737" price="2000"/><!-- Scroll of Resurrection -->
 	</buyList>
 </list>

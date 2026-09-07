@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Shari (30517) - Armaduras Grade S -->
+<list>
+	<npcs>
+		<npc>30517</npc> <!-- Shari -->
+	</npcs>
+
+	<!-- =================== IMPERIAL CRUSADER (HEAVY) =================== -->
+	<!-- Imperial Crusader Breastplate (Peitoral) -->
+	<item>
+		<ingredient id="6392" count="3500"/>
+		<ingredient id="6393" count="3500"/>
+		<production id="6373" count="1"/>
+	</item>
+	<!-- Imperial Crusader Gaiters -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6374" count="1"/>
+	</item>
+	<!-- Imperial Crusader Gauntlets -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6375" count="1"/>
+	</item>
+	<!-- Imperial Crusader Boots -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6376" count="1"/>
+	</item>
+	<!-- Imperial Crusader Shield -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6377" count="1"/>
+	</item>
+	<!-- Imperial Crusader Helmet -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6378" count="1"/>
+	</item>
+
+	<!-- =================== DRACONIC LEATHER (LIGHT) =================== -->
+	<!-- Draconic Leather Armor (Peitoral Corpo Inteiro) -->
+	<item>
+		<ingredient id="6392" count="3500"/>
+		<ingredient id="6393" count="3500"/>
+		<production id="6379" count="1"/>
+	</item>
+	<!-- Draconic Leather Gloves -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6380" count="1"/>
+	</item>
+	<!-- Draconic Leather Boots -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6381" count="1"/>
+	</item>
+	<!-- Draconic Leather Helmet -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6382" count="1"/>
+	</item>
+
+	<!-- =================== MAJOR ARCANA (ROBE) =================== -->
+	<!-- Major Arcana Robe (Peitoral Corpo Inteiro) -->
+	<item>
+		<ingredient id="6392" count="3500"/>
+		<ingredient id="6393" count="3500"/>
+		<production id="6383" count="1"/>
+	</item>
+	<!-- Major Arcana Gloves -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6384" count="1"/>
+	</item>
+	<!-- Major Arcana Boots -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6385" count="1"/>
+	</item>
+	<!-- Major Arcana Circlet -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6386" count="1"/>
+	</item>
+</list>
