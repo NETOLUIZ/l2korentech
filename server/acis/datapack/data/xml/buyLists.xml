@@ -20096,4 +20096,18 @@
 		<product id="736" price="500"/><!-- Scroll of Escape -->
 		<product id="737" price="2000"/><!-- Scroll of Resurrection -->
 	</buyList>
+
+	<!-- SCROLLS DE ENCHANT NORMAIS (ADENA) -->
+	<buyList id="90014" npcId="30517"><!-- Enchants Normais -->
+		<product id="955" price="6000"/><!-- Scroll: Enchant Weapon (Grade D) -->
+		<product id="956" price="6000"/><!-- Scroll: Enchant Armor (Grade D) -->
+		<product id="951" price="15000"/><!-- Scroll: Enchant Weapon (Grade C) -->
+		<product id="952" price="15000"/><!-- Scroll: Enchant Armor (Grade C) -->
+		<product id="947" price="80000"/><!-- Scroll: Enchant Weapon (Grade B) -->
+		<product id="948" price="80000"/><!-- Scroll: Enchant Armor (Grade B) -->
+		<product id="729" price="400000"/><!-- Scroll: Enchant Weapon (Grade A) -->
+		<product id="730" price="400000"/><!-- Scroll: Enchant Armor (Grade A) -->
+		<product id="959" price="2000000"/><!-- Scroll: Enchant Weapon (Grade S) -->
+		<product id="960" price="2000000"/><!-- Scroll: Enchant Armor (Grade S) -->
+	</buyList>
 </list>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Shari (30517) - Scrolls de Enchant Blessed (Medals) -->
+<list>
+
+	<!-- Grade D -->
+	<item>
+		<ingredient id="6392" count="50"/>
+		<ingredient id="6393" count="50"/>
+		<production id="6575" count="1"/><!-- Blessed Scroll: Enchant Weapon (Grade D) -->
+	</item>
+	<item>
+		<ingredient id="6392" count="50"/>
+		<ingredient id="6393" count="50"/>
+		<production id="6576" count="1"/><!-- Blessed Scroll: Enchant Armor (Grade D) -->
+	</item>
+	<!-- Grade C -->
+	<item>
+		<ingredient id="6392" count="100"/>
+		<ingredient id="6393" count="100"/>
+		<production id="6573" count="1"/><!-- Blessed Scroll: Enchant Weapon (Grade C) -->
+	</item>
+	<item>
+		<ingredient id="6392" count="100"/>
+		<ingredient id="6393" count="100"/>
+		<production id="6574" count="1"/><!-- Blessed Scroll: Enchant Armor (Grade C) -->
+	</item>
+	<!-- Grade B -->
+	<item>
+		<ingredient id="6392" count="200"/>
+		<ingredient id="6393" count="200"/>
+		<production id="6571" count="1"/><!-- Blessed Scroll: Enchant Weapon (Grade B) -->
+	</item>
+	<item>
+		<ingredient id="6392" count="200"/>
+		<ingredient id="6393" count="200"/>
+		<production id="6572" count="1"/><!-- Blessed Scroll: Enchant Armor (Grade B) -->
+	</item>
+	<!-- Grade A -->
+	<item>
+		<ingredient id="6392" count="400"/>
+		<ingredient id="6393" count="400"/>
+		<production id="6569" count="1"/><!-- Blessed Scroll: Enchant Weapon (Grade A) -->
+	</item>
+	<item>
+		<ingredient id="6392" count="400"/>
+		<ingredient id="6393" count="400"/>
+		<production id="6570" count="1"/><!-- Blessed Scroll: Enchant Armor (Grade A) -->
+	</item>
+	<!-- Grade S -->
+	<item>
+		<ingredient id="6392" count="800"/>
+		<ingredient id="6393" count="800"/>
+		<production id="6577" count="1"/><!-- Blessed Scroll: Enchant Weapon (Grade S) -->
+	</item>
+	<item>
+		<ingredient id="6392" count="800"/>
+		<ingredient id="6393" count="800"/>
+		<production id="6578" count="1"/><!-- Blessed Scroll: Enchant Armor (Grade S) -->
+	</item>
+</list>
