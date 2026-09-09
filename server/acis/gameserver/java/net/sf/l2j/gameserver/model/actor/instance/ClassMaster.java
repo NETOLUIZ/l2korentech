@@ -85,6 +85,7 @@ public final class ClassMaster extends VillageMaster
 			if (!player.isNoble())
 			{
 				player.setNoble(true, true);
+				player.addItem("ClassMaster", 6651, 1, player, true);
 				player.sendPacket(new UserInfo(player));
 				html.setFile("data/html/classmaster/nobleok.htm");
 				player.sendPacket(html);
