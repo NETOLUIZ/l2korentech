@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Shari (30517) - Itens de Entrada dos Bosses Epicos -->
+<list>
+
+	<!-- Blooded Fabric (Baium) -->
+	<item>
+		<ingredient id="6392" count="3000"/>
+		<ingredient id="6393" count="3000"/>
+		<production id="4295" count="1"/>
+	</item>
+	<!-- Portal Stone (Antharas) -->
+	<item>
+		<ingredient id="6392" count="3000"/>
+		<ingredient id="6393" count="3000"/>
+		<production id="3865" count="1"/>
+	</item>
+	<!-- Floating Stone (Valakas) -->
+	<item>
+		<ingredient id="6392" count="3000"/>
+		<ingredient id="6393" count="3000"/>
+		<production id="7267" count="1"/>
+	</item>
+</list>
