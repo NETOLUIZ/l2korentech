@@ -30,8 +30,8 @@ public class BufferManager implements IXmlReader
 {
 	private static final String LOAD_SCHEMES = "SELECT * FROM buffer_schemes";
 	private static final String LOAD_SCHEMES_FOR_PLAYER = "SELECT * FROM buffer_schemes WHERE object_id=?";
-	private static final String DELETE_SCHEMES = "TRUNCATE TABLE buffer_schemes";
-	private static final String INSERT_SCHEME = "INSERT INTO buffer_schemes (object_id, scheme_name, skills) VALUES (?,?,?)";
+	private static final String INSERT_SCHEME = "INSERT INTO buffer_schemes (object_id, scheme_name, skills) VALUES (?,?,?) ON DUPLICATE KEY UPDATE skills=VALUES(skills)";
+	private static final String DELETE_SCHEME = "DELETE FROM buffer_schemes WHERE object_id=? AND scheme_name=?";
 	
 	private final Map<Integer, HashMap<String, ArrayList<Integer>>> _schemesTable = new ConcurrentHashMap<>();
 	private final Map<Integer, BuffSkillHolder> _availableBuffs = new LinkedHashMap<>();
@@ -99,12 +99,6 @@ public class BufferManager implements IXmlReader
 		
 		try (Connection con = L2DatabaseFactory.getInstance().getConnection())
 		{
-			// Delete all entries from database.
-			try (PreparedStatement ps = con.prepareStatement(DELETE_SCHEMES))
-			{
-				ps.execute();
-			}
-			
 			try (PreparedStatement ps = con.prepareStatement(INSERT_SCHEME))
 			{
 				// Save _schemesTable content.
@@ -138,6 +132,30 @@ public class BufferManager implements IXmlReader
 		}
 	}
 	
+	/**
+	 * Deletes a player's scheme, both from _schemesTable and from database directly.
+	 * @param playerId : The player objectId to edit.
+	 * @param schemeName : The scheme name to delete.
+	 */
+	public void deleteScheme(int playerId, String schemeName)
+	{
+		final Map<String, ArrayList<Integer>> schemes = _schemesTable.get(playerId);
+		if (schemes != null)
+			schemes.remove(schemeName);
+
+		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
+			PreparedStatement ps = con.prepareStatement(DELETE_SCHEME))
+		{
+			ps.setInt(1, playerId);
+			ps.setString(2, schemeName);
+			ps.execute();
+		}
+		catch (Exception e)
+		{
+			LOGGER.error("Failed to delete scheme {} for player {}.", schemeName, playerId, e);
+		}
+	}
+
 	/**
 	 * Loads a single player's schemes from database into _schemesTable, if not already cached.<br>
 	 * Needed because _schemesTable is only fully loaded once on boot, so characters created (or edited in DB) after that would otherwise never get their schemes.

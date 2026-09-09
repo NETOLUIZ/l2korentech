@@ -159,10 +159,7 @@ public class SchemeBuffer extends Folk
 			try
 			{
 				final String schemeName = st.nextToken();
-				final Map<String, ArrayList<Integer>> schemes = BufferManager.getInstance().getPlayerSchemes(player.getObjectId());
-				
-				if (schemes != null && schemes.containsKey(schemeName))
-					schemes.remove(schemeName);
+				BufferManager.getInstance().deleteScheme(player.getObjectId(), schemeName);
 			}
 			catch (Exception e)
 			{
