@@ -1146,7 +1146,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="pa_up">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="pa_up">
 				<mul order="0x30" stat="pAtk" val="#rate"/>
 			</effect>
 		</for>
@@ -1545,7 +1545,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="avoid_up">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="avoid_up">
 				<add order="0x40" stat="rEvas" val="#rEvas"/>
 			</effect>
 		</for>

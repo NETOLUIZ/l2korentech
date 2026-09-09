@@ -1411,7 +1411,7 @@
 		<set name="operateType" val="OP_ACTIVE"/>
 		<set name="aggroPoints" val="669"/>
 		<for>
-			<effect name="Buff" time="120" val="0" stackOrder="1" stackType="dance_of_siren">
+			<effect name="Buff" time="3600" val="0" stackOrder="1" stackType="dance_of_siren">
 				<mul order="0x30" stat="mCritRate" val="3"/>
 			</effect>
 		</for>
