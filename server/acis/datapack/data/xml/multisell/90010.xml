@@ -6,66 +6,166 @@
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6583" count="1"/>
+		<production id="6581" count="1"/><!-- Forgotten Blade - Haste -->
 	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6582" count="1"/><!-- Forgotten Blade - Health -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6583" count="1"/><!-- Forgotten Blade - Focus -->
+	</item>
+
 	<!-- Angel Slayer -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6590" count="1"/>
+		<production id="6590" count="1"/><!-- Angel Slayer - Crt. Damage -->
 	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6591" count="1"/><!-- Angel Slayer - HP Drain -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6592" count="1"/><!-- Angel Slayer - Haste -->
+	</item>
+
 	<!-- Draconic Bow -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="7575" count="1"/>
+		<production id="7575" count="1"/><!-- Draconic Bow -->
 	</item>
+
 	<!-- Arcana Mace -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6579" count="1"/>
+		<production id="6579" count="1"/><!-- Arcana Mace -->
 	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6608" count="1"/><!-- Arcana Mace - Acumen -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6609" count="1"/><!-- Arcana Mace - MP Regeneration -->
+	</item>
+
 	<!-- Imperial Staff -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6580" count="1"/>
+		<production id="6587" count="1"/><!-- Imperial Staff - Empower -->
 	</item>
-	<!-- Heaven's Divider -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6608" count="1"/>
+		<production id="6588" count="1"/><!-- Imperial Staff - MP Regeneration -->
 	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6589" count="1"/><!-- Imperial Staff - Magic Hold -->
+	</item>
+
+	<!-- Heavens Divider -->
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6605" count="1"/><!-- Heavens Divider - Haste -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6606" count="1"/><!-- Heavens Divider - Health -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6607" count="1"/><!-- Heavens Divider - Focus -->
+	</item>
+
 	<!-- Saint Spear -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6587" count="1"/>
+		<production id="6599" count="1"/><!-- Saint Spear - Health -->
 	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6600" count="1"/><!-- Saint Spear - Guidance -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6601" count="1"/><!-- Saint Spear - Haste -->
+	</item>
+
 	<!-- Demon Splinter -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6588" count="1"/>
+		<production id="6602" count="1"/><!-- Demon Splinter - Focus -->
 	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6603" count="1"/><!-- Demon Splinter - Health -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6604" count="1"/><!-- Demon Splinter - Crt. Stun -->
+	</item>
+
 	<!-- Basalt Battlehammer -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6585" count="1"/>
+		<production id="6584" count="1"/><!-- Basalt Battlehammer - HP Drain -->
 	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6585" count="1"/><!-- Basalt Battlehammer - Health -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6586" count="1"/><!-- Basalt Battlehammer - HP Regeneration -->
+	</item>
+
 	<!-- Dragon Hunter Axe -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6589" count="1"/>
+		<production id="6596" count="1"/><!-- Dragon Hunter Axe - HP Regeneration -->
 	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6597" count="1"/><!-- Dragon Hunter Axe - Health -->
+	</item>
+	<item>
+		<ingredient id="6392" count="1500"/>
+		<ingredient id="6393" count="1500"/>
+		<production id="6598" count="1"/><!-- Dragon Hunter Axe - HP Drain -->
+	</item>
+
 	<!-- Tallum Blade*Dark Legion's Edge -->
 	<item>
 		<ingredient id="6392" count="1500"/>
 		<ingredient id="6393" count="1500"/>
-		<production id="6582" count="1"/>
+		<production id="6580" count="1"/><!-- Tallum Blade*Dark Legion's Edge -->
 	</item>
 </list>
