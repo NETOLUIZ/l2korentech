@@ -30,7 +30,7 @@ import net.sf.l2j.gameserver.network.serverpackets.UserInfo;
  * </ul>
  * Added to the "change class" function, this NPC can noblesse and give available skills (related to your current class and level).
  */
-public final class ClassMaster extends Folk
+public final class ClassMaster extends VillageMaster
 {
 	public ClassMaster(int objectId, NpcTemplate template)
 	{
