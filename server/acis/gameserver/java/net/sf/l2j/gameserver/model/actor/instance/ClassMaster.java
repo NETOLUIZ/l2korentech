@@ -70,6 +70,8 @@ public final class ClassMaster extends Folk
 			
 			if (checkAndChangeClass(player, val))
 			{
+				player.rewardSkills();
+
 				final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
 				html.setFile("data/html/classmaster/ok.htm");
 				html.replace("%name%", PlayerData.getInstance().getClassNameById(val));
