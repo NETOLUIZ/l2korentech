@@ -19888,38 +19888,40 @@
 	</buyList>
 
 	<buyList id="90121" npcId="30517"><!-- Robes Grade D -->
-		<product id="440" price="10000"/><!-- Elven Tunic -->
-		<product id="472" price="8000"/><!-- Elven Hose -->
-		<product id="500" price="5000"/><!-- Mithril Helmet -->
-		<product id="2447" price="5000"/><!-- Knowledge Gloves -->
-		<product id="2423" price="5000"/><!-- Knowledge Boots -->
-		<product id="465" price="10000"/><!-- Manticore Skin Tunic -->
-		<product id="430" price="8000"/><!-- Manticore Skin Hose -->
+		<product id="433" price="10000"/><!-- Elven Tunic -->
+		<product id="466" price="8000"/><!-- Elven Stockings -->
+		<product id="436" price="10000"/><!-- Tunic of Knowledge -->
+		<product id="469" price="8000"/><!-- Stockings of Knowledge -->
+		<product id="47" price="5000"/><!-- Helmet -->
+		<product id="2447" price="5000"/><!-- Gloves of Knowledge -->
+		<product id="2423" price="5000"/><!-- Boots of Knowledge -->
 	</buyList>
 
 	<buyList id="90122" npcId="30517"><!-- Robes Grade C -->
-		<product id="439" price="40000"/><!-- Carmian Tunic -->
-		<product id="471" price="30000"/><!-- Carmian Stockings -->
-		<product id="2454" price="20000"/><!-- Carmian Gloves -->
-		<product id="2439" price="20000"/><!-- Carmian Boots -->
+		<product id="439" price="40000"/><!-- Karmian Tunic -->
+		<product id="471" price="30000"/><!-- Karmian Stockings -->
+		<product id="2454" price="20000"/><!-- Karmian Gloves -->
+		<product id="2430" price="20000"/><!-- Karmian Boots -->
+		<product id="2413" price="20000"/><!-- Chain Hood -->
 		<product id="441" price="50000"/><!-- Demon's Tunic -->
-		<product id="473" price="40000"/><!-- Demon's Hose -->
-		<product id="2455" price="25000"/><!-- Demon's Gloves -->
-		<product id="2440" price="25000"/><!-- Demon's Boots -->
+		<product id="472" price="40000"/><!-- Demon's Stockings -->
+		<product id="2459" price="25000"/><!-- Demon's Gloves -->
+		<product id="2435" price="25000"/><!-- Demon's Boots -->
+		<product id="500" price="25000"/><!-- Great Helmet -->
 	</buyList>
 
 	<buyList id="90123" npcId="30517"><!-- Robes Grade B -->
 		<product id="2406" price="200000"/><!-- Avadon Robe -->
-		<product id="2414" price="80000"/><!-- Avadon Circlet -->
-		<product id="2463" price="70000"/><!-- Avadon Gloves -->
-		<product id="2438" price="70000"/><!-- Avadon Boots -->
+		<product id="2415" price="80000"/><!-- Avadon Circlet -->
+		<product id="2464" price="70000"/><!-- Avadon Gloves -->
+		<product id="600" price="70000"/><!-- Avadon Boots -->
 		<product id="2398" price="120000"/><!-- Blue Wolf Tunic -->
 		<product id="2403" price="80000"/><!-- Blue Wolf Stockings -->
-		<product id="2413" price="80000"/><!-- Blue Wolf Cap -->
-		<product id="2461" price="70000"/><!-- Blue Wolf Gloves -->
-		<product id="2435" price="70000"/><!-- Blue Wolf Boots -->
-		<product id="443" price="120000"/><!-- Zubei's Tunic -->
-		<product id="475" price="80000"/><!-- Zubei's Stockings -->
+		<product id="2416" price="80000"/><!-- Blue Wolf Helmet -->
+		<product id="2487" price="70000"/><!-- Blue Wolf Gloves -->
+		<product id="2439" price="70000"/><!-- Blue Wolf Boots -->
+		<product id="2397" price="120000"/><!-- Tunic of Zubei -->
+		<product id="2402" price="80000"/><!-- Stockings of Zubei -->
 		<product id="503" price="80000"/><!-- Zubei's Helmet -->
 		<product id="612" price="70000"/><!-- Zubei's Gauntlets -->
 		<product id="554" price="70000"/><!-- Zubei's Boots -->
@@ -19928,115 +19930,123 @@
 	<buyList id="90124" npcId="30517"><!-- Robes Grade A -->
 		<product id="2407" price="800000"/><!-- Dark Crystal Robe -->
 		<product id="512" price="250000"/><!-- Dark Crystal Helmet -->
-		<product id="5767" price="200000"/><!-- Dark Crystal Gloves Robe -->
-		<product id="5779" price="200000"/><!-- Dark Crystal Boots Robe -->
-		<product id="2399" price="450000"/><!-- Tallum Tunic -->
-		<product id="2404" price="350000"/><!-- Tallum Stockings -->
-		<product id="509" price="250000"/><!-- Tallum Helmet -->
-		<product id="5769" price="200000"/><!-- Tallum Gloves Robe -->
-		<product id="5781" price="200000"/><!-- Tallum Boots Robe -->
-		<product id="2408" price="800000"/><!-- Majestic Robe -->
-		<product id="511" price="250000"/><!-- Majestic Circlet -->
-		<product id="5771" price="200000"/><!-- Majestic Gloves Robe -->
-		<product id="5783" price="200000"/><!-- Majestic Boots Robe -->
+		<product id="5767" price="200000"/><!-- Dark Crystal Gloves - Robe -->
+		<product id="5779" price="200000"/><!-- Dark Crystal Boots - Robe -->
+		<product id="2400" price="450000"/><!-- Tallum Tunic -->
+		<product id="2405" price="350000"/><!-- Tallum Stockings -->
+		<product id="547" price="250000"/><!-- Tallum Helm -->
+		<product id="5770" price="200000"/><!-- Tallum Gloves - Robe -->
+		<product id="5782" price="200000"/><!-- Tallum Boots - Robe -->
+		<product id="2409" price="800000"/><!-- Majestic Robe -->
+		<product id="2419" price="250000"/><!-- Majestic Circlet -->
+		<product id="5776" price="200000"/><!-- Majestic Gauntlets - Robe -->
+		<product id="5788" price="200000"/><!-- Majestic Boots - Robe -->
 	</buyList>
 
 	<!-- ARMADURAS HEAVY (GUERREIRO PESADA) -->
 	<buyList id="90131" npcId="30517"><!-- Heavy Grade D -->
-		<product id="354" price="15000"/><!-- Brigandine Tunic -->
-		<product id="379" price="10000"/><!-- Brigandine Gaiters -->
-		<product id="47" price="5000"/><!-- Brigandine Helmet -->
-		<product id="63" price="5000"/><!-- Gauntlets -->
-		<product id="553" price="5000"/><!-- Iron Boots -->
-		<product id="110" price="5000"/><!-- Brigandine Shield -->
+		<product id="352" price="15000"/><!-- Brigandine Tunic -->
+		<product id="2378" price="10000"/><!-- Brigandine Gaiters -->
+		<product id="2411" price="5000"/><!-- Brigandine Helmet -->
+		<product id="2493" price="5000"/><!-- Brigandine Shield -->
 		<product id="347" price="12000"/><!-- Ring Mail Breastplate -->
 		<product id="376" price="8000"/><!-- Iron Plate Gaiters -->
+		<product id="47" price="5000"/><!-- Helmet -->
 		<product id="629" price="5000"/><!-- Kite Shield -->
+		<product id="63" price="5000"/><!-- Gauntlets -->
+		<product id="553" price="5000"/><!-- Iron Boots -->
 	</buyList>
 
 	<buyList id="90132" npcId="30517"><!-- Heavy Grade C -->
 		<product id="356" price="70000"/><!-- Full Plate Armor -->
-		<product id="504" price="30000"/><!-- Full Plate Helmet -->
-		<product id="2464" price="25000"/><!-- Full Plate Gauntlets -->
-		<product id="2437" price="25000"/><!-- Full Plate Boots -->
+		<product id="2414" price="30000"/><!-- Full Plate Helmet -->
+		<product id="2462" price="25000"/><!-- Full Plate Gauntlets -->
+		<product id="2438" price="25000"/><!-- Full Plate Boots -->
 		<product id="2497" price="25000"/><!-- Full Plate Shield -->
-		<product id="355" price="60000"/><!-- Composite Armor -->
-		<product id="502" price="25000"/><!-- Composite Helmet -->
+		<product id="60" price="60000"/><!-- Composite Armor -->
+		<product id="517" price="25000"/><!-- Composite Helmet -->
+		<product id="64" price="25000"/><!-- Composite Boots -->
 		<product id="107" price="25000"/><!-- Composite Shield -->
 	</buyList>
 
 	<buyList id="90133" npcId="30517"><!-- Heavy Grade B -->
 		<product id="358" price="140000"/><!-- Blue Wolf Breastplate -->
 		<product id="2380" price="90000"/><!-- Blue Wolf Gaiters -->
-		<product id="2415" price="80000"/><!-- Blue Wolf Helmet -->
-		<product id="2460" price="70000"/><!-- Blue Wolf Gloves -->
-		<product id="2434" price="70000"/><!-- Blue Wolf Boots -->
-		<product id="2392" price="230000"/><!-- Doom Plate Armor -->
-		<product id="2416" price="80000"/><!-- Doom Helmet -->
-		<product id="2462" price="70000"/><!-- Doom Gloves -->
-		<product id="2436" price="70000"/><!-- Doom Boots -->
-		<product id="2498" price="70000"/><!-- Doom Shield -->
+		<product id="2416" price="80000"/><!-- Blue Wolf Helmet -->
+		<product id="2487" price="70000"/><!-- Blue Wolf Gloves -->
+		<product id="2439" price="70000"/><!-- Blue Wolf Boots -->
+		<product id="2381" price="230000"/><!-- Doom Plate Armor -->
+		<product id="2417" price="80000"/><!-- Doom Helmet -->
+		<product id="2475" price="70000"/><!-- Doom Gloves -->
+		<product id="601" price="70000"/><!-- Boots of Doom -->
+		<product id="110" price="70000"/><!-- Doom Shield -->
 	</buyList>
 
 	<buyList id="90134" npcId="30517"><!-- Heavy Grade A -->
 		<product id="365" price="500000"/><!-- Dark Crystal Breastplate -->
 		<product id="388" price="300000"/><!-- Dark Crystal Gaiters -->
 		<product id="512" price="250000"/><!-- Dark Crystal Helmet -->
-		<product id="2467" price="200000"/><!-- Dark Crystal Gloves -->
-		<product id="2444" price="200000"/><!-- Dark Crystal Boots -->
+		<product id="2472" price="200000"/><!-- Dark Crystal Gloves -->
+		<product id="563" price="200000"/><!-- Dark Crystal Boots -->
 		<product id="641" price="200000"/><!-- Dark Crystal Shield -->
-		<product id="362" price="800000"/><!-- Tallum Plate Armor -->
-		<product id="509" price="250000"/><!-- Tallum Helmet -->
-		<product id="2466" price="200000"/><!-- Tallum Gloves -->
-		<product id="2443" price="200000"/><!-- Tallum Boots -->
+		<product id="2382" price="800000"/><!-- Tallum Plate Armor -->
+		<product id="547" price="250000"/><!-- Tallum Helm -->
+		<product id="2478" price="200000"/><!-- Tallum Gloves -->
+		<product id="5780" price="200000"/><!-- Tallum Boots - Heavy Armor -->
 		<product id="2383" price="800000"/><!-- Majestic Plate Armor -->
-		<product id="511" price="250000"/><!-- Majestic Helmet -->
-		<product id="2468" price="200000"/><!-- Majestic Gauntlets -->
-		<product id="2445" price="200000"/><!-- Majestic Boots -->
+		<product id="2419" price="250000"/><!-- Majestic Circlet -->
+		<product id="2482" price="200000"/><!-- Majestic Gauntlets -->
+		<product id="583" price="200000"/><!-- Majestic Boots -->
 	</buyList>
 
 	<!-- ARMADURAS LIGHT (ARQUEIRO / DAGGER LEVE) -->
 	<buyList id="90141" npcId="30517"><!-- Light Grade D -->
 		<product id="395" price="12000"/><!-- Manticore Skin Shirt -->
-		<product id="416" price="8000"/><!-- Manticore Skin Gaiters -->
+		<product id="417" price="8000"/><!-- Manticore Skin Gaiters -->
 		<product id="2424" price="5000"/><!-- Manticore Skin Boots -->
+		<product id="394" price="12000"/><!-- Reinforced Leather Shirt -->
+		<product id="416" price="8000"/><!-- Reinforced Leather Gaiters -->
+		<product id="2446" price="5000"/><!-- Reinforced Leather Gloves -->
+		<product id="2422" price="5000"/><!-- Reinforced Leather Boots -->
+		<product id="47" price="5000"/><!-- Helmet -->
 	</buyList>
 
 	<buyList id="90142" npcId="30517"><!-- Light Grade C -->
 		<product id="398" price="50000"/><!-- Plated Leather Armor -->
-		<product id="419" price="35000"/><!-- Plated Leather Gaiters -->
-		<product id="2427" price="20000"/><!-- Plated Leather Boots -->
-		<product id="397" price="45000"/><!-- Theca Leather Armor -->
-		<product id="418" price="30000"/><!-- Theca Leather Gaiters -->
-		<product id="2426" price="20000"/><!-- Theca Leather Boots -->
+		<product id="418" price="35000"/><!-- Plated Leather Gaiters -->
+		<product id="2455" price="20000"/><!-- Plated Leather Gloves -->
+		<product id="2431" price="20000"/><!-- Plated Leather Boots -->
+		<product id="400" price="45000"/><!-- Theca Leather Armor -->
+		<product id="420" price="30000"/><!-- Theca Leather Gaiters -->
+		<product id="2460" price="20000"/><!-- Theca Leather Gloves -->
+		<product id="2436" price="20000"/><!-- Theca Leather Boots -->
 	</buyList>
 
 	<buyList id="90143" npcId="30517"><!-- Light Grade B -->
-		<product id="2393" price="220000"/><!-- Doom Leather Armor -->
-		<product id="2416" price="80000"/><!-- Doom Helmet -->
-		<product id="2462" price="70000"/><!-- Doom Gloves -->
-		<product id="2436" price="70000"/><!-- Doom Boots -->
+		<product id="2392" price="220000"/><!-- Leather Armor of Doom -->
+		<product id="2417" price="80000"/><!-- Doom Helmet -->
+		<product id="2475" price="70000"/><!-- Doom Gloves -->
+		<product id="601" price="70000"/><!-- Boots of Doom -->
 		<product id="2391" price="130000"/><!-- Blue Wolf Leather Armor -->
-		<product id="2381" price="90000"/><!-- Blue Wolf Gaiters -->
-		<product id="2415" price="80000"/><!-- Blue Wolf Helmet -->
-		<product id="2460" price="70000"/><!-- Blue Wolf Gloves -->
-		<product id="2434" price="70000"/><!-- Blue Wolf Boots -->
+		<product id="2416" price="80000"/><!-- Blue Wolf Helmet -->
+		<product id="2487" price="70000"/><!-- Blue Wolf Gloves -->
+		<product id="2439" price="70000"/><!-- Blue Wolf Boots -->
 	</buyList>
 
 	<buyList id="90144" npcId="30517"><!-- Light Grade A -->
 		<product id="2385" price="500000"/><!-- Dark Crystal Leather Armor -->
 		<product id="2389" price="300000"/><!-- Dark Crystal Leggings -->
 		<product id="512" price="250000"/><!-- Dark Crystal Helmet -->
-		<product id="5768" price="200000"/><!-- Dark Crystal Gloves Light -->
-		<product id="5780" price="200000"/><!-- Dark Crystal Boots Light -->
-		<product id="2387" price="800000"/><!-- Majestic Leather Armor -->
-		<product id="511" price="250000"/><!-- Majestic Helmet -->
-		<product id="5772" price="200000"/><!-- Majestic Gloves Light -->
-		<product id="5784" price="200000"/><!-- Majestic Boots Light -->
-		<product id="2384" price="800000"/><!-- Tallum Leather Armor -->
-		<product id="509" price="250000"/><!-- Tallum Helmet -->
-		<product id="5770" price="200000"/><!-- Tallum Gloves Light -->
-		<product id="5782" price="200000"/><!-- Tallum Boots Light -->
+		<product id="5766" price="200000"/><!-- Dark Crystal Gloves - Light Armor -->
+		<product id="5778" price="200000"/><!-- Dark Crystal Boots - Light Armor -->
+		<product id="2395" price="800000"/><!-- Majestic Leather Armor -->
+		<product id="2419" price="250000"/><!-- Majestic Circlet -->
+		<product id="5775" price="200000"/><!-- Majestic Gauntlets - Light Armor -->
+		<product id="5787" price="200000"/><!-- Majestic Boots - Light Armor -->
+		<product id="2393" price="800000"/><!-- Tallum Leather Armor -->
+		<product id="547" price="250000"/><!-- Tallum Helm -->
+		<product id="5769" price="200000"/><!-- Tallum Gloves - Light Armor -->
+		<product id="5781" price="200000"/><!-- Tallum Boots - Light Armor -->
 	</buyList>
 
 	<!-- JOIAS (JEWELRY) -->

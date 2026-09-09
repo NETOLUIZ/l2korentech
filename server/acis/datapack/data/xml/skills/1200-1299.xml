@@ -978,11 +978,11 @@
 		<set name="effectRange" val="900"/>
 		<set name="aggroPoints" val="#aggro"/>
 		<enchant1 name="magicLvl" val="#enchantMagicLvl"/>
-		<enchant2 name="magicLvl" val="#enchantMagicLvl"/>		
+		<enchant2 name="magicLvl" val="#enchantMagicLvl"/>
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="shield_prob_up">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="shield_prob_up">
 				<mul order="0x30" stat="rShld" val="#rShld"/>
 			</effect>
 		</for>
@@ -1454,7 +1454,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume"/>
 		<enchant2 name="mpInitialConsume" val="#ench2mpInitialConsume"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="resist_shock">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="resist_shock">
 				<addMul order="0x40" stat="stunVuln" val="#vuln" />
 			</effect>
 		</for>
