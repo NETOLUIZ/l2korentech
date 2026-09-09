@@ -85,8 +85,11 @@ public final class Gatekeeper extends Folk
 			
 			// Retrieve price list. Potentially cut it by 2 depending of current date.
 			int price = list.getPrice();
-			
-			if (!list.isNoble())
+
+			// Free teleport for players under level 30.
+			if (player.getLevel() < 30)
+				price = 0;
+			else if (!list.isNoble())
 			{
 				Calendar cal = Calendar.getInstance();
 				if (cal.get(Calendar.HOUR_OF_DAY) >= 20 && cal.get(Calendar.HOUR_OF_DAY) <= 23 && (cal.get(Calendar.DAY_OF_WEEK) == 1 || cal.get(Calendar.DAY_OF_WEEK) == 7))
