@@ -20106,15 +20106,15 @@
 		<product id="916" price="20000"/><!-- Necklace of Protection -->
 		<product id="852" price="15000"/><!-- Moonstone Earring -->
 		<product id="884" price="10000"/><!-- Ring of Protection -->
-		<product id="917" price="25000"/><!-- Blessed Necklace -->
-		<product id="854" price="20000"/><!-- Blessed Earring -->
-		<product id="885" price="15000"/><!-- Blessed Ring -->
+		<product id="917" price="25000"/><!-- Necklace of Mermaid -->
+		<product id="854" price="20000"/><!-- Earring of Binding -->
+		<product id="885" price="15000"/><!-- Ring of Ages -->
 	</buyList>
 
 	<buyList id="90153" npcId="30517"><!-- Joias Grade B -->
-		<product id="919" price="80000"/><!-- Black Ore Necklace -->
-		<product id="857" price="60000"/><!-- Black Ore Earring -->
-		<product id="888" price="40000"/><!-- Black Ore Ring -->
+		<product id="926" price="80000"/><!-- Necklace of Black Ore -->
+		<product id="864" price="60000"/><!-- Earring of Black Ore -->
+		<product id="895" price="40000"/><!-- Ring of Black Ore -->
 	</buyList>
 
 	<buyList id="90154" npcId="30517"><!-- Joias Grade A -->
