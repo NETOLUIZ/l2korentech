@@ -20105,6 +20105,7 @@
 		<product id="5592" price="1500"/><!-- Greater CP Potion -->
 		<product id="736" price="500"/><!-- Scroll of Escape -->
 		<product id="737" price="2000"/><!-- Scroll of Resurrection -->
+		<product id="2508" price="360"/><!-- Cursed Bone -->
 	</buyList>
 
 	<!-- SCROLLS DE ENCHANT NORMAIS (ADENA) -->
