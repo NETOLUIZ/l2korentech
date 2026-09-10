@@ -19836,14 +19836,48 @@
 
 	<buyList id="90104" npcId="30517"><!-- Armas Fighter A -->
 		<product id="2500" price="2500000"/><!-- Dark Legion's Edge -->
+		<product id="5647" price="2500000"/><!-- Dark Legion's Edge - Critical Damage -->
+		<product id="5648" price="2500000"/><!-- Dark Legion's Edge - Health -->
+		<product id="5649" price="2500000"/><!-- Dark Legion's Edge - Rsk. Focus -->
 		<product id="80" price="2000000"/><!-- Tallum Blade -->
+		<product id="4720" price="2000000"/><!-- Tallum Blade - Health -->
+		<product id="4721" price="2000000"/><!-- Tallum Blade - Rsk. Evasion -->
+		<product id="4722" price="2000000"/><!-- Tallum Blade - Rsk. Haste -->
+		<product id="5635" price="2000000"/><!-- Tallum Blade - Critical Poison -->
+		<product id="5636" price="2000000"/><!-- Tallum Blade - Haste -->
+		<product id="5637" price="2000000"/><!-- Tallum Blade - Anger -->
 		<product id="236" price="2500000"/><!-- Soul Separator -->
+		<product id="5617" price="2500000"/><!-- Soul Separator - Guidance -->
+		<product id="5618" price="2500000"/><!-- Soul Separator - Critical Damage -->
+		<product id="5619" price="2500000"/><!-- Soul Separator - Rsk. Haste -->
 		<product id="288" price="2500000"/><!-- Carnage Bow -->
+		<product id="4831" price="2500000"/><!-- Carnage Bow - Critical Bleed -->
+		<product id="4832" price="2500000"/><!-- Carnage Bow - Mana Up -->
+		<product id="4833" price="2500000"/><!-- Carnage Bow - Quick Recovery -->
+		<product id="5608" price="2500000"/><!-- Carnage Bow - Light -->
 		<product id="289" price="2500000"/><!-- Soul Bow -->
+		<product id="5611" price="2500000"/><!-- Soul Bow - Cheap Shot -->
+		<product id="5612" price="2500000"/><!-- Soul Bow - Quick Recovery -->
+		<product id="5613" price="2500000"/><!-- Soul Bow - Critical Poison -->
 		<product id="164" price="2500000"/><!-- Elysian -->
+		<product id="5602" price="2500000"/><!-- Elysian - Health -->
+		<product id="5603" price="2500000"/><!-- Elysian - Anger -->
+		<product id="5604" price="2500000"/><!-- Elysian - Critical Drain -->
 		<product id="98" price="2500000"/><!-- Halberd -->
+		<product id="4861" price="2500000"/><!-- Halberd - Critical Stun -->
+		<product id="4862" price="2500000"/><!-- Halberd - Towering Blow -->
+		<product id="4863" price="2500000"/><!-- Halberd - Wide Blow -->
+		<product id="5626" price="2500000"/><!-- Halberd - Haste -->
 		<product id="269" price="2500000"/><!-- Blood Tornado -->
+		<product id="4807" price="2500000"/><!-- Blood Tornado - Critical Drain -->
+		<product id="4808" price="2500000"/><!-- Blood Tornado - Rsk. Evasion -->
+		<product id="4809" price="2500000"/><!-- Blood Tornado - Haste -->
+		<product id="5621" price="2500000"/><!-- Blood Tornado - Focus -->
+		<product id="5622" price="2500000"/><!-- Blood Tornado - Anger -->
 		<product id="81" price="2500000"/><!-- Dragon Slayer -->
+		<product id="5644" price="2500000"/><!-- Dragon Slayer - Health -->
+		<product id="5645" price="2500000"/><!-- Dragon Slayer - Critical Bleed -->
+		<product id="5646" price="2500000"/><!-- Dragon Slayer - Critical Drain -->
 		<product id="5705" price="3000000"/><!-- Keshanberk*Damascus -->
 	</buyList>
 
@@ -19871,9 +19905,21 @@
 
 	<buyList id="90114" npcId="30517"><!-- Armas Mystic A -->
 		<product id="151" price="2500000"/><!-- Sword of Miracles -->
+		<product id="5641" price="2500000"/><!-- Sword of Miracles - Magic Power -->
+		<product id="5642" price="2500000"/><!-- Sword of Miracles - Magic Silence -->
+		<product id="5643" price="2500000"/><!-- Sword of Miracles - Acumen -->
 		<product id="213" price="2500000"/><!-- Branch of The Mother Tree -->
+		<product id="5605" price="2500000"/><!-- Branch of The Mother Tree - Conversion -->
+		<product id="5606" price="2500000"/><!-- Branch of The Mother Tree - Magic Damage -->
+		<product id="5607" price="2500000"/><!-- Branch of The Mother Tree - Acumen -->
 		<product id="212" price="2500000"/><!-- Dasparion's Staff -->
+		<product id="5596" price="2500000"/><!-- Dasparion's Staff - Mana Up -->
+		<product id="5597" price="2500000"/><!-- Dasparion's Staff - Conversion -->
+		<product id="5598" price="2500000"/><!-- Dasparion's Staff - Acumen -->
 		<product id="7894" price="2500000"/><!-- Spiritual Eye -->
+		<product id="8147" price="2500000"/><!-- Spiritual Eye - Mana Up -->
+		<product id="8148" price="2500000"/><!-- Spiritual Eye - Magic Poison -->
+		<product id="8149" price="2500000"/><!-- Spiritual Eye - Acumen -->
 	</buyList>
 
 	<!-- ARMADURAS ROBE (MAGO / MISTICO) -->
