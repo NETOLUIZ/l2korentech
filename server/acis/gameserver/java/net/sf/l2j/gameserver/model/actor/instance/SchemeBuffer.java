@@ -99,6 +99,24 @@ public class SchemeBuffer extends Folk
 		{
 			showEditSchemeWindow(player, st.nextToken(), st.nextToken(), Integer.parseInt(st.nextToken()));
 		}
+		else if (currentCommand.startsWith("quickedit"))
+		{
+			final String schemeName = "Custom";
+			final Map<String, ArrayList<Integer>> schemes = BufferManager.getInstance().getPlayerSchemes(player.getObjectId());
+
+			if (schemes == null || !schemes.containsKey(schemeName))
+			{
+				if (schemes != null && schemes.size() >= Config.BUFFER_MAX_SCHEMES)
+				{
+					player.sendMessage("Maximum schemes amount is already reached.");
+					return;
+				}
+
+				BufferManager.getInstance().setScheme(player.getObjectId(), schemeName, new ArrayList<Integer>());
+			}
+
+			showEditSchemeWindow(player, "Buffs", schemeName, 1);
+		}
 		else if (currentCommand.startsWith("skill"))
 		{
 			final String groupType = st.nextToken();
