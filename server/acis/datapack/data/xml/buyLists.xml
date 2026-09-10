@@ -19811,31 +19811,31 @@
 		<product id="86" price="15000"/><!-- Tomahawk -->
 		<product id="291" price="15000"/><!-- Trident -->
 		<product id="258" price="15000"/><!-- Bagh-Nakh -->
-		<product id="2504" price="30000"/><!-- Dual Crimson Sword -->
+		<product id="2516" price="30000"/><!-- Saber*Saber -->
 	</buyList>
 
 	<buyList id="90102" npcId="30517"><!-- Armas Fighter C -->
 		<product id="135" price="150000"/><!-- Samurai Longsword -->
 		<product id="228" price="150000"/><!-- Crystal Dagger -->
-		<product id="285" price="150000"/><!-- Eminence Bow -->
-		<product id="88" price="150000"/><!-- War Pick -->
-		<product id="297" price="150000"/><!-- Orcish Glaive -->
-		<product id="264" price="150000"/><!-- Great Pata -->
-		<product id="2528" price="300000"/><!-- Dual Samurai Longsword -->
+		<product id="286" price="150000"/><!-- Eminence Bow -->
+		<product id="89" price="150000"/><!-- Big Hammer -->
+		<product id="298" price="150000"/><!-- Orcish Glaive -->
+		<product id="266" price="150000"/><!-- Great Pata -->
+		<product id="2551" price="300000"/><!-- Crimson Sword*Crimson Sword -->
 	</buyList>
 
 	<buyList id="90103" npcId="30517"><!-- Armas Fighter B -->
-		<product id="79" price="600000"/><!-- Damascus -->
+		<product id="79" price="600000"/><!-- Sword of Damascus -->
 		<product id="234" price="600000"/><!-- Demon Dagger -->
 		<product id="287" price="600000"/><!-- Bow of Peril -->
 		<product id="163" price="600000"/><!-- Art of Battle Axe -->
 		<product id="97" price="600000"/><!-- Lance -->
 		<product id="268" price="600000"/><!-- Bellion Cestus -->
-		<product id="5704" price="1200000"/><!-- Keshanberk*Keshanberk -->
+		<product id="2624" price="1200000"/><!-- Tsurugi*Tsurugi -->
 	</buyList>
 
 	<buyList id="90104" npcId="30517"><!-- Armas Fighter A -->
-		<product id="144" price="2500000"/><!-- Dark Legion's Edge -->
+		<product id="2500" price="2500000"/><!-- Dark Legion's Edge -->
 		<product id="80" price="2000000"/><!-- Tallum Blade -->
 		<product id="236" price="2500000"/><!-- Soul Separator -->
 		<product id="288" price="2500000"/><!-- Carnage Bow -->
@@ -19844,36 +19844,36 @@
 		<product id="98" price="2500000"/><!-- Halberd -->
 		<product id="269" price="2500000"/><!-- Blood Tornado -->
 		<product id="81" price="2500000"/><!-- Dragon Slayer -->
-		<product id="5706" price="3000000"/><!-- Keshanberk*Damascus -->
+		<product id="5705" price="3000000"/><!-- Keshanberk*Damascus -->
 	</buyList>
 
 	<!-- ARMAS MYSTIC (MAGO) -->
 	<buyList id="90111" npcId="30517"><!-- Armas Mystic D -->
 		<product id="183" price="15000"/><!-- Mystic Staff -->
-		<product id="185" price="15000"/><!-- Staff of Life -->
-		<product id="191" price="15000"/><!-- Ghoul's Staff -->
-		<product id="186" price="15000"/><!-- Mace of Judgment -->
+		<product id="189" price="15000"/><!-- Staff of Life -->
+		<product id="188" price="15000"/><!-- Ghost Staff -->
+		<product id="180" price="15000"/><!-- Mace of Judgment -->
 	</buyList>
 
 	<buyList id="90112" npcId="30517"><!-- Armas Mystic C -->
 		<product id="84" price="150000"/><!-- Homunkulus's Sword -->
 		<product id="200" price="150000"/><!-- Sage's Staff -->
-		<product id="170" price="150000"/><!-- Club of Nature -->
-		<product id="175" price="150000"/><!-- Sword of Whispering Death -->
+		<product id="201" price="150000"/><!-- Club of Nature -->
+		<product id="145" price="150000"/><!-- Sword of Whispering Death -->
 	</buyList>
 
 	<buyList id="90113" npcId="30517"><!-- Armas Mystic B -->
-		<product id="149" price="600000"/><!-- Sword of Valhalla -->
-		<product id="154" price="600000"/><!-- Spell Breaker -->
+		<product id="148" price="600000"/><!-- Sword of Valhalla -->
+		<product id="7892" price="600000"/><!-- Spell Breaker -->
 		<product id="7889" price="600000"/><!-- Wizard's Tear -->
 		<product id="209" price="600000"/><!-- Divine Staff -->
 	</buyList>
 
 	<buyList id="90114" npcId="30517"><!-- Armas Mystic A -->
-		<product id="171" price="2500000"/><!-- Sword of Miracles -->
-		<product id="211" price="2500000"/><!-- Branch of the Mother Tree -->
+		<product id="151" price="2500000"/><!-- Sword of Miracles -->
+		<product id="213" price="2500000"/><!-- Branch of The Mother Tree -->
 		<product id="212" price="2500000"/><!-- Dasparion's Staff -->
-		<product id="174" price="2500000"/><!-- Spiritual Eye -->
+		<product id="7894" price="2500000"/><!-- Spiritual Eye -->
 	</buyList>
 
 	<!-- ARMADURAS ROBE (MAGO / MISTICO) -->
