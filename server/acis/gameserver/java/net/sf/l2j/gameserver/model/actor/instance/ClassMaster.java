@@ -98,6 +98,10 @@ public final class ClassMaster extends VillageMaster
 		}
 		else if (command.startsWith("learn_skills"))
 			player.rewardSkills();
+		else if (command.startsWith("goto_stakato"))
+			player.teleportTo(88969, -45307, -2104, 20);
+		else if (command.startsWith("goto_ketra"))
+			player.teleportTo(149817, -80053, -5576, 20);
 		else
 			super.onBypassFeedback(player, command);
 	}
