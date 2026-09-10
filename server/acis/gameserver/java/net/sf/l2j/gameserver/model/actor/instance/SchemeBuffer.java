@@ -87,12 +87,18 @@ public class SchemeBuffer extends Folk
 			
 			if (target == null)
 				player.sendMessage("You don't have a pet.");
-			else if (cost == 0 || player.reduceAdena("NPC Buffer", cost, this, true))
+			else
 			{
 				BufferManager.getInstance().reloadPlayerSchemes(player.getObjectId());
 
-				for (int skillId : BufferManager.getInstance().getScheme(player.getObjectId(), schemeName))
-					SkillTable.getInstance().getInfo(skillId, SkillTable.getInstance().getMaxLevel(skillId)).getEffects(this, target);
+				final List<Integer> skills = BufferManager.getInstance().getScheme(player.getObjectId(), schemeName);
+				if (skills.isEmpty())
+					player.sendMessage("This scheme has no buffs registered.");
+				else if (cost == 0 || player.reduceAdena("NPC Buffer", cost, this, true))
+				{
+					for (int skillId : skills)
+						SkillTable.getInstance().getInfo(skillId, SkillTable.getInstance().getMaxLevel(skillId)).getEffects(this, target);
+				}
 			}
 		}
 		else if (currentCommand.startsWith("editschemes"))
