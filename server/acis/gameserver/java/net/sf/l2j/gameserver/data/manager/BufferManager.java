@@ -157,6 +157,18 @@ public class BufferManager implements IXmlReader
 	}
 
 	/**
+	 * Forces a reload of a player's schemes straight from database, discarding any cached (possibly stale) entry.<br>
+	 * Used right before consuming a scheme (givebuffs), so a live DB edit (or leftover stale cache from a past
+	 * restart) never causes the wrong buffs to be applied - unlike loadPlayerSchemesIfAbsent, this always hits the DB.
+	 * @param playerId : The player objectId to reload.
+	 */
+	public void reloadPlayerSchemes(int playerId)
+	{
+		_schemesTable.remove(playerId);
+		loadPlayerSchemesIfAbsent(playerId);
+	}
+
+	/**
 	 * Loads a single player's schemes from database into _schemesTable, if not already cached.<br>
 	 * Needed because _schemesTable is only fully loaded once on boot, so characters created (or edited in DB) after that would otherwise never get their schemes.
 	 * @param playerId : The player objectId to load.

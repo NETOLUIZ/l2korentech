@@ -89,6 +89,8 @@ public class SchemeBuffer extends Folk
 				player.sendMessage("You don't have a pet.");
 			else if (cost == 0 || player.reduceAdena("NPC Buffer", cost, this, true))
 			{
+				BufferManager.getInstance().reloadPlayerSchemes(player.getObjectId());
+
 				for (int skillId : BufferManager.getInstance().getScheme(player.getObjectId(), schemeName))
 					SkillTable.getInstance().getInfo(skillId, SkillTable.getInstance().getMaxLevel(skillId)).getEffects(this, target);
 			}
