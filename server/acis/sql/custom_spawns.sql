@@ -71,3 +71,7 @@ INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay,
 (30517, 111486, 219413, -3536, 0, 60, 0, 0),
 (50008, 111386, 219513, -3536, 0, 60, 0, 0),
 (50006, 111286, 219413, -3536, 0, 60, 0, 0);
+
+-- Loja Top+ (50009), sells enchanted +18 Grade S gear for medals, in Giran.
+INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay, respawn_rand, periodOfDay) VALUES
+(50009, 83550, 148093, -3404, 0, 60, 0, 0);
