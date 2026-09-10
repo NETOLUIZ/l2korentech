@@ -62,7 +62,7 @@
         <set name="isMagic" val="true" />
         <set name="aggroPoints" val="#power" />
         <for>
-			<effect name="Buff" time="#time" val="0" stackOrder="#stackOrder" stackType="buff_unicorn_seraphim">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="buff_unicorn_seraphim">
                 <mul order="0x30" stat="regMp" val="#regMp" />
             </effect>
         </for>
@@ -85,7 +85,7 @@
         <set name="isMagic" val="true" />
         <set name="aggroPoints" val="#power" />
         <for>
-			<effect name="Buff" time="#time" val="0" stackOrder="#stackOrder" stackType="buff_unicorn_seraphim">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="buff_unicorn_seraphim">
                 <mul order="0x30" stat="mReuse" val="#mReuse" />
             </effect>
         </for>

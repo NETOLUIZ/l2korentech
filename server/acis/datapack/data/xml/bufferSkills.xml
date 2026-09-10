@@ -35,6 +35,8 @@
 		<buff id="1391" price="0" desc="Increases P. Def."/><!-- Earth Chant -->
 		<buff id="1397" price="0" desc="Decreases MP consumption rate."/><!-- Clarity -->
 		<buff id="1413" price="0" desc="Increases mage abilities."/><!-- Magnus' Chant -->
+		<buff id="4702" price="0" desc="Increases MP regeneration."/><!-- Blessing of Seraphim -->
+		<buff id="4703" price="0" desc="Decreases magic skill reuse time."/><!-- Gift of Seraphim -->
 	</category>
 	<category type="Dances">
 		<buff id="271" price="0" desc="Increases P. Atk."/><!-- Dance of the Warrior -->
