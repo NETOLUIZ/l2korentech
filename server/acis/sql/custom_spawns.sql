@@ -75,3 +75,26 @@ INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay,
 -- Loja Top+ (50009), sells enchanted +18 Grade S gear for medals, in Giran.
 INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay, respawn_rand, periodOfDay) VALUES
 (50009, 83550, 148093, -3404, 0, 60, 0, 0);
+
+-- Gatekeeper Global (50010), one-stop teleporter to every town + farm zone,
+-- near every town gatekeeper on the map alongside Shari/Tryskell/Class Master.
+INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay, respawn_rand, periodOfDay) VALUES
+(50010, -84308, 244604, -3729, 0, 60, 0, 0),
+(50010, 15431, 142885, -2704, 0, 60, 0, 0),
+(50010, 83196, 147904, -3404, 0, 60, 0, 0),
+(50010, 9470, 15537, -4574, 0, 60, 0, 0),
+(50010, 46726, 51511, -2977, 0, 60, 0, 0),
+(50010, 84614, 15886, -4291, 0, 60, 0, 0),
+(50010, 82792, 53171, -1492, 0, 60, 0, 0),
+(50010, 116929, 76917, -2689, 0, 60, 0, 0),
+(50010, -12936, 122816, -3114, 0, 60, 0, 0),
+(50010, -80952, 149776, -3044, 0, 60, 0, 0),
+(50010, -113690, 235526, -3646, 0, 60, 0, 0),
+(50010, 49128, 248416, -5952, 0, 60, 0, 0),
+(50010, -115944, 235924, -4032, 0, 60, 0, 0),
+(50010, 114872, -178176, -906, 0, 60, 0, 0),
+(50010, -45464, -112512, -235, 0, 60, 0, 0),
+(50010, 105688, 109808, -3200, 0, 60, 0, 0),
+(50010, 146537, 25807, -2013, 0, 60, 0, 0),
+(50010, 47784, 186832, -3445, 0, 60, 0, 0),
+(50010, 111186, 219413, -3536, 0, 60, 0, 0);
