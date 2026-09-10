@@ -20100,7 +20100,8 @@
 		<product id="1343" price="15"/><!-- Silver Arrow -->
 		<product id="1344" price="25"/><!-- Mithril Arrow -->
 		<product id="1345" price="40"/><!-- Shining Arrow -->
-		<product id="1061" price="1000"/><!-- Greater Healing Potion -->
+		<product id="1061" price="330"/><!-- Healing Potion -->
+		<product id="1539" price="1080"/><!-- Greater Healing Potion -->
 		<product id="728" price="2000"/><!-- Mana Potion -->
 		<product id="5592" price="1500"/><!-- Greater CP Potion -->
 		<product id="736" price="500"/><!-- Scroll of Escape -->
