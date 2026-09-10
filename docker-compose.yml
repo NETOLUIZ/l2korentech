@@ -99,7 +99,7 @@ services:
         cp /tmp/repo/server/acis/datapack/data/serverNames.xml /opt/acisgame/serverNames.xml
         cd /opt/acisgame
         sleep 5
-        exec java -Dfile.encoding=UTF-8 -Xms512m -Xmx1024m -cp "bin:lib/*:config" net.sf.l2j.gameserver.GameServer
+        exec java -Dfile.encoding=UTF-8 -Xms1024m -Xmx3072m -cp "bin:lib/*:config" net.sf.l2j.gameserver.GameServer
 
 networks:
   l2_net:
