@@ -32323,7 +32323,7 @@
 		</drops>
 	</npc>
 	<npc id="21513" name="Needle Stakato" title="">
-		<set name="level" val="70"/>
+		<set name="level" val="80"/>
 		<set name="radius" val="15"/>
 		<set name="height" val="36"/>
 		<set name="rHand" val="235"/>
