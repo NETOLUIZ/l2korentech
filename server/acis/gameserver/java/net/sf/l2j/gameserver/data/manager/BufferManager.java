@@ -88,7 +88,7 @@ public class BufferManager implements IXmlReader
 			{
 				final NamedNodeMap attrs = buffNode.getAttributes();
 				final int skillId = parseInteger(attrs, "id");
-				_availableBuffs.put(skillId, new BuffSkillHolder(skillId, parseInteger(attrs, "price"), category, parseString(attrs, "desc")));
+				_availableBuffs.put(skillId, new BuffSkillHolder(skillId, parseInteger(attrs, "price"), category, parseString(attrs, "desc"), parseString(attrs, "icon")));
 			});
 		}));
 	}

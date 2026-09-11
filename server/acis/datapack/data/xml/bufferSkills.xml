@@ -35,8 +35,8 @@
 		<buff id="1391" price="0" desc="Increases P. Def."/><!-- Earth Chant -->
 		<buff id="1397" price="0" desc="Decreases MP consumption rate."/><!-- Clarity -->
 		<buff id="1413" price="0" desc="Increases mage abilities."/><!-- Magnus' Chant -->
-		<buff id="4702" price="0" desc="Increases MP regeneration."/><!-- Blessing of Seraphim -->
-		<buff id="4703" price="0" desc="Decreases magic skill reuse time."/><!-- Gift of Seraphim -->
+		<buff id="4702" price="0" desc="Increases MP regeneration." icon="icon.skill1332"/><!-- Blessing of Seraphim -->
+		<buff id="4703" price="0" desc="Decreases magic skill reuse time." icon="icon.skill1332"/><!-- Gift of Seraphim -->
 	</category>
 	<category type="Dances">
 		<buff id="271" price="0" desc="Increases P. Atk."/><!-- Dance of the Warrior -->
@@ -80,8 +80,8 @@
 		<buff id="1191" price="0" desc="Increases resistance to fire attacks."/><!-- Resist Fire -->
 		<buff id="1392" price="0" desc="Increases resistance to holy attacks."/><!-- Holy Resistance -->
 		<buff id="1393" price="0" desc="Increases resistance to unholy attacks."/><!-- Unholy Resistance -->
-		<buff id="4699" price="0" desc="Increases critical rate and damage."/><!-- Blessing of Queen -->
-		<buff id="4700" price="0" desc="Increases P. Atk. and Accuracy."/><!-- Gift of Queen -->
+		<buff id="4699" price="0" desc="Increases critical rate and damage." icon="icon.skill1331"/><!-- Blessing of Queen -->
+		<buff id="4700" price="0" desc="Increases P. Atk. and Accuracy." icon="icon.skill1331"/><!-- Gift of Queen -->
 	</category>
 	<category type="Songs">
 		<buff id="264" price="0" desc="Increases P. Def."/><!-- Song of Earth -->
