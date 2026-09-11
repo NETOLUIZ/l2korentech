@@ -14,6 +14,7 @@ import net.sf.l2j.gameserver.data.manager.ZoneManager;
 import net.sf.l2j.gameserver.enums.IntentionType;
 import net.sf.l2j.gameserver.enums.ScriptEventType;
 import net.sf.l2j.gameserver.geoengine.GeoEngine;
+import net.sf.l2j.gameserver.idfactory.IdFactory;
 import net.sf.l2j.gameserver.model.L2Skill;
 import net.sf.l2j.gameserver.model.actor.Attackable;
 import net.sf.l2j.gameserver.model.actor.Creature;
@@ -22,6 +23,7 @@ import net.sf.l2j.gameserver.model.actor.Playable;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.instance.GrandBoss;
 import net.sf.l2j.gameserver.model.actor.instance.Monster;
+import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.model.location.SpawnLocation;
 import net.sf.l2j.gameserver.model.zone.type.BossZone;
 import net.sf.l2j.gameserver.network.serverpackets.Earthquake;
@@ -354,8 +356,33 @@ public class Baium extends L2AttackableAIScript
 		
 		// Clean angels AI
 		cancelQuestTimer("angels_aggro_reconsider", null, null);
-		
+
+		// Reward the killer with the 3 full Grade S sets, pre-enchanted +18.
+		final Player player = killer.getActingPlayer();
+		if (player != null)
+			rewardFullSets(player, npc);
+
 		return super.onKill(npc, killer);
+	}
+
+	private static final int[] CUSTOM_S_GRADE_SETS =
+	{
+		6373, 6374, 6375, 6376, 6377, 6378, // Imperial Crusader (Heavy)
+		6379, 6380, 6381, 6382, // Draconic Leather Armor (Light)
+		6383, 6384, 6385, 6386 // Major Arcana (Robe)
+	};
+
+	private static final int CUSTOM_ENCHANT_LEVEL = 18;
+
+	private static void rewardFullSets(Player player, Npc npc)
+	{
+		for (int itemId : CUSTOM_S_GRADE_SETS)
+		{
+			final ItemInstance item = new ItemInstance(IdFactory.getInstance().getNextId(), itemId);
+			item.setCount(1);
+			item.setEnchantLevel(CUSTOM_ENCHANT_LEVEL);
+			player.addItem("Baium", item, npc, true);
+		}
 	}
 	
 	/**
