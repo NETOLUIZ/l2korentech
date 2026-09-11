@@ -6,6 +6,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: "password"
       MYSQL_DATABASE: "l2jdb"
+      TZ: "America/Sao_Paulo"
     ports:
       - "3307:3306"
     volumes:
@@ -33,6 +34,8 @@ services:
       - "9014:9014"
     depends_on:
       - l2mariadb
+    environment:
+      TZ: "America/Sao_Paulo"
     networks:
       - l2_net
     command:
@@ -59,7 +62,7 @@ services:
         cp -r /tmp/repo/server/acis/datapack/data/. /opt/acisgame/data/
         cp /tmp/repo/server/acis/datapack/data/serverNames.xml /opt/acisgame/serverNames.xml
         cd /opt/acisgame
-        exec java -Dfile.encoding=UTF-8 -Xmx256m -cp "bin:lib/*:config" net.sf.l2j.loginserver.LoginServer
+        exec java -Dfile.encoding=UTF-8 -Duser.timezone=America/Sao_Paulo -Xmx256m -cp "bin:lib/*:config" net.sf.l2j.loginserver.LoginServer
 
   l2game:
     image: eclipse-temurin:11-jre
@@ -70,6 +73,8 @@ services:
     depends_on:
       - l2mariadb
       - l2login
+    environment:
+      TZ: "America/Sao_Paulo"
     volumes:
       - geodata_data:/opt/acisgame/data/geodata
     networks:
@@ -99,7 +104,7 @@ services:
         cp /tmp/repo/server/acis/datapack/data/serverNames.xml /opt/acisgame/serverNames.xml
         cd /opt/acisgame
         sleep 5
-        exec java -Dfile.encoding=UTF-8 -Xms1024m -Xmx3072m -cp "bin:lib/*:config" net.sf.l2j.gameserver.GameServer
+        exec java -Dfile.encoding=UTF-8 -Duser.timezone=America/Sao_Paulo -Xms1024m -Xmx3072m -cp "bin:lib/*:config" net.sf.l2j.gameserver.GameServer
 
 networks:
   l2_net:
