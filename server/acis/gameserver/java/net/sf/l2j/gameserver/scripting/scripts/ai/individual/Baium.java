@@ -365,16 +365,16 @@ public class Baium extends L2AttackableAIScript
 		return super.onKill(npc, killer);
 	}
 
-	private static final int[] CUSTOM_S_GRADE_SETS =
+	public static final int[] CUSTOM_S_GRADE_SETS =
 	{
 		6373, 6374, 6375, 6376, 6377, 6378, // Imperial Crusader (Heavy)
 		6379, 6380, 6381, 6382, // Draconic Leather Armor (Light)
 		6383, 6384, 6385, 6386 // Major Arcana (Robe)
 	};
 
-	private static final int CUSTOM_ENCHANT_LEVEL = 18;
+	public static final int CUSTOM_ENCHANT_LEVEL = 18;
 
-	private static void rewardFullSets(Player player, Npc npc)
+	public static void rewardFullSets(Player player, Npc npc)
 	{
 		for (int itemId : CUSTOM_S_GRADE_SETS)
 		{
