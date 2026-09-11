@@ -52,6 +52,37 @@
 		<buff id="311" price="0" desc="Increases resistance to terrain damage."/><!-- Dance of Protection -->
 		<buff id="365" price="0" desc="Increases rate of magic crit. damage."/><!-- Siren's Dance -->
 	</category>
+	<category type="Class Buffs">
+		<buff id="1002" price="0" desc="Increases P. Atk. and Atk. Spd."/><!-- Flame Chant -->
+		<buff id="1006" price="0" desc="Increases P. Atk."/><!-- Chant of Fire -->
+		<buff id="1007" price="0" desc="Increases Atk. Spd."/><!-- Chant of Battle -->
+		<buff id="1009" price="0" desc="Increases P. Def."/><!-- Chant of Shielding -->
+		<buff id="1308" price="0" desc="Increases critical attack rate."/><!-- Chant of Predator -->
+		<buff id="1309" price="0" desc="Increases Speed."/><!-- Chant of Eagle -->
+		<buff id="1310" price="0" desc="Restores HP using inflicted damage."/><!-- Chant of Vampire -->
+		<buff id="1362" price="0" desc="Increases HP/MP regeneration."/><!-- Chant of Spirit -->
+		<buff id="1416" price="0" desc="Increases P. Atk."/><!-- Pa'agrio's Fist -->
+		<buff id="1003" price="0" desc="Increases resistance to elements."/><!-- Pa'agrian Gift -->
+		<buff id="1004" price="0" desc="Increases Casting Spd."/><!-- The Wisdom of Pa'agrio -->
+		<buff id="1005" price="0" desc="Increases P. Def."/><!-- Blessings of Pa'agrio -->
+		<buff id="1008" price="0" desc="Increases Accuracy."/><!-- The Glory of Pa'agrio -->
+		<buff id="1249" price="0" desc="Increases critical attack."/><!-- The Vision of Pa'agrio -->
+		<buff id="1364" price="0" desc="Increases Evasion."/><!-- The Eye of Pa'agrio -->
+		<buff id="1365" price="0" desc="Increases M. Def."/><!-- The Soul of Pa'agrio -->
+		<buff id="1414" price="0" desc="Increases combat abilities."/><!-- Victories of Pa'agrio -->
+		<buff id="1032" price="0" desc="Restores HP."/><!-- Invigor -->
+		<buff id="1033" price="0" desc="Increases resistance to poison."/><!-- Resist Poison -->
+		<buff id="1043" price="0" desc="Grants holy attribute to weapon."/><!-- Holy Weapon -->
+		<buff id="1044" price="0" desc="Increases HP regeneration."/><!-- Regeneration -->
+		<buff id="1073" price="0" desc="Cures negative effects."/><!-- Kiss of Eva -->
+		<buff id="1182" price="0" desc="Increases resistance to water attacks."/><!-- Resist Aqua -->
+		<buff id="1189" price="0" desc="Increases resistance to wind attacks."/><!-- Resist Wind -->
+		<buff id="1191" price="0" desc="Increases resistance to fire attacks."/><!-- Resist Fire -->
+		<buff id="1392" price="0" desc="Increases resistance to holy attacks."/><!-- Holy Resistance -->
+		<buff id="1393" price="0" desc="Increases resistance to unholy attacks."/><!-- Unholy Resistance -->
+		<buff id="4699" price="0" desc="Increases critical rate and damage."/><!-- Blessing of Queen -->
+		<buff id="4700" price="0" desc="Increases P. Atk. and Accuracy."/><!-- Gift of Queen -->
+	</category>
 	<category type="Songs">
 		<buff id="264" price="0" desc="Increases P. Def."/><!-- Song of Earth -->
 		<buff id="265" price="0" desc="Increases HP regeneration."/><!-- Song of Life -->
