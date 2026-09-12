@@ -1294,7 +1294,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="490" type="Armor" name="Tattoo of Blood">
+	<item id="490" type="Armor" name="Tattoo of the Warrior">
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1310,7 +1310,7 @@
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="491" type="Armor" name="Tattoo of Absolute">
+	<item id="491" type="Armor" name="Tattoo of the Mage">
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
