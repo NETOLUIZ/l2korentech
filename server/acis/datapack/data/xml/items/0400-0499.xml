@@ -1307,6 +1307,7 @@
 			<add order="0x10" stat="pDef" val="132" />
 			<add order="0x10" stat="STR" val="3" />
 			<add order="0x10" stat="CON" val="2" />
+			<mul order="0x30" stat="pAtkSpd" val="1.05" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
@@ -1323,6 +1324,7 @@
 			<add order="0x10" stat="pDef" val="146" />
 			<add order="0x10" stat="INT" val="3" />
 			<add order="0x10" stat="MEN" val="2" />
+			<mul order="0x30" stat="mAtkSpd" val="1.05" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
