@@ -11397,6 +11397,12 @@
 			<category id="2">
 				<drop itemid="8877" min="1" max="1" chance="7482"/>
 			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="13610" max="27100" chance="700000"/>
 			</category>
@@ -11462,6 +11468,12 @@
 			<category id="3">
 				<drop itemid="8907" min="1" max="1" chance="12858"/>
 			</category>
+			<category id="4">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="5">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="5818" max="11870" chance="700000"/>
 			</category>
@@ -11526,6 +11538,12 @@
 			<category id="3">
 				<drop itemid="8893" min="1" max="1" chance="5586"/>
 			</category>
+			<category id="4">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="5">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="10320" max="31550" chance="700000"/>
 			</category>
@@ -11588,6 +11606,12 @@
 			<category id="4">
 				<drop itemid="8904" min="1" max="1" chance="12858"/>
 			</category>
+			<category id="5">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="6">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="18210" max="54000" chance="700000"/>
 			</category>
@@ -11647,6 +11671,12 @@
 			</category>
 			<category id="3">
 				<drop itemid="8886" min="1" max="1" chance="12858"/>
+			</category>
+			<category id="4">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="5">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="6036" max="12300" chance="700000"/>
@@ -11714,6 +11744,12 @@
 			<category id="3">
 				<drop itemid="8882" min="1" max="1" chance="8571"/>
 			</category>
+			<category id="4">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="5">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="6034" max="12320" chance="700000"/>
 			</category>
@@ -11771,6 +11807,12 @@
 			<category id="2">
 				<drop itemid="8896" min="1" max="1" chance="2373"/>
 			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="4475" max="13610" chance="700000"/>
 			</category>
@@ -11822,6 +11864,12 @@
 			</category>
 			<category id="2">
 				<drop itemid="8883" min="1" max="1" chance="8571"/>
+			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="5953" max="12100" chance="700000"/>
@@ -11883,6 +11931,12 @@
 			<category id="2">
 				<drop itemid="8887" min="1" max="1" chance="12858"/>
 			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="5790" max="11810" chance="700000"/>
 			</category>
@@ -11936,6 +11990,12 @@
 			<category id="2">
 				<drop itemid="8880" min="1" max="1" chance="19713"/>
 			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="5987" max="12110" chance="700000"/>
 			</category>
@@ -11982,6 +12042,12 @@
 			<category id="1">
 				<drop itemid="5537" min="1" max="1" chance="6024"/>
 				<drop itemid="8954" min="1" max="1" chance="4525"/>
+			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="6613" max="13420" chance="700000"/>
@@ -12037,6 +12103,12 @@
 				<drop itemid="8955" min="1" max="1" chance="485"/>
 				<drop itemid="8956" min="1" max="1" chance="485"/>
 			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="6054" max="12340" chance="700000"/>
 			</category>
@@ -12088,6 +12160,12 @@
 			<category id="2">
 				<drop itemid="8884" min="1" max="1" chance="21429"/>
 			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="6608" max="13420" chance="700000"/>
 			</category>
@@ -12137,6 +12215,12 @@
 				<drop itemid="5538" min="1" max="1" chance="3745"/>
 				<drop itemid="8954" min="1" max="1" chance="2500"/>
 				<drop itemid="8956" min="1" max="1" chance="625"/>
+			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="6423" max="12630" chance="700000"/>
@@ -12193,6 +12277,12 @@
 				<drop itemid="8955" min="1" max="1" chance="372"/>
 				<drop itemid="8956" min="1" max="1" chance="744"/>
 			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="5944" max="12130" chance="700000"/>
 			</category>
@@ -12240,6 +12330,12 @@
 			<category id="1">
 				<drop itemid="5538" min="1" max="1" chance="10638"/>
 				<drop itemid="8954" min="1" max="1" chance="3968"/>
+			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="6262" max="12640" chance="700000"/>
@@ -12292,6 +12388,12 @@
 				<drop itemid="5514" min="1" max="1" chance="2710"/>
 				<drop itemid="5515" min="1" max="1" chance="8130"/>
 				<drop itemid="8954" min="1" max="1" chance="4065"/>
+			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="5873" max="11940" chance="700000"/>
@@ -12350,6 +12452,12 @@
 			<category id="3">
 				<drop itemid="8895" min="1" max="1" chance="29412"/>
 			</category>
+			<category id="4">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="5">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="80380" max="138860" chance="700000"/>
 			</category>
@@ -12403,6 +12511,12 @@
 			<category id="3">
 				<drop itemid="8900" min="1" max="1" chance="72858"/>
 			</category>
+			<category id="4">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="5">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="54300" max="110530" chance="700000"/>
 			</category>
@@ -12452,6 +12566,12 @@
 			</category>
 			<category id="2">
 				<drop itemid="8903" min="1" max="1" chance="33705"/>
+			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="77220" max="132850" chance="700000"/>
@@ -12510,6 +12630,12 @@
 			<category id="2">
 				<drop itemid="8906" min="1" max="1" chance="2133"/>
 			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="4524" max="12800" chance="700000"/>
 			</category>
@@ -12562,6 +12688,12 @@
 				<drop itemid="8896" min="1" max="1" chance="18182"/>
 				<drop itemid="8954" min="1" max="1" chance="590"/>
 				<drop itemid="8955" min="1" max="1" chance="590"/>
+			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="5493" max="11210" chance="700000"/>
@@ -12618,6 +12750,12 @@
 				<drop itemid="8955" min="1" max="1" chance="1314"/>
 				<drop itemid="8956" min="1" max="1" chance="438"/>
 			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="4893" max="9986" chance="700000"/>
 			</category>
@@ -12672,6 +12810,12 @@
 				<drop itemid="8954" min="1" max="1" chance="1464"/>
 				<drop itemid="8955" min="1" max="1" chance="1464"/>
 			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="5317" max="10840" chance="700000"/>
 			</category>
@@ -12720,6 +12864,12 @@
 				<drop itemid="8954" min="1" max="1" chance="2278"/>
 				<drop itemid="8955" min="1" max="1" chance="343"/>
 				<drop itemid="8956" min="1" max="1" chance="343"/>
+			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="5157" max="10520" chance="700000"/>
@@ -12775,6 +12925,12 @@
 			</category>
 			<category id="2">
 				<drop itemid="8898" min="1" max="1" chance="2571"/>
+			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="4413" max="13460" chance="700000"/>
@@ -12834,6 +12990,12 @@
 			<category id="3">
 				<drop itemid="8878" min="1" max="1" chance="21429"/>
 			</category>
+			<category id="4">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="5">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="56398" max="11510" chance="700000"/>
 			</category>
@@ -12892,6 +13054,12 @@
 			<category id="2">
 				<drop itemid="8879" min="1" max="1" chance="21429"/>
 			</category>
+			<category id="3">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="4">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="5361" max="10920" chance="700000"/>
 			</category>
@@ -12948,6 +13116,12 @@
 				<drop itemid="8954" min="1" max="1" chance="643"/>
 				<drop itemid="8955" min="1" max="1" chance="643"/>
 			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="6613" max="13420" chance="700000"/>
 			</category>
@@ -12995,6 +13169,12 @@
 				<drop itemid="5538" min="1" max="1" chance="13513"/>
 				<drop itemid="8954" min="1" max="1" chance="1712"/>
 				<drop itemid="8955" min="1" max="1" chance="1712"/>
+			</category>
+			<category id="2">
+				<drop itemid="6392" min="35" max="35" chance="1000000"/><!-- Event Medal -->
+			</category>
+			<category id="3">
+				<drop itemid="6393" min="20" max="20" chance="1000000"/><!-- Glittering Medal -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="4700" max="14230" chance="700000"/>
