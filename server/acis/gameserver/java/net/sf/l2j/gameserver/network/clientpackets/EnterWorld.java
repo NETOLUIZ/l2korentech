@@ -3,7 +3,9 @@ package net.sf.l2j.gameserver.network.clientpackets;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.HashSet;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.L2DatabaseFactory;
@@ -230,17 +232,18 @@ public class EnterWorld extends L2GameClientPacket
 		player.sendSkillList();
 		
 		// Load quests.
+		final Set<String> notifiedOnEnterWorld = new HashSet<>();
 		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
 			PreparedStatement ps = con.prepareStatement(LOAD_PLAYER_QUESTS))
 		{
 			ps.setInt(1, objectId);
-			
+
 			try (ResultSet rs = ps.executeQuery())
 			{
 				while (rs.next())
 				{
 					final String questName = rs.getString("name");
-					
+
 					// Test quest existence.
 					final Quest quest = ScriptData.getInstance().getQuest(questName);
 					if (quest == null)
@@ -248,16 +251,19 @@ public class EnterWorld extends L2GameClientPacket
 						LOGGER.warn("Unknown quest {} for player {}.", questName, player.getName());
 						continue;
 					}
-					
+
 					// Each quest get a single state ; create one QuestState per found <state> variable.
 					final String var = rs.getString("var");
 					if (var.equals("<state>"))
 					{
 						new QuestState(player, quest, rs.getByte("value"));
-						
+
 						// Notify quest for enterworld event, if quest allows it.
 						if (quest.getOnEnterWorld())
+						{
 							quest.notifyEnterWorld(player);
+							notifiedOnEnterWorld.add(quest.getName());
+						}
 					}
 					// Feed an existing quest state.
 					else
@@ -268,7 +274,7 @@ public class EnterWorld extends L2GameClientPacket
 							LOGGER.warn("Unknown quest state {} for player {}.", questName, player.getName());
 							continue;
 						}
-						
+
 						qs.setInternal(var, rs.getString("value"));
 					}
 				}
@@ -278,7 +284,14 @@ public class EnterWorld extends L2GameClientPacket
 		{
 			LOGGER.error("Couldn't load quests for player {}.", e, player.getName());
 		}
-		
+
+		// Notify onEnterWorld quests that have no saved quest state at all (ex: stateless announcement scripts).
+		for (Quest quest : ScriptData.getInstance().getQuests())
+		{
+			if (quest.getOnEnterWorld() && !notifiedOnEnterWorld.contains(quest.getName()))
+				quest.notifyEnterWorld(player);
+		}
+
 		player.sendPacket(new QuestList(player));
 		
 		// Unread mails make a popup appears.
