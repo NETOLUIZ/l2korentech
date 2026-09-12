@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Shari (30517) - Tattoos Grade A (Medals) -->
+<list>
+
+	<!-- Tattoo of Blood - Guerreiro (STR/CON) -->
+	<item>
+		<ingredient id="6392" count="50000"/>
+		<ingredient id="6393" count="50000"/>
+		<production id="490" count="1"/><!-- Tattoo of Blood -->
+	</item>
+
+	<!-- Tattoo of Absolute - Mago (INT/MEN) -->
+	<item>
+		<ingredient id="6392" count="50000"/>
+		<ingredient id="6393" count="50000"/>
+		<production id="491" count="1"/><!-- Tattoo of Absolute -->
+	</item>
+
+</list>
