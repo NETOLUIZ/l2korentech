@@ -188,7 +188,7 @@
 		<set name="type" val="RaidBoss"/>
 		<set name="exp" val="10253400"/>
 		<set name="sp" val="1081544"/>
-		<set name="hp" val="1709400"/>
+		<set name="hp" val="900000"/>
 		<set name="mp" val="18000"/>
 		<set name="hpRegen" val="750"/>
 		<set name="mpRegen" val="99"/>
