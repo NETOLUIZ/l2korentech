@@ -19,7 +19,7 @@
         <set name="operateType" val="OP_ACTIVE" />
         <set name="aggroPoints" val="#power" />
         <for>
-			<effect name="Buff" time="#time" val="0" stackOrder="#stackOrder" stackType="buff_queen_of_cat">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="buff_queen_of_cat">
                 <mul order="0x30" stat="pAtk" val="#pAtk" />
                 <add order="0x40" stat="accCombat" val="#accCombat" />
             </effect>
