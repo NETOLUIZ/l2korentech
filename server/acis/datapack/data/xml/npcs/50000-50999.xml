@@ -213,5 +213,40 @@
 			<skill id="4045" level="1"/>
 			<skill id="4416" level="1"/>
 		</skills>
+		<drops>
+			<category id="1">
+				<drop itemid="80" min="1" max="1" chance="60000"/>
+				<drop itemid="98" min="1" max="1" chance="60000"/>
+				<drop itemid="150" min="1" max="1" chance="60000"/>
+				<drop itemid="212" min="1" max="1" chance="60000"/>
+				<drop itemid="235" min="1" max="1" chance="60000"/>
+				<drop itemid="269" min="1" max="1" chance="60000"/>
+				<drop itemid="288" min="1" max="1" chance="60000"/>
+				<drop itemid="2504" min="1" max="1" chance="60000"/>
+				<drop itemid="6364" min="1" max="1" chance="12000"/>
+				<drop itemid="6365" min="1" max="1" chance="12000"/>
+				<drop itemid="6366" min="1" max="1" chance="12000"/>
+				<drop itemid="6367" min="1" max="1" chance="9000"/>
+				<drop itemid="6369" min="1" max="1" chance="9000"/>
+				<drop itemid="6370" min="1" max="1" chance="9000"/>
+				<drop itemid="6371" min="1" max="1" chance="12000"/>
+				<drop itemid="6372" min="1" max="1" chance="12000"/>
+				<drop itemid="6579" min="1" max="1" chance="12000"/>
+				<drop itemid="6580" min="1" max="1" chance="9000"/>
+				<drop itemid="7575" min="1" max="1" chance="12000"/>
+			</category>
+			<category id="2">
+				<drop itemid="6658" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="3">
+				<drop itemid="8620" min="5" max="15" chance="800000"/>
+				<drop itemid="8761" min="1" max="1" chance="48387"/>
+				<drop itemid="8762" min="1" max="1" chance="16129"/>
+			</category>
+			<category id="4">
+				<drop itemid="8751" min="1" max="2" chance="400000"/>
+				<drop itemid="8752" min="1" max="2" chance="355000"/>
+			</category>
+		</drops>
 	</npc>
 </list>
