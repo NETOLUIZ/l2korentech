@@ -20154,6 +20154,8 @@
 		<product id="736" price="500"/><!-- Scroll of Escape -->
 		<product id="737" price="2000"/><!-- Scroll of Resurrection -->
 		<product id="2508" price="360"/><!-- Cursed Bone -->
+		<product id="1785" price="250"/><!-- Soul Ore -->
+		<product id="3031" price="400"/><!-- Spirit Ore -->
 	</buyList>
 
 	<!-- SCROLLS DE ENCHANT NORMAIS (ADENA) -->
