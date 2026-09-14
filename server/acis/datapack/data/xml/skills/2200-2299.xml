@@ -1242,7 +1242,7 @@
 	</skill>
 	<skill id="2279" levels="3" name="Herb of Mana">
 		<!-- Lvl 2 is Greater Herb of Mana Lvl 3 is Superior Herb of Mana -->
-		<table name="#power"> 12 18 100 </table>
+		<table name="#power"> 12 50 100 </table>
 		<set name="power" val="#power" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
