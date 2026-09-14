@@ -231,7 +231,7 @@
 			<set order="0x08" stat="mAtk" val="107" />
 			<set order="0x08" stat="rCrit" val="12" />
 			<sub order="0x10" stat="accCombat" val="3" />
-			<set order="0x08" stat="pAtkSpd" val="293" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
@@ -260,7 +260,7 @@
 			<set order="0x08" stat="mAtk" val="107" />
 			<set order="0x08" stat="rCrit" val="12" />
 			<sub order="0x10" stat="accCombat" val="3" />
-			<set order="0x08" stat="pAtkSpd" val="293" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
@@ -287,7 +287,7 @@
 			<set order="0x08" stat="mAtk" val="107" />
 			<set order="0x08" stat="rCrit" val="12" />
 			<sub order="0x10" stat="accCombat" val="3" />
-			<set order="0x08" stat="pAtkSpd" val="293" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
@@ -315,7 +315,7 @@
 			<set order="0x08" stat="mAtk" val="125" />
 			<set order="0x08" stat="rCrit" val="12" />
 			<sub order="0x10" stat="accCombat" val="3" />
-			<set order="0x08" stat="pAtkSpd" val="227" />
+			<set order="0x08" stat="pAtkSpd" val="270" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
@@ -342,7 +342,7 @@
 			<set order="0x08" stat="mAtk" val="125" />
 			<set order="0x08" stat="rCrit" val="12" />
 			<sub order="0x10" stat="accCombat" val="3" />
-			<set order="0x08" stat="pAtkSpd" val="227" />
+			<set order="0x08" stat="pAtkSpd" val="270" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
@@ -371,7 +371,7 @@
 			<set order="0x08" stat="mAtk" val="125" />
 			<set order="0x08" stat="rCrit" val="12" />
 			<sub order="0x10" stat="accCombat" val="3" />
-			<set order="0x08" stat="pAtkSpd" val="227" />
+			<set order="0x08" stat="pAtkSpd" val="270" />
 			<enchant val="0" order="0x0C" stat="pAtk" />
 			<enchant val="0" order="0x0C" stat="mAtk" />
 		</for>
