@@ -407,8 +407,6 @@
 	<skill id="1323" levels="1" name="Noblesse Blessing">
 		<set name="mpInitialConsume" val="14"/>
 		<set name="mpConsume" val="55"/>
-		<set name="itemConsumeId" val="3031"/>
-		<set name="itemConsumeCount" val="5"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="reuseDelay" val="6000"/>
 		<set name="hitTime" val="4000"/>
@@ -1759,9 +1757,6 @@
 		<table name="#pAtk"> 1.04 1.07 1.10 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
 		<table name="#mpConsume"> 54 62 69 </table>
-		<table name="#itemConsumeCount"> 1 2 3 </table>
-		<set name="itemConsumeId" val="3031"/>
-		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="mpConsume" val="#mpConsume"/>
 		<set name="reuseDelay" val="6000"/>
 		<set name="hitTime" val="4000"/>
@@ -1772,7 +1767,7 @@
 		<set name="castRange" val="400"/>
 		<set name="effectRange" val="900"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="pa_pd_up">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="pa_pd_up">
 				<mul order="0x30" stat="pAtk" val="#pAtk"/>
 			</effect>
 		</for>
@@ -1780,11 +1775,8 @@
 	<skill id="1389" levels="3" name="Greater Shield">
 		<table name="#rate"> 1.05 1.1 1.15 </table>
 		<table name="#mpConsume"> 54 62 69 </table>
-		<table name="#itemConsumeCount"> 1 2 3 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
 		<set name="mpConsume" val="#mpConsume"/>
-		<set name="itemConsumeId" val="3031"/>
-		<set name="itemConsumeCount" val="#itemConsumeCount" />
 		<set name="reuseDelay" val="6000"/>
 		<set name="hitTime" val="4000"/>
 		<set name="target" val="TARGET_ONE"/>
@@ -1794,7 +1786,7 @@
 		<set name="castRange" val="400"/>
 		<set name="effectRange" val="900"/>
 		<for>
-			<effect name="Buff" time="1200" val="0" stackOrder="#stackOrder" stackType="pa_pd_up">
+			<effect name="Buff" time="3600" val="0" stackOrder="#stackOrder" stackType="pa_pd_up">
 				<mul order="0x30" stat="pDef" val="#rate"/>
 			</effect>
 		</for>

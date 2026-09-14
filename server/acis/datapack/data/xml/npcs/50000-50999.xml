@@ -193,9 +193,9 @@
 		<set name="hpRegen" val="750"/>
 		<set name="mpRegen" val="99"/>
 		<set name="pAtk" val="3374.18"/>
-		<set name="pDef" val="3300"/>
+		<set name="pDef" val="2310"/>
 		<set name="mAtk" val="2200"/>
-		<set name="mDef" val="2200"/>
+		<set name="mDef" val="1540"/>
 		<set name="crit" val="4"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="60"/>
