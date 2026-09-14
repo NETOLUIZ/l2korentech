@@ -242,8 +242,6 @@
 		</for>
 	</skill>
 	<skill id="1413" levels="1" name="Magnus' Chant">
-		<set name="itemConsumeId" val="3031"/>
-		<set name="itemConsumeCount" val="40"/>
 		<set name="mpInitialConsume" val="57" />
 		<set name="mpConsume" val="230" />
 		<set name="target" val="TARGET_PARTY"/>

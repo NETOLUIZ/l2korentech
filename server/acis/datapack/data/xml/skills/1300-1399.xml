@@ -1111,8 +1111,6 @@
 	<skill id="1355" levels="1" name="Prophecy of Water">
 		<set name="mpInitialConsume" val="15"/>
 		<set name="mpConsume" val="57"/>
-		<set name="itemConsumeId" val="3031"/>
-		<set name="itemConsumeCount" val="5"/>
 		<set name="target" val="TARGET_ONE"/>
 		<set name="hitTime" val="4000"/>
 		<set name="reuseDelay" val="120000"/>
@@ -1295,8 +1293,6 @@
 	</skill>
 	<skill id="1363" levels="1" name="Chant of Victory">
 		<set name="magicLvl" val="78" />
-		<set name="itemConsumeId" val="3031"/>
-		<set name="itemConsumeCount" val="40"/>
 		<set name="mpInitialConsume" val="57"/>
 		<set name="mpConsume" val="227" />
 		<set name="power" val="20"/>
