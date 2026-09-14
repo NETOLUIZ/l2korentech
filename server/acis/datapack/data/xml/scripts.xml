@@ -396,8 +396,8 @@
 	<script path="scripts.custom.HeroWeapon"/>
 	<script path="scripts.custom.WeekendBaiumRewards"/>
 	<script path="scripts.custom.BaiumWeekendNotice"/>
-	<script path="scripts.custom.WeekendBaiumSpawner" schedule="WEEKLY" start="SAT 23:00:00" end="SUN 01:00:00"/>
-	<script path="scripts.custom.WeekendBaiumSpawner" schedule="WEEKLY" start="SUN 23:00:00" end="MON 01:00:00"/>
+	<script path="scripts.custom.WeekendBaiumSpawner" schedule="WEEKLY" start="SAT 21:00:00" end="SAT 23:00:00"/>
+	<script path="scripts.custom.WeekendBaiumSpawner" schedule="WEEKLY" start="SUN 21:00:00" end="SUN 23:00:00"/>
 
 	<!-- Events -->
 

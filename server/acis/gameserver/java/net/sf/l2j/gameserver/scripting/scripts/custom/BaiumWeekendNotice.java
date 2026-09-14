@@ -6,7 +6,7 @@ import net.sf.l2j.gameserver.scripting.Quest;
 
 /**
  * Reminds every player logging in that Baium spawns in Gludin (in front of
- * the church) every Saturday and Sunday at 23:00.
+ * the church) every Saturday and Sunday at 21:00.
  */
 public class BaiumWeekendNotice extends Quest
 {
@@ -20,7 +20,7 @@ public class BaiumWeekendNotice extends Quest
 	@Override
 	public String onEnterWorld(Player player)
 	{
-		player.sendPacket(new ExShowScreenMessage("Baium aparece em Gludin (em frente a igreja) todo Sabado e Domingo as 23:00!", 8000));
+		player.sendPacket(new ExShowScreenMessage("Baium aparece em Gludin (em frente a igreja) todo Sabado e Domingo as 21:00!", 8000));
 		return null;
 	}
 }

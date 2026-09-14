@@ -7,7 +7,7 @@ import net.sf.l2j.gameserver.scripting.ScheduledQuest;
 
 /**
  * Spawns a weekend-only Baium (npc 50011) in Gludin Village, in front of the church.
- * Registered twice in scripts.xml (once for Saturday, once for Sunday), both at 23:00.
+ * Registered twice in scripts.xml (once for Saturday, once for Sunday), both at 21:00.
  */
 public class WeekendBaiumSpawner extends ScheduledQuest
 {
