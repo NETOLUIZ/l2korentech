@@ -34,7 +34,7 @@ public class FuncEnchant extends Func
 		
 		if (stat == Stats.MAGIC_DEFENCE || stat == Stats.POWER_DEFENCE)
 		{
-			env.addValue(enchant + 3 * overenchant);
+			env.addValue(2 * enchant + 6 * overenchant);
 			return;
 		}
 		
@@ -43,17 +43,17 @@ public class FuncEnchant extends Func
 			switch (item.getItem().getCrystalType())
 			{
 				case S:
-					env.addValue(4 * enchant + 8 * overenchant);
+					env.addValue(8 * enchant + 16 * overenchant);
 					break;
-				
+
 				case A:
 				case B:
 				case C:
-					env.addValue(3 * enchant + 6 * overenchant);
+					env.addValue(6 * enchant + 12 * overenchant);
 					break;
-				
+
 				case D:
-					env.addValue(2 * enchant + 4 * overenchant);
+					env.addValue(4 * enchant + 8 * overenchant);
 					break;
 			}
 			return;
@@ -69,18 +69,18 @@ public class FuncEnchant extends Func
 					switch (type)
 					{
 						case BOW:
-							env.addValue(10 * enchant + 20 * overenchant);
+							env.addValue(20 * enchant + 40 * overenchant);
 							break;
-						
+
 						case BIGBLUNT:
 						case BIGSWORD:
 						case DUALFIST:
 						case DUAL:
-							env.addValue(6 * enchant + 12 * overenchant);
+							env.addValue(12 * enchant + 24 * overenchant);
 							break;
-						
+
 						default:
-							env.addValue(5 * enchant + 10 * overenchant);
+							env.addValue(10 * enchant + 20 * overenchant);
 							break;
 					}
 					break;
@@ -89,18 +89,18 @@ public class FuncEnchant extends Func
 					switch (type)
 					{
 						case BOW:
-							env.addValue(8 * enchant + 16 * overenchant);
+							env.addValue(16 * enchant + 32 * overenchant);
 							break;
-						
+
 						case BIGBLUNT:
 						case BIGSWORD:
 						case DUALFIST:
 						case DUAL:
-							env.addValue(5 * enchant + 10 * overenchant);
+							env.addValue(10 * enchant + 20 * overenchant);
 							break;
-						
+
 						default:
-							env.addValue(4 * enchant + 8 * overenchant);
+							env.addValue(8 * enchant + 16 * overenchant);
 							break;
 					}
 					break;
@@ -109,18 +109,18 @@ public class FuncEnchant extends Func
 					switch (type)
 					{
 						case BOW:
-							env.addValue(6 * enchant + 12 * overenchant);
+							env.addValue(12 * enchant + 24 * overenchant);
 							break;
-						
+
 						case BIGBLUNT:
 						case BIGSWORD:
 						case DUALFIST:
 						case DUAL:
-							env.addValue(4 * enchant + 8 * overenchant);
+							env.addValue(8 * enchant + 16 * overenchant);
 							break;
-						
+
 						default:
-							env.addValue(3 * enchant + 6 * overenchant);
+							env.addValue(6 * enchant + 12 * overenchant);
 							break;
 					}
 					break;
@@ -129,18 +129,18 @@ public class FuncEnchant extends Func
 					switch (type)
 					{
 						case BOW:
-							env.addValue(6 * enchant + 12 * overenchant);
+							env.addValue(12 * enchant + 24 * overenchant);
 							break;
-						
+
 						case BIGBLUNT:
 						case BIGSWORD:
 						case DUALFIST:
 						case DUAL:
-							env.addValue(4 * enchant + 8 * overenchant);
+							env.addValue(8 * enchant + 16 * overenchant);
 							break;
-						
+
 						default:
-							env.addValue(3 * enchant + 6 * overenchant);
+							env.addValue(6 * enchant + 12 * overenchant);
 							break;
 					}
 					break;
@@ -149,11 +149,11 @@ public class FuncEnchant extends Func
 					switch (type)
 					{
 						case BOW:
-							env.addValue(4 * enchant + 8 * overenchant);
+							env.addValue(8 * enchant + 16 * overenchant);
 							break;
-						
+
 						default:
-							env.addValue(2 * enchant + 4 * overenchant);
+							env.addValue(4 * enchant + 8 * overenchant);
 							break;
 					}
 					break;

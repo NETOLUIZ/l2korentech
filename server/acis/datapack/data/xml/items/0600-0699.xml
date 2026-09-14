@@ -191,10 +191,10 @@
 		<set name="weight" val="3800" />
 		<set name="price" val="3470000" />
 		<for>
-			<add order="0x10" stat="pDef" val="132" />
-			<add order="0x10" stat="STR" val="3" />
-			<add order="0x10" stat="CON" val="2" />
-			<mul order="0x30" stat="pAtkSpd" val="1.05" />
+			<add order="0x10" stat="pDef" val="200" />
+			<add order="0x10" stat="STR" val="6" />
+			<add order="0x10" stat="CON" val="4" />
+			<mul order="0x30" stat="pAtkSpd" val="1.20" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
@@ -220,10 +220,10 @@
 		<set name="weight" val="800" />
 		<set name="price" val="5280000" />
 		<for>
-			<add order="0x10" stat="pDef" val="146" />
-			<add order="0x10" stat="INT" val="3" />
-			<add order="0x10" stat="MEN" val="2" />
-			<mul order="0x30" stat="mAtkSpd" val="1.05" />
+			<add order="0x10" stat="pDef" val="240" />
+			<add order="0x10" stat="INT" val="8" />
+			<add order="0x10" stat="MEN" val="6" />
+			<mul order="0x30" stat="mAtkSpd" val="1.20" />
 			<enchant order="0x0C" stat="pDef" val="0" />
 		</for>
 	</item>
