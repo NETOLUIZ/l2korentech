@@ -9886,9 +9886,7 @@
 		<product id="52"/>
 		<product id="53"/>
 		<product id="54"/>
-		<product id="614"/>
 		<product id="615"/>
-		<product id="616"/>
 		<product id="617"/>
 		<product id="618"/>
 		<product id="619"/>
@@ -13159,9 +13157,7 @@
 		<product id="5799"/>
 	</buyList>
 	<buyList id="9097" npcId="-1">
-		<product id="614"/>
 		<product id="615"/>
-		<product id="616"/>
 		<product id="617"/>
 	</buyList>
 	<buyList id="9098" npcId="-1">

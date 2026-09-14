@@ -6,14 +6,14 @@
 	<item>
 		<ingredient id="6392" count="50000"/>
 		<ingredient id="6393" count="50000"/>
-		<production id="490" count="1"/><!-- Tattoo of the Warrior -->
+		<production id="614" count="1"/><!-- Tattoo of the Warrior -->
 	</item>
 
 	<!-- Tattoo of the Mage - INT/MEN -->
 	<item>
 		<ingredient id="6392" count="50000"/>
 		<ingredient id="6393" count="50000"/>
-		<production id="491" count="1"/><!-- Tattoo of the Mage -->
+		<production id="616" count="1"/><!-- Tattoo of the Mage -->
 	</item>
 
 </list>
