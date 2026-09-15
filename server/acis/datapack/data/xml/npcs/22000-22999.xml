@@ -12242,6 +12242,9 @@
 			<category id="5">
 				<drop itemid="6393" min="17" max="17" chance="1000000"/><!-- Glittering Medal -->
 			</category>
+			<category id="9">
+				<drop itemid="6578" min="1" max="1" chance="20000"/><!-- Blessed Scroll: Enchant Armor (Grade S) -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="80380" max="138860" chance="700000"/>
 			</category>
@@ -12287,6 +12290,9 @@
 			<category id="5">
 				<drop itemid="6393" min="17" max="17" chance="1000000"/><!-- Glittering Medal -->
 			</category>
+			<category id="9">
+				<drop itemid="6578" min="1" max="1" chance="20000"/><!-- Blessed Scroll: Enchant Armor (Grade S) -->
+			</category>
 			<category id="0">
 				<drop itemid="57" min="54300" max="110530" chance="700000"/>
 			</category>
@@ -12331,6 +12337,9 @@
 			</category>
 			<category id="4">
 				<drop itemid="6393" min="17" max="17" chance="1000000"/><!-- Glittering Medal -->
+			</category>
+			<category id="9">
+				<drop itemid="6578" min="1" max="1" chance="20000"/><!-- Blessed Scroll: Enchant Armor (Grade S) -->
 			</category>
 			<category id="0">
 				<drop itemid="57" min="77220" max="132850" chance="700000"/>
