@@ -11385,18 +11385,6 @@
 			<skill id="5082" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5529" min="1" max="1" chance="5181"/>
-				<drop itemid="5545" min="1" max="1" chance="5181"/>
-				<drop itemid="8627" min="1" max="1" chance="25641"/>
-				<drop itemid="8633" min="1" max="1" chance="41666"/>
-				<drop itemid="8877" min="1" max="1" chance="50000"/>
-				<drop itemid="8892" min="1" max="1" chance="33333"/>
-				<drop itemid="8956" min="1" max="1" chance="5181"/>
-			</category>
-			<category id="2">
-				<drop itemid="8877" min="1" max="1" chance="7482"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11450,24 +11438,6 @@
 			<skill id="5082" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5529" min="1" max="1" chance="1680"/>
-				<drop itemid="5545" min="1" max="1" chance="1344"/>
-				<drop itemid="5546" min="1" max="1" chance="1972"/>
-				<drop itemid="8627" min="1" max="1" chance="3367"/>
-				<drop itemid="8633" min="1" max="1" chance="5714"/>
-				<drop itemid="8885" min="1" max="1" chance="16666"/>
-				<drop itemid="8907" min="1" max="1" chance="5102"/>
-				<drop itemid="8954" min="1" max="1" chance="1344"/>
-				<drop itemid="8955" min="1" max="1" chance="672"/>
-				<drop itemid="8956" min="1" max="1" chance="1972"/>
-			</category>
-			<category id="2">
-				<drop itemid="8885" min="1" max="1" chance="12858"/>
-			</category>
-			<category id="3">
-				<drop itemid="8907" min="1" max="1" chance="12858"/>
-			</category>
 			<category id="4">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11476,9 +11446,6 @@
 			</category>
 			<category id="0">
 				<drop itemid="57" min="5818" max="11870" chance="700000"/>
-			</category>
-			<category id="-1">
-				<drop itemid="6689" min="1" max="1" chance="17241"/>
 			</category>
 		</drops>
 	</npc>
@@ -11520,24 +11487,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5529" min="1" max="1" chance="2793"/>
-				<drop itemid="5545" min="1" max="1" chance="931"/>
-				<drop itemid="5546" min="1" max="1" chance="6024"/>
-				<drop itemid="8627" min="1" max="1" chance="7462"/>
-				<drop itemid="8633" min="1" max="1" chance="8403"/>
-				<drop itemid="8893" min="1" max="1" chance="29412"/>
-				<drop itemid="8902" min="1" max="1" chance="22222"/>
-				<drop itemid="8954" min="1" max="1" chance="3717"/>
-				<drop itemid="8955" min="1" max="1" chance="931"/>
-				<drop itemid="8956" min="1" max="1" chance="2793"/>
-			</category>
-			<category id="2">
-				<drop itemid="8902" min="1" max="1" chance="5586"/>
-			</category>
-			<category id="3">
-				<drop itemid="8893" min="1" max="1" chance="5586"/>
-			</category>
 			<category id="4">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11586,26 +11535,6 @@
 			<skill id="5120" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="6342" min="1" max="1" chance="111111"/>
-				<drop itemid="6344" min="1" max="1" chance="28571"/>
-				<drop itemid="6346" min="1" max="1" chance="83333"/>
-				<drop itemid="8627" min="1" max="1" chance="16666"/>
-				<drop itemid="8633" min="1" max="1" chance="14286"/>
-				<drop itemid="8881" min="1" max="1" chance="55555"/>
-				<drop itemid="8899" min="1" max="1" chance="18519"/>
-				<drop itemid="8904" min="1" max="1" chance="37037"/>
-				<drop itemid="8954" min="1" max="1" chance="3344"/>
-			</category>
-			<category id="2">
-				<drop itemid="8899" min="1" max="1" chance="20133"/>
-			</category>
-			<category id="3">
-				<drop itemid="8881" min="1" max="1" chance="10032"/>
-			</category>
-			<category id="4">
-				<drop itemid="8904" min="1" max="1" chance="12858"/>
-			</category>
 			<category id="5">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11655,23 +11584,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5533" min="1" max="1" chance="1984"/>
-				<drop itemid="8342" min="1" max="1" chance="3968"/>
-				<drop itemid="8349" min="1" max="1" chance="1984"/>
-				<drop itemid="8627" min="1" max="1" chance="5952"/>
-				<drop itemid="8633" min="1" max="1" chance="3968"/>
-				<drop itemid="8878" min="1" max="1" chance="20408"/>
-				<drop itemid="8897" min="1" max="1" chance="9091"/>
-				<drop itemid="8954" min="1" max="1" chance="6849"/>
-				<drop itemid="8955" min="1" max="1" chance="6849"/>
-			</category>
-			<category id="2">
-				<drop itemid="8888" min="1" max="1" chance="12858"/>
-			</category>
-			<category id="3">
-				<drop itemid="8886" min="1" max="1" chance="12858"/>
-			</category>
 			<category id="4">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11725,25 +11637,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5533" min="1" max="1" chance="962"/>
-				<drop itemid="5544" min="1" max="1" chance="1348"/>
-				<drop itemid="8342" min="1" max="1" chance="770"/>
-				<drop itemid="8349" min="1" max="1" chance="1348"/>
-				<drop itemid="8627" min="1" max="1" chance="3663"/>
-				<drop itemid="8633" min="1" max="1" chance="2119"/>
-				<drop itemid="8886" min="1" max="1" chance="17544"/>
-				<drop itemid="8888" min="1" max="1" chance="13889"/>
-				<drop itemid="8954" min="1" max="1" chance="577"/>
-				<drop itemid="8955" min="1" max="1" chance="744"/>
-				<drop itemid="8956" min="1" max="1" chance="192"/>
-			</category>
-			<category id="2">
-				<drop itemid="8889" min="1" max="1" chance="8571"/>
-			</category>
-			<category id="3">
-				<drop itemid="8882" min="1" max="1" chance="8571"/>
-			</category>
 			<category id="4">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11793,20 +11686,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5533" min="1" max="1" chance="1259"/>
-				<drop itemid="5544" min="1" max="1" chance="1259"/>
-				<drop itemid="8342" min="1" max="1" chance="1468"/>
-				<drop itemid="8349" min="1" max="1" chance="2519"/>
-				<drop itemid="8627" min="1" max="1" chance="3774"/>
-				<drop itemid="8633" min="1" max="1" chance="1259"/>
-				<drop itemid="8882" min="1" max="1" chance="17241"/>
-				<drop itemid="8889" min="1" max="1" chance="18868"/>
-				<drop itemid="8954" min="1" max="1" chance="733"/>
-			</category>
-			<category id="2">
-				<drop itemid="8896" min="1" max="1" chance="2373"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11855,16 +11734,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5534" min="1" max="1" chance="5747"/>
-				<drop itemid="8627" min="1" max="1" chance="34842"/>
-				<drop itemid="8879" min="1" max="1" chance="40000"/>
-				<drop itemid="8954" min="1" max="1" chance="2882"/>
-				<drop itemid="8956" min="1" max="1" chance="2882"/>
-			</category>
-			<category id="2">
-				<drop itemid="8883" min="1" max="1" chance="8571"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11919,18 +11788,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5534" min="1" max="1" chance="4630"/>
-				<drop itemid="8627" min="1" max="1" chance="3205"/>
-				<drop itemid="8633" min="1" max="1" chance="3906"/>
-				<drop itemid="8883" min="1" max="1" chance="28571"/>
-				<drop itemid="8954" min="1" max="1" chance="1067"/>
-				<drop itemid="8955" min="1" max="1" chance="356"/>
-				<drop itemid="8956" min="1" max="1" chance="178"/>
-			</category>
-			<category id="2">
-				<drop itemid="8887" min="1" max="1" chance="12858"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -11979,17 +11836,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5534" min="1" max="1" chance="4902"/>
-				<drop itemid="8627" min="1" max="1" chance="11111"/>
-				<drop itemid="8633" min="1" max="1" chance="1229"/>
-				<drop itemid="8887" min="1" max="1" chance="34483"/>
-				<drop itemid="8954" min="1" max="1" chance="1229"/>
-				<drop itemid="8955" min="1" max="1" chance="1229"/>
-			</category>
-			<category id="2">
-				<drop itemid="8880" min="1" max="1" chance="19713"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12039,10 +11885,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5537" min="1" max="1" chance="6024"/>
-				<drop itemid="8954" min="1" max="1" chance="4525"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12095,14 +11937,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="960" min="1" max="1" chance="485"/>
-				<drop itemid="5537" min="1" max="1" chance="5814"/>
-				<drop itemid="8752" min="1" max="1" chance="300"/>
-				<drop itemid="8954" min="1" max="1" chance="2427"/>
-				<drop itemid="8955" min="1" max="1" chance="485"/>
-				<drop itemid="8956" min="1" max="1" chance="485"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12152,14 +11986,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5537" min="1" max="1" chance="5076"/>
-				<drop itemid="8954" min="1" max="1" chance="7633"/>
-				<drop itemid="8955" min="1" max="1" chance="2538"/>
-			</category>
-			<category id="2">
-				<drop itemid="8884" min="1" max="1" chance="21429"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12210,12 +12036,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="960" min="1" max="1" chance="625"/>
-				<drop itemid="5538" min="1" max="1" chance="3745"/>
-				<drop itemid="8954" min="1" max="1" chance="2500"/>
-				<drop itemid="8956" min="1" max="1" chance="625"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12270,13 +12090,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="960" min="1" max="1" chance="372"/>
-				<drop itemid="5538" min="1" max="1" chance="5587"/>
-				<drop itemid="8954" min="1" max="1" chance="2604"/>
-				<drop itemid="8955" min="1" max="1" chance="372"/>
-				<drop itemid="8956" min="1" max="1" chance="744"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12327,10 +12140,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5538" min="1" max="1" chance="10638"/>
-				<drop itemid="8954" min="1" max="1" chance="3968"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12382,13 +12191,6 @@
 			<skill id="5178" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5502" min="1" max="1" chance="10870"/>
-				<drop itemid="5503" min="1" max="1" chance="4065"/>
-				<drop itemid="5514" min="1" max="1" chance="2710"/>
-				<drop itemid="5515" min="1" max="1" chance="8130"/>
-				<drop itemid="8954" min="1" max="1" chance="4065"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12397,10 +12199,6 @@
 			</category>
 			<category id="0">
 				<drop itemid="57" min="5873" max="11940" chance="700000"/>
-			</category>
-			<category id="-1">
-				<drop itemid="1889" min="1" max="1" chance="510000"/>
-				<drop itemid="5549" min="1" max="1" chance="750000"/>
 			</category>
 		</drops>
 	</npc>
@@ -12438,20 +12236,6 @@
 			<skill id="4416" level="3"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5541" min="1" max="1" chance="20000"/>
-				<drop itemid="8627" min="1" max="1" chance="45454"/>
-				<drop itemid="8633" min="1" max="1" chance="58823"/>
-				<drop itemid="8894" min="1" max="1" chance="52632"/>
-				<drop itemid="8895" min="1" max="1" chance="333333"/>
-				<drop itemid="8956" min="1" max="1" chance="4975"/>
-			</category>
-			<category id="2">
-				<drop itemid="8894" min="1" max="1" chance="44775"/>
-			</category>
-			<category id="3">
-				<drop itemid="8895" min="1" max="1" chance="29412"/>
-			</category>
 			<category id="4">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12497,20 +12281,6 @@
 			<skill id="4416" level="3"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5541" min="1" max="1" chance="58823"/>
-				<drop itemid="8627" min="1" max="1" chance="350000"/>
-				<drop itemid="8633" min="1" max="1" chance="58823"/>
-				<drop itemid="8762" min="1" max="1" chance="58823"/>
-				<drop itemid="8900" min="1" max="1" chance="140000"/>
-				<drop itemid="8905" min="1" max="1" chance="140000"/>
-			</category>
-			<category id="2">
-				<drop itemid="8905" min="1" max="1" chance="73170"/>
-			</category>
-			<category id="3">
-				<drop itemid="8900" min="1" max="1" chance="72858"/>
-			</category>
 			<category id="4">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12556,17 +12326,6 @@
 			<skill id="4416" level="3"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5541" min="1" max="1" chance="45454"/>
-				<drop itemid="8627" min="1" max="1" chance="33333"/>
-				<drop itemid="8633" min="1" max="1" chance="58824"/>
-				<drop itemid="8903" min="1" max="1" chance="52632"/>
-				<drop itemid="8908" min="1" max="1" chance="52632"/>
-				<drop itemid="8954" min="1" max="1" chance="11235"/>
-			</category>
-			<category id="2">
-				<drop itemid="8903" min="1" max="1" chance="33705"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12575,9 +12334,6 @@
 			</category>
 			<category id="0">
 				<drop itemid="57" min="77220" max="132850" chance="700000"/>
-			</category>
-			<category id="-1">
-				<drop itemid="4042" min="1" max="3" chance="300000"/>
 			</category>
 		</drops>
 	</npc>
@@ -12619,17 +12375,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5529" min="1" max="1" chance="6410"/>
-				<drop itemid="5546" min="1" max="1" chance="3194"/>
-				<drop itemid="8627" min="1" max="1" chance="3194"/>
-				<drop itemid="8633" min="1" max="1" chance="8000"/>
-				<drop itemid="8906" min="1" max="1" chance="6135"/>
-				<drop itemid="8954" min="1" max="1" chance="1597"/>
-			</category>
-			<category id="2">
-				<drop itemid="8906" min="1" max="1" chance="2133"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12678,17 +12423,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5533" min="1" max="1" chance="3247"/>
-				<drop itemid="5544" min="1" max="1" chance="1770"/>
-				<drop itemid="8342" min="1" max="1" chance="590"/>
-				<drop itemid="8349" min="1" max="1" chance="1475"/>
-				<drop itemid="8627" min="1" max="1" chance="3759"/>
-				<drop itemid="8633" min="1" max="1" chance="1475"/>
-				<drop itemid="8896" min="1" max="1" chance="18182"/>
-				<drop itemid="8954" min="1" max="1" chance="590"/>
-				<drop itemid="8955" min="1" max="1" chance="590"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12697,9 +12431,6 @@
 			</category>
 			<category id="0">
 				<drop itemid="57" min="5493" max="11210" chance="700000"/>
-			</category>
-			<category id="-1">
-				<drop itemid="6901" min="1" max="1" chance="7812"/>
 			</category>
 		</drops>
 	</npc>
@@ -12741,15 +12472,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5534" min="1" max="1" chance="5263"/>
-				<drop itemid="8627" min="1" max="1" chance="1314"/>
-				<drop itemid="8633" min="1" max="1" chance="2188"/>
-				<drop itemid="8880" min="1" max="1" chance="19608"/>
-				<drop itemid="8954" min="1" max="1" chance="1751"/>
-				<drop itemid="8955" min="1" max="1" chance="1314"/>
-				<drop itemid="8956" min="1" max="1" chance="438"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12758,9 +12480,6 @@
 			</category>
 			<category id="0">
 				<drop itemid="57" min="4893" max="9986" chance="700000"/>
-			</category>
-			<category id="-1">
-				<drop itemid="1875" min="1" max="3" chance="680000"/>
 			</category>
 		</drops>
 	</npc>
@@ -12802,14 +12521,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5537" min="1" max="1" chance="8065"/>
-				<drop itemid="8627" min="1" max="1" chance="3289"/>
-				<drop itemid="8633" min="1" max="1" chance="1828"/>
-				<drop itemid="8884" min="1" max="1" chance="23256"/>
-				<drop itemid="8954" min="1" max="1" chance="1464"/>
-				<drop itemid="8955" min="1" max="1" chance="1464"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12857,14 +12568,6 @@
 			<skill id="5081" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="960" min="1" max="1" chance="228"/>
-				<drop itemid="5538" min="1" max="1" chance="5236"/>
-				<drop itemid="8752" min="1" max="1" chance="211"/>
-				<drop itemid="8954" min="1" max="1" chance="2278"/>
-				<drop itemid="8955" min="1" max="1" chance="343"/>
-				<drop itemid="8956" min="1" max="1" chance="343"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12873,9 +12576,6 @@
 			</category>
 			<category id="0">
 				<drop itemid="57" min="5157" max="10520" chance="700000"/>
-			</category>
-			<category id="-1">
-				<drop itemid="1875" min="1" max="1" chance="630000"/>
 			</category>
 		</drops>
 	</npc>
@@ -12917,15 +12617,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5545" min="1" max="1" chance="13333"/>
-				<drop itemid="8627" min="1" max="1" chance="2070"/>
-				<drop itemid="8633" min="1" max="1" chance="4149"/>
-				<drop itemid="8898" min="1" max="1" chance="47619"/>
-			</category>
-			<category id="2">
-				<drop itemid="8898" min="1" max="1" chance="2571"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -12975,21 +12666,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="960" min="1" max="1" chance="1408"/>
-				<drop itemid="5533" min="1" max="1" chance="704"/>
-				<drop itemid="5544" min="1" max="1" chance="2817"/>
-				<drop itemid="8342" min="1" max="1" chance="2114"/>
-				<drop itemid="8349" min="1" max="1" chance="704"/>
-				<drop itemid="8954" min="1" max="1" chance="2114"/>
-				<drop itemid="8955" min="1" max="1" chance="2114"/>
-			</category>
-			<category id="2">
-				<drop itemid="8897" min="1" max="1" chance="21429"/>
-			</category>
-			<category id="3">
-				<drop itemid="8878" min="1" max="1" chance="21429"/>
-			</category>
 			<category id="4">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -13044,16 +12720,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5534" min="1" max="1" chance="3279"/>
-				<drop itemid="8627" min="1" max="1" chance="5747"/>
-				<drop itemid="8633" min="1" max="1" chance="4098"/>
-				<drop itemid="8888" min="1" max="1" chance="25000"/>
-				<drop itemid="8954" min="1" max="1" chance="1637"/>
-			</category>
-			<category id="2">
-				<drop itemid="8879" min="1" max="1" chance="21429"/>
-			</category>
 			<category id="3">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -13109,13 +12775,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="960" min="1" max="1" chance="1464"/>
-				<drop itemid="5537" min="1" max="1" chance="5025"/>
-				<drop itemid="8752" min="1" max="1" chance="457"/>
-				<drop itemid="8954" min="1" max="1" chance="643"/>
-				<drop itemid="8955" min="1" max="1" chance="643"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
@@ -13165,11 +12824,6 @@
 			<skill id="5084" level="1"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="5538" min="1" max="1" chance="13513"/>
-				<drop itemid="8954" min="1" max="1" chance="1712"/>
-				<drop itemid="8955" min="1" max="1" chance="1712"/>
-			</category>
 			<category id="2">
 				<drop itemid="6392" min="17" max="17" chance="1000000"/><!-- Event Medal -->
 			</category>
