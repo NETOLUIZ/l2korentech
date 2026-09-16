@@ -24,6 +24,7 @@
     <a href="rules.php"<?php echo $activePage === 'rules' ? ' aria-current="page"' : ''; ?>>Regras</a>
     <a href="downloads.php"<?php echo $activePage === 'downloads' ? ' aria-current="page"' : ''; ?>>Downloads</a>
     <a href="ranking.php"<?php echo $activePage === 'ranking' ? ' aria-current="page"' : ''; ?>>Ranking</a>
+    <a href="bosses.php"<?php echo $activePage === 'bosses' ? ' aria-current="page"' : ''; ?>>Bosses</a>
   </nav>
   <div class="header-right">
     <?php $online = isServerOnline($serverIp, $loginPort); ?>
