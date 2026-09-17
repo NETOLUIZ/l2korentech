@@ -249,4 +249,207 @@
 			</category>
 		</drops>
 	</npc>
+	<npc id="50012" idTemplate="29066" name="Antharas" title="Evento Diario">
+		<set name="level" val="79"/>
+		<set name="radius" val="300"/>
+		<set name="height" val="300"/>
+		<set name="rHand" val="0"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="RaidBoss"/>
+		<set name="exp" val="230931687"/>
+		<set name="sp" val="25593295"/>
+		<set name="hp" val="50000"/>
+		<set name="mp" val="1800000"/>
+		<set name="hpRegen" val="1100"/>
+		<set name="mpRegen" val="1000"/>
+		<set name="pAtk" val="4900"/>
+		<set name="pDef" val="3456"/>
+		<set name="mAtk" val="2550"/>
+		<set name="mDef" val="862.5"/>
+		<set name="crit" val="4"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="60"/>
+		<set name="int" val="76"/>
+		<set name="dex" val="73"/>
+		<set name="wit" val="70"/>
+		<set name="con" val="57"/>
+		<set name="men" val="80"/>
+		<set name="corpseTime" val="14"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="186"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="0" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4122" level="1"/>
+			<skill id="4416" level="10"/>
+		</skills>
+		<drops>
+			<category id="1">
+				<drop itemid="80" min="1" max="2" chance="250000"/>
+				<drop itemid="98" min="1" max="2" chance="250000"/>
+				<drop itemid="269" min="1" max="2" chance="250000"/>
+				<drop itemid="2504" min="1" max="2" chance="250000"/>
+			</category>
+			<category id="2">
+				<drop itemid="150" min="1" max="2" chance="250000"/>
+				<drop itemid="212" min="1" max="2" chance="250000"/>
+				<drop itemid="235" min="1" max="2" chance="250000"/>
+				<drop itemid="288" min="1" max="2" chance="250000"/>
+			</category>
+			<category id="3">
+				<drop itemid="81" min="1" max="2" chance="250000"/>
+				<drop itemid="151" min="1" max="2" chance="250000"/>
+				<drop itemid="164" min="1" max="2" chance="250000"/>
+				<drop itemid="2500" min="1" max="2" chance="250000"/>
+			</category>
+			<category id="4">
+				<drop itemid="213" min="1" max="2" chance="200000"/>
+				<drop itemid="236" min="1" max="2" chance="200000"/>
+				<drop itemid="270" min="1" max="2" chance="200000"/>
+				<drop itemid="289" min="1" max="2" chance="200000"/>
+				<drop itemid="305" min="1" max="2" chance="200000"/>
+			</category>
+			<category id="5">
+				<drop itemid="6364" min="1" max="1" chance="170000"/>
+				<drop itemid="6365" min="1" max="1" chance="170000"/>
+				<drop itemid="6369" min="1" max="1" chance="170000"/>
+				<drop itemid="6370" min="1" max="1" chance="170000"/>
+				<drop itemid="6372" min="1" max="1" chance="160000"/>
+				<drop itemid="6580" min="1" max="1" chance="160000"/>
+			</category>
+			<category id="6">
+				<drop itemid="6366" min="1" max="1" chance="200000"/>
+				<drop itemid="6367" min="1" max="1" chance="200000"/>
+				<drop itemid="6371" min="1" max="1" chance="200000"/>
+				<drop itemid="6579" min="1" max="1" chance="200000"/>
+				<drop itemid="7575" min="1" max="1" chance="200000"/>
+			</category>
+			<category id="7">
+				<drop itemid="5287" min="1" max="3" chance="500000"/>
+				<drop itemid="5297" min="1" max="3" chance="250000"/>
+				<drop itemid="5304" min="1" max="3" chance="250000"/>
+			</category>
+			<category id="8">
+				<drop itemid="5311" min="1" max="3" chance="350000"/>
+				<drop itemid="5320" min="1" max="3" chance="350000"/>
+				<drop itemid="5326" min="1" max="3" chance="300000"/>
+			</category>
+			<category id="9">
+				<drop itemid="5293" min="1" max="3" chance="250000"/>
+				<drop itemid="5301" min="1" max="3" chance="250000"/>
+				<drop itemid="5308" min="1" max="3" chance="250000"/>
+				<drop itemid="5316" min="1" max="3" chance="80000"/>
+				<drop itemid="5323" min="1" max="3" chance="80000"/>
+				<drop itemid="5329" min="1" max="3" chance="90000"/>
+			</category>
+			<category id="10">
+				<drop itemid="5288" min="1" max="3" chance="350000"/>
+				<drop itemid="5298" min="1" max="3" chance="350000"/>
+				<drop itemid="5305" min="1" max="3" chance="300000"/>
+			</category>
+			<category id="11">
+				<drop itemid="6674" min="1" max="1" chance="150000"/>
+				<drop itemid="6675" min="1" max="1" chance="150000"/>
+				<drop itemid="6680" min="1" max="1" chance="350000"/>
+				<drop itemid="6684" min="1" max="1" chance="350000"/>
+			</category>
+			<category id="12">
+				<drop itemid="5289" min="1" max="3" chance="250000"/>
+				<drop itemid="5294" min="1" max="3" chance="250000"/>
+				<drop itemid="5312" min="1" max="3" chance="250000"/>
+				<drop itemid="5317" min="1" max="3" chance="250000"/>
+			</category>
+			<category id="13">
+				<drop itemid="5291" min="1" max="3" chance="250000"/>
+				<drop itemid="5296" min="1" max="3" chance="250000"/>
+				<drop itemid="5314" min="1" max="3" chance="250000"/>
+				<drop itemid="5319" min="1" max="3" chance="250000"/>
+			</category>
+			<category id="14">
+				<drop itemid="5290" min="1" max="3" chance="250000"/>
+				<drop itemid="5295" min="1" max="3" chance="250000"/>
+				<drop itemid="5313" min="1" max="3" chance="250000"/>
+				<drop itemid="5318" min="1" max="3" chance="250000"/>
+			</category>
+			<category id="15">
+				<drop itemid="5292" min="1" max="3" chance="400000"/>
+				<drop itemid="5315" min="1" max="3" chance="400000"/>
+				<drop itemid="6678" min="1" max="1" chance="200000"/>
+			</category>
+			<category id="16">
+				<drop itemid="6676" min="1" max="1" chance="340000"/>
+				<drop itemid="6681" min="1" max="1" chance="330000"/>
+				<drop itemid="6685" min="1" max="1" chance="330000"/>
+			</category>
+			<category id="17">
+				<drop itemid="6677" min="1" max="1" chance="340000"/>
+				<drop itemid="6682" min="1" max="1" chance="330000"/>
+				<drop itemid="6686" min="1" max="1" chance="330000"/>
+			</category>
+			<category id="18">
+				<drop itemid="6679" min="1" max="1" chance="340000"/>
+				<drop itemid="6683" min="1" max="1" chance="330000"/>
+				<drop itemid="6687" min="1" max="1" chance="330000"/>
+			</category>
+			<category id="19">
+				<drop itemid="6326" min="1" max="5" chance="300000"/>
+				<drop itemid="6327" min="1" max="5" chance="350000"/>
+				<drop itemid="6328" min="1" max="5" chance="350000"/>
+			</category>
+			<category id="20">
+				<drop itemid="6323" min="1" max="5" chance="300000"/>
+				<drop itemid="6324" min="1" max="5" chance="350000"/>
+				<drop itemid="6325" min="1" max="5" chance="350000"/>
+			</category>
+			<category id="21">
+				<drop itemid="6724" min="1" max="1" chance="350000"/>
+				<drop itemid="6725" min="1" max="1" chance="350000"/>
+				<drop itemid="6726" min="1" max="1" chance="300000"/>
+			</category>
+			<category id="22">
+				<drop itemid="6656" min="1" max="1" chance="1000000"/>
+			</category>
+			<category id="23">
+				<drop itemid="729" min="1" max="19" chance="1000000"/>
+			</category>
+			<category id="24">
+				<drop itemid="1538" min="1" max="59" chance="1000000"/>
+			</category>
+			<category id="25">
+				<drop itemid="3936" min="1" max="39" chance="1000000"/>
+			</category>
+			<category id="26">
+				<drop itemid="8751" min="2" max="4" chance="166666"/>
+				<drop itemid="8752" min="3" max="4" chance="540000"/>
+			</category>
+			<category id="27">
+				<drop itemid="8620" min="12" max="29" chance="1487600"/>
+			</category>
+			<category id="0">
+				<drop itemid="57" min="14000000" max="18000000" chance="1000000"/>
+			</category>
+			<category id="51">
+				<drop itemid="57" min="14000000" max="18000000" chance="1000000"/>
+			</category>
+			<category id="52">
+				<drop itemid="57" min="14000000" max="18000000" chance="1000000"/>
+			</category>
+			<category id="53">
+				<drop itemid="57" min="14000000" max="18000000" chance="1000000"/>
+			</category>
+			<category id="54">
+				<drop itemid="57" min="14000000" max="18000000" chance="1000000"/>
+			</category>
+			<category id="55">
+				<drop itemid="57" min="14000000" max="18000000" chance="1000000"/>
+			</category>
+			<category id="56">
+				<drop itemid="57" min="14000000" max="18000000" chance="1000000"/>
+			</category>
+			<category id="57">
+				<drop itemid="57" min="9000000" max="13000000" chance="1000000"/>
+			</category>
+		</drops>
+	</npc>
 </list>

@@ -398,6 +398,7 @@
 	<script path="scripts.custom.BaiumWeekendNotice"/>
 	<script path="scripts.custom.WeekendBaiumSpawner" schedule="WEEKLY" start="SAT 00:00:00" end="SAT 02:00:00"/>
 	<script path="scripts.custom.WeekendBaiumSpawner" schedule="WEEKLY" start="SUN 00:00:00" end="SUN 02:00:00"/>
+	<script path="scripts.custom.DailyAntharasSpawner" schedule="DAILY" start="18:00:00" end="21:00:00"/>
 
 	<!-- Events -->
 
