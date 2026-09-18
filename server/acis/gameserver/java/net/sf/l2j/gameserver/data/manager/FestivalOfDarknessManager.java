@@ -28,6 +28,7 @@ import net.sf.l2j.gameserver.enums.MessageType;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Npc;
 import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.itemcontainer.PcInventory;
 import net.sf.l2j.gameserver.model.actor.instance.FestivalMonster;
 import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
 import net.sf.l2j.gameserver.model.group.Party;
@@ -3804,7 +3805,10 @@ public class FestivalOfDarknessManager
 				break;
 			}
 		}
-		
+
+		if (playerBonus > 0)
+			player.addItem("SevenSigns", PcInventory.ANCIENT_ADENA_ID, playerBonus, null, true);
+
 		return playerBonus;
 	}
 	
