@@ -639,7 +639,7 @@ public class AdminEditChar implements IAdminCommandHandler
 				if (player == null)
 				{
 					try (Connection con = L2DatabaseFactory.getInstance().getConnection();
-						PreparedStatement ps = con.prepareStatement("UPDATE characters SET " + (changeCreateExpiryTime ? "clan_create_expiry_time" : "clan_join_expiry_time") + " WHERE char_name=? LIMIT 1"))
+						PreparedStatement ps = con.prepareStatement("UPDATE characters SET " + (changeCreateExpiryTime ? "clan_create_expiry_time" : "clan_join_expiry_time") + " = 0 WHERE char_name=? LIMIT 1"))
 					{
 						ps.setString(1, playerName);
 						ps.execute();
