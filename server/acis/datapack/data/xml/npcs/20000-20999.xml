@@ -40347,7 +40347,7 @@
 		</skills>
 		<drops>
 			<category id="3">
-				<drop itemid="3470" min="6" max="6" chance="3000"/>
+				<drop itemid="3470" min="6" max="6" chance="1000000"/>
 			</category>
 		</drops>
 	</npc>
@@ -40395,7 +40395,7 @@
 		</skills>
 		<drops>
 			<category id="3">
-				<drop itemid="3470" min="6" max="6" chance="3000"/>
+				<drop itemid="3470" min="6" max="6" chance="1000000"/>
 			</category>
 		</drops>
 	</npc>
