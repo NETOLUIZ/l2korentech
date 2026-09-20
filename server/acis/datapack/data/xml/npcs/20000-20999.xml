@@ -39820,6 +39820,9 @@
 				<drop itemid="1935" min="1" max="1" chance="15084"/>
 				<drop itemid="2203" min="1" max="1" chance="58822"/>
 			</category>
+			<category id="3">
+				<drop itemid="3470" min="5" max="5" chance="3000"/>
+			</category>
 		</drops>
 	</npc>
 	<npc id="20784" name="Tasaba Lizardman" title="">
@@ -39887,7 +39890,7 @@
 				<drop itemid="2184" min="1" max="1" chance="32051"/>
 			</category>
 			<category id="3">
-				<drop itemid="3470" min="1" max="1" chance="3000"/>
+				<drop itemid="3470" min="5" max="5" chance="3000"/>
 			</category>
 		</drops>
 	</npc>
@@ -39968,6 +39971,9 @@
 				<drop itemid="1875" min="1" max="1" chance="19616"/>
 				<drop itemid="1933" min="1" max="1" chance="34617"/>
 				<drop itemid="2022" min="1" max="1" chance="4583"/>
+			</category>
+			<category id="3">
+				<drop itemid="3470" min="5" max="5" chance="3000"/>
 			</category>
 		</drops>
 	</npc>
