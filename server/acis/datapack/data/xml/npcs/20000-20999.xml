@@ -40307,22 +40307,22 @@
 		</drops>
 	</npc>
 	<npc id="20791" name="Crokian Warrior" title="">
-		<set name="level" val="38"/>
+		<set name="level" val="80"/>
 		<set name="radius" val="18"/>
 		<set name="height" val="29"/>
 		<set name="rHand" val="5128"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Monster"/>
-		<set name="exp" val="4422"/>
-		<set name="sp" val="276"/>
-		<set name="hp" val="886.09975"/>
-		<set name="mp" val="447.96"/>
-		<set name="hpRegen" val="4.5"/>
-		<set name="mpRegen" val="1.8"/>
-		<set name="pAtk" val="156.22273"/>
-		<set name="pDef" val="148.44287"/>
-		<set name="mAtk" val="106.67987"/>
-		<set name="mDef" val="98.8349371271581"/>
+		<set name="exp" val="20433"/>
+		<set name="sp" val="2412"/>
+		<set name="hp" val="2937.9838056"/>
+		<set name="mp" val="1708.296"/>
+		<set name="hpRegen" val="8.67"/>
+		<set name="mpRegen" val="3.06"/>
+		<set name="pAtk" val="912.6537108"/>
+		<set name="pDef" val="700"/>
+		<set name="mAtk" val="635.688655236"/>
+		<set name="mDef" val="231.837152158566"/>
 		<set name="crit" val="4"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="40"/>
@@ -40346,50 +40346,28 @@
 			<skill id="4416" level="6"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="352" min="1" max="1" chance="84"/>
-				<drop itemid="2377" min="1" max="1" chance="134"/>
-				<drop itemid="2378" min="1" max="1" chance="134"/>
-			</category>
-			<category id="2">
-				<drop itemid="1876" min="1" max="1" chance="29412"/>
-				<drop itemid="1877" min="1" max="1" chance="4219"/>
-				<drop itemid="1880" min="1" max="1" chance="9804"/>
-				<drop itemid="1881" min="1" max="1" chance="16129"/>
-				<drop itemid="1882" min="1" max="1" chance="30303"/>
-				<drop itemid="1941" min="1" max="1" chance="4964"/>
-				<drop itemid="2198" min="1" max="1" chance="4219"/>
-				<drop itemid="2918" min="1" max="1" chance="7405"/>
-				<drop itemid="2919" min="1" max="1" chance="7405"/>
-				<drop itemid="3020" min="1" max="1" chance="595"/>
-			</category>
-			<category id="0">
-				<drop itemid="57" min="613" max="1223" chance="700000"/>
-			</category>
-			<category id="-1">
-				<drop itemid="1825" min="1" max="1" chance="103491"/>
-				<drop itemid="2041" min="1" max="1" chance="16162"/>
-				<drop itemid="2196" min="1" max="1" chance="59380"/>
+			<category id="3">
+				<drop itemid="3470" min="6" max="6" chance="3000"/>
 			</category>
 		</drops>
 	</npc>
 	<npc id="20792" name="Farhite" title="">
-		<set name="level" val="39"/>
+		<set name="level" val="80"/>
 		<set name="radius" val="16"/>
 		<set name="height" val="31"/>
 		<set name="rHand" val="5131"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Monster"/>
-		<set name="exp" val="4114"/>
-		<set name="sp" val="262"/>
-		<set name="hp" val="925.85879"/>
-		<set name="mp" val="463.32"/>
-		<set name="hpRegen" val="4.5"/>
-		<set name="mpRegen" val="1.8"/>
-		<set name="pAtk" val="166.06476"/>
-		<set name="pDef" val="152.46752"/>
-		<set name="mAtk" val="113.4007"/>
-		<set name="mDef" val="101.514599764346"/>
+		<set name="exp" val="20433"/>
+		<set name="sp" val="2412"/>
+		<set name="hp" val="2937.9838056"/>
+		<set name="mp" val="1708.296"/>
+		<set name="hpRegen" val="8.67"/>
+		<set name="mpRegen" val="3.06"/>
+		<set name="pAtk" val="912.6537108"/>
+		<set name="pDef" val="700"/>
+		<set name="mAtk" val="635.688655236"/>
+		<set name="mDef" val="231.837152158566"/>
 		<set name="crit" val="1"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="40"/>
@@ -40416,40 +40394,8 @@
 			<skill id="4416" level="6"/>
 		</skills>
 		<drops>
-			<category id="1">
-				<drop itemid="88" min="1" max="1" chance="10"/>
-				<drop itemid="90" min="1" max="1" chance="10"/>
-				<drop itemid="158" min="1" max="1" chance="10"/>
-				<drop itemid="169" min="1" max="1" chance="10"/>
-				<drop itemid="172" min="1" max="1" chance="10"/>
-			</category>
-			<category id="2">
-				<drop itemid="1876" min="1" max="1" chance="22727"/>
-				<drop itemid="1877" min="1" max="1" chance="3215"/>
-				<drop itemid="1880" min="1" max="1" chance="12195"/>
-				<drop itemid="1881" min="1" max="1" chance="20000"/>
-				<drop itemid="1882" min="1" max="1" chance="25000"/>
-				<drop itemid="2031" min="1" max="1" chance="706"/>
-				<drop itemid="2032" min="1" max="1" chance="644"/>
-				<drop itemid="2035" min="1" max="1" chance="706"/>
-				<drop itemid="2036" min="1" max="1" chance="706"/>
-				<drop itemid="2037" min="1" max="1" chance="706"/>
-				<drop itemid="2198" min="1" max="1" chance="2571"/>
-				<drop itemid="3020" min="1" max="1" chance="1285"/>
-			</category>
 			<category id="3">
-				<drop itemid="7641" min="1" max="1" chance="65331"/>
-			</category>
-			<category id="4">
-				<drop itemid="7642" min="1" max="1" chance="65331"/>
-			</category>
-			<category id="0">
-				<drop itemid="57" min="570" max="1136" chance="700000"/>
-			</category>
-			<category id="-1">
-				<drop itemid="1903" min="1" max="1" chance="224868"/>
-				<drop itemid="2035" min="1" max="1" chance="13647"/>
-				<drop itemid="2202" min="1" max="1" chance="137841"/>
+				<drop itemid="3470" min="6" max="6" chance="3000"/>
 			</category>
 		</drops>
 	</npc>
