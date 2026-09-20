@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!--
+		Tattoo set (custom content, ids 9540-9552). Not official L2 items - descriptions/values
+		come from the client's own itemname-e.dat (ids 9540-9551 already exist there in Portuguese;
+		9552 "Tattoo AIO" only existed in the patch, not in the live client).
+		Equipped in the "back" (cloak) slot: confirmed unused by any other item in this datapack,
+		and cosmetically inert on the Interlude client (no visible cloak rendering), so it doesn't
+		clash with any outfit.
+		NOTE: the client description text for both "GM Power" tattoos lists the M.Def/P.Def bonus
+		inconsistently ("100%" then "+35" flat in the same sentence). Treated here as +135 flat
+		M.Def/P.Def - flag this to the player-facing text if it needs to match exactly.
+	-->
+
+	<item id="9540" type="Armor" name="Tattoo of Fight Lv. 1">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="7" />
+			<add order="0x10" stat="maxHp" val="500" />
+			<mul order="0x30" stat="pAtk" val="1.07" />
+			<mul order="0x30" stat="pAtkSpd" val="1.07" />
+			<add order="0x10" stat="mDef" val="7" />
+			<add order="0x10" stat="pDef" val="7" />
+		</for>
+	</item>
+	<item id="9541" type="Armor" name="Tattoo of Fight Lv. 2">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="14" />
+			<add order="0x10" stat="maxHp" val="1000" />
+			<mul order="0x30" stat="pAtk" val="1.14" />
+			<mul order="0x30" stat="pAtkSpd" val="1.14" />
+			<add order="0x10" stat="mDef" val="14" />
+			<add order="0x10" stat="pDef" val="14" />
+		</for>
+	</item>
+	<item id="9542" type="Armor" name="Tattoo of Fight Lv. 3">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="21" />
+			<add order="0x10" stat="maxHp" val="1500" />
+			<mul order="0x30" stat="pAtk" val="1.21" />
+			<mul order="0x30" stat="pAtkSpd" val="1.21" />
+			<add order="0x10" stat="mDef" val="21" />
+			<add order="0x10" stat="pDef" val="21" />
+		</for>
+	</item>
+	<item id="9543" type="Armor" name="Tattoo of Fight Lv. 4">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="28" />
+			<add order="0x10" stat="maxHp" val="2000" />
+			<mul order="0x30" stat="pAtk" val="1.28" />
+			<mul order="0x30" stat="pAtkSpd" val="1.28" />
+			<add order="0x10" stat="rEvas" val="2" />
+			<add order="0x10" stat="DEX" val="2" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<mul order="0x30" stat="regHp" val="1.07" />
+		</for>
+	</item>
+	<item id="9544" type="Armor" name="Tattoo of Fight Lv. 5">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="35" />
+			<add order="0x10" stat="maxHp" val="2500" />
+			<mul order="0x30" stat="pAtk" val="1.35" />
+			<mul order="0x30" stat="pAtkSpd" val="1.35" />
+			<add order="0x10" stat="mDef" val="28" />
+			<add order="0x10" stat="pDef" val="28" />
+			<add order="0x10" stat="rEvas" val="4" />
+			<add order="0x10" stat="DEX" val="4" />
+			<add order="0x10" stat="accCombat" val="4" />
+			<mul order="0x30" stat="regHp" val="1.14" />
+		</for>
+	</item>
+	<item id="9545" type="Armor" name="Tattoo of Fight - GM Power">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="100" />
+			<add order="0x10" stat="maxHp" val="5000" />
+			<mul order="0x30" stat="pAtk" val="2.00" />
+			<mul order="0x30" stat="pAtkSpd" val="2.00" />
+			<add order="0x10" stat="mDef" val="135" />
+			<add order="0x10" stat="pDef" val="135" />
+			<add order="0x10" stat="rEvas" val="8" />
+			<add order="0x10" stat="DEX" val="8" />
+			<add order="0x10" stat="accCombat" val="8" />
+			<mul order="0x30" stat="regHp" val="1.35" />
+		</for>
+	</item>
+
+	<item id="9546" type="Armor" name="Tattoo of Mage Lv. 1">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="7" />
+			<add order="0x10" stat="maxMp" val="500" />
+			<mul order="0x30" stat="mAtk" val="1.07" />
+			<mul order="0x30" stat="mAtkSpd" val="1.07" />
+			<add order="0x10" stat="mDef" val="7" />
+			<add order="0x10" stat="pDef" val="7" />
+		</for>
+	</item>
+	<item id="9547" type="Armor" name="Tattoo of Mage Lv. 2">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="14" />
+			<add order="0x10" stat="maxMp" val="1000" />
+			<mul order="0x30" stat="mAtk" val="1.14" />
+			<mul order="0x30" stat="mAtkSpd" val="1.14" />
+			<add order="0x10" stat="mDef" val="14" />
+			<add order="0x10" stat="pDef" val="14" />
+		</for>
+	</item>
+	<item id="9548" type="Armor" name="Tattoo of Mage Lv. 3">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="21" />
+			<add order="0x10" stat="maxMp" val="1500" />
+			<mul order="0x30" stat="mAtk" val="1.21" />
+			<mul order="0x30" stat="mAtkSpd" val="1.21" />
+			<add order="0x10" stat="mDef" val="21" />
+			<add order="0x10" stat="pDef" val="21" />
+		</for>
+	</item>
+	<item id="9549" type="Armor" name="Tattoo of Mage Lv. 4">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="28" />
+			<add order="0x10" stat="maxMp" val="2000" />
+			<mul order="0x30" stat="mAtk" val="1.28" />
+			<mul order="0x30" stat="mAtkSpd" val="1.28" />
+			<add order="0x10" stat="WIT" val="2" />
+			<add order="0x10" stat="MEN" val="2" />
+			<add order="0x10" stat="INT" val="2" />
+			<mul order="0x30" stat="regMp" val="1.07" />
+		</for>
+	</item>
+	<item id="9550" type="Armor" name="Tattoo of Mage Lv. 5">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="35" />
+			<add order="0x10" stat="maxMp" val="2500" />
+			<mul order="0x30" stat="mAtk" val="1.35" />
+			<mul order="0x30" stat="mAtkSpd" val="1.35" />
+			<add order="0x10" stat="mDef" val="28" />
+			<add order="0x10" stat="pDef" val="28" />
+			<add order="0x10" stat="WIT" val="4" />
+			<add order="0x10" stat="MEN" val="4" />
+			<add order="0x10" stat="INT" val="4" />
+			<mul order="0x30" stat="regMp" val="1.14" />
+		</for>
+	</item>
+	<item id="9551" type="Armor" name="Tattoo of Mage - GM Power">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="100" />
+			<add order="0x10" stat="maxMp" val="5000" />
+			<mul order="0x30" stat="mAtk" val="2.00" />
+			<mul order="0x30" stat="mAtkSpd" val="2.00" />
+			<add order="0x10" stat="mDef" val="135" />
+			<add order="0x10" stat="pDef" val="135" />
+			<add order="0x10" stat="WIT" val="8" />
+			<add order="0x10" stat="MEN" val="8" />
+			<add order="0x10" stat="INT" val="8" />
+			<mul order="0x30" stat="regMp" val="1.35" />
+		</for>
+	</item>
+
+	<!-- Combines both GM Power tiers (fight + mage). Not present in the live client's itemname-e.dat yet - only in the patch. -->
+	<item id="9552" type="Armor" name="Tattoo AIO">
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+		<for>
+			<add order="0x10" stat="runSpd" val="100" />
+			<add order="0x10" stat="maxHp" val="5000" />
+			<add order="0x10" stat="maxMp" val="5000" />
+			<mul order="0x30" stat="pAtk" val="2.00" />
+			<mul order="0x30" stat="mAtk" val="2.00" />
+			<mul order="0x30" stat="pAtkSpd" val="2.00" />
+			<mul order="0x30" stat="mAtkSpd" val="2.00" />
+			<add order="0x10" stat="mDef" val="135" />
+			<add order="0x10" stat="pDef" val="135" />
+			<add order="0x10" stat="rEvas" val="8" />
+			<add order="0x10" stat="DEX" val="8" />
+			<add order="0x10" stat="accCombat" val="8" />
+			<add order="0x10" stat="WIT" val="8" />
+			<add order="0x10" stat="MEN" val="8" />
+			<add order="0x10" stat="INT" val="8" />
+			<mul order="0x30" stat="regHp" val="1.35" />
+			<mul order="0x30" stat="regMp" val="1.35" />
+		</for>
+	</item>
+</list>
