@@ -39760,22 +39760,22 @@
 		</drops>
 	</npc>
 	<npc id="20783" name="Dread Wolf" title="">
-		<set name="level" val="35"/>
+		<set name="level" val="80"/>
 		<set name="radius" val="13"/>
 		<set name="height" val="11"/>
 		<set name="rHand" val="0"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Monster"/>
-		<set name="exp" val="818"/>
-		<set name="sp" val="48"/>
-		<set name="hp" val="772.73802"/>
-		<set name="mp" val="402.6"/>
-		<set name="hpRegen" val="4.5"/>
-		<set name="mpRegen" val="1.8"/>
-		<set name="pAtk" val="129.32896"/>
-		<set name="pDef" val="136.72948"/>
-		<set name="mAtk" val="88.31491"/>
-		<set name="mDef" val="91.0360303625432"/>
+		<set name="exp" val="20433"/>
+		<set name="sp" val="2412"/>
+		<set name="hp" val="2937.9838056"/>
+		<set name="mp" val="1708.296"/>
+		<set name="hpRegen" val="8.67"/>
+		<set name="mpRegen" val="3.06"/>
+		<set name="pAtk" val="912.6537108"/>
+		<set name="pDef" val="348.2025"/>
+		<set name="mAtk" val="635.688655236"/>
+		<set name="mDef" val="231.837152158566"/>
 		<set name="crit" val="4"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="40"/>
@@ -39823,22 +39823,22 @@
 		</drops>
 	</npc>
 	<npc id="20784" name="Tasaba Lizardman" title="">
-		<set name="level" val="36"/>
+		<set name="level" val="80"/>
 		<set name="radius" val="10"/>
 		<set name="height" val="22"/>
 		<set name="rHand" val="2507"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Monster"/>
-		<set name="exp" val="926"/>
-		<set name="sp" val="56"/>
-		<set name="hp" val="809.52639"/>
-		<set name="mp" val="417.6"/>
-		<set name="hpRegen" val="4.5"/>
-		<set name="mpRegen" val="1.8"/>
-		<set name="pAtk" val="137.86467"/>
-		<set name="pDef" val="140.57278"/>
-		<set name="mAtk" val="94.1437"/>
-		<set name="mDef" val="93.5949427192352"/>
+		<set name="exp" val="20433"/>
+		<set name="sp" val="2412"/>
+		<set name="hp" val="2937.9838056"/>
+		<set name="mp" val="1708.296"/>
+		<set name="hpRegen" val="8.67"/>
+		<set name="mpRegen" val="3.06"/>
+		<set name="pAtk" val="912.6537108"/>
+		<set name="pDef" val="348.2025"/>
+		<set name="mAtk" val="635.688655236"/>
+		<set name="mDef" val="231.837152158566"/>
 		<set name="crit" val="8"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="40"/>
@@ -39886,25 +39886,28 @@
 				<drop itemid="2153" min="1" max="1" chance="47454"/>
 				<drop itemid="2184" min="1" max="1" chance="32051"/>
 			</category>
+			<category id="3">
+				<drop itemid="3470" min="1" max="1" chance="3000"/>
+			</category>
 		</drops>
 	</npc>
 	<npc id="20785" name="Tasaba Lizardman Shaman" title="">
-		<set name="level" val="37"/>
+		<set name="level" val="80"/>
 		<set name="radius" val="10"/>
 		<set name="height" val="29"/>
 		<set name="rHand" val="7"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Monster"/>
-		<set name="exp" val="896"/>
-		<set name="sp" val="55"/>
-		<set name="hp" val="847.31754"/>
-		<set name="mp" val="432.72"/>
-		<set name="hpRegen" val="4.5"/>
-		<set name="mpRegen" val="1.8"/>
-		<set name="pAtk" val="146.82587"/>
-		<set name="pDef" val="144.47758"/>
-		<set name="mAtk" val="100.26304"/>
-		<set name="mDef" val="96.1948088105753"/>
+		<set name="exp" val="20433"/>
+		<set name="sp" val="2412"/>
+		<set name="hp" val="2937.9838056"/>
+		<set name="mp" val="1708.296"/>
+		<set name="hpRegen" val="8.67"/>
+		<set name="mpRegen" val="3.06"/>
+		<set name="pAtk" val="912.6537108"/>
+		<set name="pDef" val="348.2025"/>
+		<set name="mAtk" val="635.688655236"/>
+		<set name="mDef" val="231.837152158566"/>
 		<set name="crit" val="1"/>
 		<set name="atkSpd" val="253"/>
 		<set name="str" val="40"/>
