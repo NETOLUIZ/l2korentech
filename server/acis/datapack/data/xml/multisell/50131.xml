@@ -7,79 +7,64 @@
 	<!-- Heavy -->
 	<item>
 		<production id="9705" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="10000"/>
 	</item>
 	<item>
 		<production id="9706" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9707" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9708" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9709" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<!-- Light -->
 	<item>
 		<production id="9710" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="10000"/>
 	</item>
 	<item>
 		<production id="9711" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9712" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9713" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9714" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<!-- Robe -->
 	<item>
 		<production id="9715" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="10000"/>
 	</item>
 	<item>
 		<production id="9716" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9717" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9718" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 	<item>
 		<production id="9719" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="4500"/>
 	</item>
 </list>

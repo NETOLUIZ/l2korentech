@@ -7,264 +7,214 @@
 	<!-- Rapier -->
 	<item>
 		<production id="9400" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9401" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9402" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9403" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Ancient Sword -->
 	<item>
 		<production id="9404" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9405" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9406" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9407" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Crossbow -->
 	<item>
 		<production id="9408" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9409" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9410" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9411" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Shield (Armor type, off-hand) -->
 	<item>
 		<production id="9412" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9413" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Blade -->
 	<item>
 		<production id="9414" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9415" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9416" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9417" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Two Handed Sword -->
 	<item>
 		<production id="9418" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9419" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9420" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9421" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Magic Sword -->
 	<item>
 		<production id="9422" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9423" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9424" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9425" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Bow -->
 	<item>
 		<production id="9426" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9427" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9428" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9429" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Dagger -->
 	<item>
 		<production id="9430" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9431" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9432" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9433" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Spear -->
 	<item>
 		<production id="9434" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9435" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9436" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9437" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Hammer -->
 	<item>
 		<production id="9438" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9439" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9440" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9441" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Staff -->
 	<item>
 		<production id="9442" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9443" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9444" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9445" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<!-- Fist (Jamadhr) -->
 	<item>
 		<production id="9446" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9447" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9448" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 	<item>
 		<production id="9449" count="1"/>
-		<ingredient id="6392" count="30000"/>
-		<ingredient id="6393" count="30000"/>
+		<ingredient id="3470" count="20000"/>
 	</item>
 </list>
