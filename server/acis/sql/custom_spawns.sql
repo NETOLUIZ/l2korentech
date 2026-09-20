@@ -76,6 +76,10 @@ INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay,
 INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay, respawn_rand, periodOfDay) VALUES
 (50009, 83550, 148093, -3404, 0, 60, 0, 0);
 
+-- Loja Dynasty (50013), sells the full Dynasty weapon/armor set for medals, in Giran.
+INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay, respawn_rand, periodOfDay) VALUES
+(50013, 83650, 148193, -3404, 0, 60, 0, 0);
+
 -- Gatekeeper Global (50010), one-stop teleporter to every town + farm zone,
 -- near every town gatekeeper on the map alongside Shari/Tryskell/Class Master.
 INSERT INTO spawnlist (npc_templateid, locx, locy, locz, heading, respawn_delay, respawn_rand, periodOfDay) VALUES
